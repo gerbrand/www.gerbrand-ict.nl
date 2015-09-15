@@ -88,7 +88,7 @@
 		<link>/voorbeeld-pagina/</link>
 		<pubDate>Mon, 24 Aug 2015 07:35:51 +0000</pubDate>
 		<dc:creator><![CDATA[gerbrand]]></dc:creator>
-		<guid isPermaLink="false">http://functional-consulting.nl.webhosting117.transurl.nl/?page_id=2</guid>
+		<guid isPermaLink="false">/?page_id=2</guid>
 		<description/>
 		<content:encoded><![CDATA[Dit is een voorbeeldpagina. Het verschilt van een bericht omdat het een vaste plek heeft en in de sitenavigatie getoond wordt (in de meeste thema's). De meeste gebruikers beginnen met een Over mij pagina om zich voor te stellen aan potenti&#235;le bezoekers. Bijvoorbeeld:
 
@@ -98,7 +98,7 @@
 
 <blockquote>XYZ Dingetjes BV levert al sinds 1971 talloze dingetjes van hoge kwaliteit aan een groot publiek. XYZ is gevestigd in Bolsward, heeft ca. 2.000 medewerkers en doet allerlei geweldige dingen voor de Friese gemeenschap.</blockquote>
 
-Als nieuwe WordPress gebruiker kun je naar <a href="http://functional-consulting.nl.webhosting117.transurl.nl/wp-admin/">het dashboard</a> gaan om deze voorbeeldpagina te verwijderen en nieuwe pagina's aan te maken voor je site. Veel plezier!]]></content:encoded>
+Als nieuwe WordPress gebruiker kun je naar <a href="/wp-admin/">het dashboard</a> gaan om deze voorbeeldpagina te verwijderen en nieuwe pagina's aan te maken voor je site. Veel plezier!]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>2</wp:post_id>
 		<wp:post_date>2015-08-24 08:35:51</wp:post_date>
@@ -6034,7 +6034,7 @@ Binnenkort vervolg van dit artikel, met verslag van andere interessante sessies 
 		<link>/2015/06/24/scala-days-2015-amsterdam/</link>
 		<pubDate>Wed, 24 Jun 2015 11:50:11 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://functional-consulting.nl/?p=726</guid>
+		<guid isPermaLink="false">/?p=726</guid>
 		<description/>
 		<content:encoded><![CDATA[Two weeks ago I visited <a href="http://event.scaladays.org/scaladays-amsterdam-2015">Scala Days 2015</a>, in Amsterdam. The conference was great, with a lot of high level content.
 Sessions I visited. I've attempted to order them by what I found most interesting, but the order certainly not conclusive. All sessions can be viewed online at <a href="https://www.parleys.com/channel/scala-days-amsterdam-2015">Parleys</a>:
@@ -6055,7 +6055,7 @@ Sessions I visited. I've attempted to order them by what I found most interestin
 
 </ol>
 
-I'll write more on what I've learned soon. For now, if you want to know something specific, just <a href="https://functional-consulting.nl/contact/">contact</a> me.]]></content:encoded>
+I'll write more on what I've learned soon. For now, if you want to know something specific, just <a href="/contact/">contact</a> me.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>726</wp:post_id>
 		<wp:post_date>2015-06-24 13:50:11</wp:post_date>
@@ -6123,7 +6123,7 @@ I'll write more on what I've learned soon. For now, if you want to know somethin
 		<link>/2015/08/24/hallo-wereld/</link>
 		<pubDate>Mon, 24 Aug 2015 07:35:51 +0000</pubDate>
 		<dc:creator><![CDATA[gerbrand]]></dc:creator>
-		<guid isPermaLink="false">http://functional-consulting.nl.webhosting117.transurl.nl/?p=1</guid>
+		<guid isPermaLink="false">/?p=1</guid>
 		<description/>
 		<content:encoded><![CDATA[Welkom bij WordPress. Dit is je eerste bericht. Pas het aan of verwijder het en start met bloggen!]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -6177,7 +6177,7 @@ Reacties verwijderen kan door in te loggen en de reacties op de berichten te bek
 		<description/>
 		<content:encoded><![CDATA[When I was a student I had old desktop computer in running in the closet which acted as a server. The server hosted my homepage, email-domain, fileserver and sort of cloud storage. The internet-connection, being part of the university's campus network was very fast and reliable. Of course the set up could occasionally fail some component of my desktop failed or someone accidentally unplugged the server to use the vacuum cleaner.
 
-<a href="http://functional-consulting.nl.webhosting117.transurl.nl/wp-content/uploads/2015/08/fotoserverinkast.jpg"><img class="alignnone wp-image-742 size-medium" src="http://functional-consulting.nl.webhosting117.transurl.nl/wp-content/uploads/2015/08/fotoserverinkast-300x225.jpg" alt="Server in kast" width="300" height="225" /></a>
+<a href="/wp-content/uploads/2015/08/fotoserverinkast.jpg"><img class="alignnone wp-image-742 size-medium" src="/wp-content/uploads/2015/08/fotoserverinkast-300x225.jpg" alt="Server in kast" width="300" height="225" /></a>
 When I wanted my email to be a bit more reliable, rather then spending time on setting up a fail-over I decided to use a spent a few euros per month on a hosting party. Nevertheless, running a server, or better, a cluster of servers at home would still be cool. This guy does it, creating a <a href="http://www.pidramble.com/build-your-own-raspberry-pi-cluster">cluster of raspberry-pies in his basement</a>. I am getting envy, maybe time for me to something simelar again. After all, the internet-connection in the Netherlands is<a href="https://www.internetten.nl/internet/vergelijking"> a whole lot better</a> than in the United States - for slightly more than twenty euros you'll get a 20mbit <em>upload</em>.
 
 &nbsp;]]></content:encoded>
