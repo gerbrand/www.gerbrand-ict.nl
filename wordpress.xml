@@ -85,7 +85,7 @@
 
 	<item>
 		<title>Voorbeeld pagina</title>
-		<link>https://www.functional-consulting.nl/voorbeeld-pagina/</link>
+		<link>/voorbeeld-pagina/</link>
 		<pubDate>Mon, 24 Aug 2015 07:35:51 +0000</pubDate>
 		<dc:creator><![CDATA[gerbrand]]></dc:creator>
 		<guid isPermaLink="false">http://functional-consulting.nl.webhosting117.transurl.nl/?page_id=2</guid>
@@ -127,10 +127,10 @@ Als nieuwe WordPress gebruiker kun je naar <a href="http://functional-consulting
 	</item>
 	<item>
 		<title>About</title>
-		<link>https://www.functional-consulting.nl/about/</link>
+		<link>/about/</link>
 		<pubDate>Wed, 24 Dec 2008 10:06:59 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?page_id=2</guid>
+		<guid isPermaLink="false">/?page_id=2</guid>
 		<description/>
 		<content:encoded><![CDATA[I am Gerbrand van Dieijen, father, programmer, rower, reader, citizen of the European Union with a broad interest in all aspects of software-engineering. On this weblog I'll post thoughts, opinions, analyses on trends and tutorials on IT-related subjects.
 
@@ -173,10 +173,10 @@ Do know more about what I've done, you can check out my <a href="http://www.link
 	</item>
 	<item>
 		<title>SQL embedded</title>
-		<link>https://www.functional-consulting.nl/?p=19</link>
+		<link>/?p=19</link>
 		<pubDate>Mon, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=19</guid>
+		<guid isPermaLink="false">/?p=19</guid>
 		<description/>
 		<content:encoded><![CDATA[In a previous post I wrote about modern DBMS having the capability to execute queries in parallel. Besides that kind of optimization, a DBMS also other kinds of optimizations that can be performed. When using ORM -frameworks, a developer loses a lot of these optimalisations. ORM frameworks often send SQL to the database to retrieve a lot more data then the programmer actually wants.
 Also, many times SQL is a lot more flexible and expressive in retrieving data then a ORM is.
@@ -218,10 +218,10 @@ Unfortunately often used technologies as ORM frameworks result in exactly the op
 	</item>
 	<item>
 		<title>All cool stuff: Flex, JPA, Maven and Spring</title>
-		<link>https://www.functional-consulting.nl/?p=25</link>
+		<link>/?p=25</link>
 		<pubDate>Mon, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=25</guid>
+		<guid isPermaLink="false">/?p=25</guid>
 		<description/>
 		<content:encoded><![CDATA[<strong>Introduction</strong>
 
@@ -275,10 +275,10 @@ There's one thing you'll have to get be aware when using BlazeDS: you can transf
 	</item>
 	<item>
 		<title>Reusable and OO</title>
-		<link>https://www.functional-consulting.nl/?p=41</link>
+		<link>/?p=41</link>
 		<pubDate>Mon, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=41</guid>
+		<guid isPermaLink="false">/?p=41</guid>
 		<description/>
 		<content:encoded><![CDATA[In the resource UML was mentioned. So my guess is CBD is actually about object oriented design. Design your software as classes each having methods and properties. Group them in components based on functionality.
 Glue components together to get new software fast.
@@ -306,10 +306,10 @@ We re-use frameworks, but we need a lot of boiler code just to get anything done
 	</item>
 	<item>
 		<title>Opensource</title>
-		<link>https://www.functional-consulting.nl/opensource/</link>
+		<link>/opensource/</link>
 		<pubDate>Thu, 05 Mar 2009 08:43:58 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?page_id=94</guid>
+		<guid isPermaLink="false">/?page_id=94</guid>
 		<description/>
 		<content:encoded><![CDATA[I've created quite some software in the last 15 years, some of which is open-source. Some of that software is on <a href="https://github.com/gerbrand/">Github</a>. Most code is written in Java, some in Scala and Javascript.
 
@@ -355,10 +355,10 @@ Here are some very old projects written in languages I wouldn't use now. Since e
 	</item>
 	<item>
 		<title>Vision on IT</title>
-		<link>https://www.functional-consulting.nl/?p=146</link>
+		<link>/?p=146</link>
 		<pubDate>Mon, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=146</guid>
+		<guid isPermaLink="false">/?p=146</guid>
 		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -382,10 +382,10 @@ Here are some very old projects written in languages I wouldn't use now. Since e
 	</item>
 	<item>
 		<title>Vision on IT</title>
-		<link>https://www.functional-consulting.nl/?page_id=147</link>
+		<link>/?page_id=147</link>
 		<pubDate>Mon, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?page_id=147</guid>
+		<guid isPermaLink="false">/?page_id=147</guid>
 		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -408,10 +408,10 @@ Here are some very old projects written in languages I wouldn't use now. Since e
 	</item>
 	<item>
 		<title>Trends in IT, Swing, functional programming</title>
-		<link>https://www.functional-consulting.nl/?p=148</link>
+		<link>/?p=148</link>
 		<pubDate>Mon, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=148</guid>
+		<guid isPermaLink="false">/?p=148</guid>
 		<description/>
 		<content:encoded><![CDATA[What is important for the coming future, with regard to IT? For the coming year Swing is becoming more important and main-stream again. RAD-Swing tools have improved a lot - like for example Netbeans Swing GUI Builder. The swing-framework will improve with addition of JSR 296 - at the same time Swing is very similar to a few years ago. Programmer's who are fed up]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -435,10 +435,10 @@ Here are some very old projects written in languages I wouldn't use now. Since e
 	</item>
 	<item>
 		<title>Dreaded Log4j messages</title>
-		<link>https://www.functional-consulting.nl/?p=352</link>
+		<link>/?p=352</link>
 		<pubDate>Mon, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=352</guid>
+		<guid isPermaLink="false">/?p=352</guid>
 		<description/>
 		<content:encoded><![CDATA[When you use Log4j within your application for logging messages, by default you'll get the following message when you start your application:]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -463,10 +463,10 @@ Here are some very old projects written in languages I wouldn't use now. Since e
 	</item>
 	<item>
 		<title>It support companies</title>
-		<link>https://www.functional-consulting.nl/?p=356</link>
+		<link>/?p=356</link>
 		<pubDate>Mon, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=356</guid>
+		<guid isPermaLink="false">/?p=356</guid>
 		<description/>
 		<content:encoded><![CDATA[Some while years ago I worked for a company that had ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -490,10 +490,10 @@ Here are some very old projects written in languages I wouldn't use now. Since e
 	</item>
 	<item>
 		<title/>
-		<link>https://www.functional-consulting.nl/?p=423</link>
+		<link>/?p=423</link>
 		<pubDate>Mon, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=423</guid>
+		<guid isPermaLink="false">/?p=423</guid>
 		<description/>
 		<content:encoded><![CDATA[One of the great challenges in the IT-world is re-usability (another   great challenge would be producing error-free software). Advantages are   obvious: reusing software saves you the burden of doing the same thing   twice. Since creating software is very expensive, much more expensive   then many people, including programmers, realize is.
 
@@ -533,10 +533,10 @@ First of all, some challenges:
 	</item>
 	<item>
 		<title>Independent medical professional and the freelance IT guy</title>
-		<link>https://www.functional-consulting.nl/?p=428</link>
+		<link>/?p=428</link>
 		<pubDate>Mon, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=428</guid>
+		<guid isPermaLink="false">/?p=428</guid>
 		<description/>
 		<content:encoded><![CDATA[Some time before I joined my current <a href="http://www.xebia.com/">company</a>, I talked to an organization of free IT'ers. When you joined the company you'd become some sort of associate. You'd be responsible for your own work, social security insurance, hourly rate, for percentage of your own turnover.
 I talked to some people who already worked for that organization, asking how this can]]></content:encoded>
@@ -561,10 +561,10 @@ I talked to some people who already worked for that organization, asking how thi
 	</item>
 	<item>
 		<title>Books</title>
-		<link>https://www.functional-consulting.nl/books/</link>
+		<link>/books/</link>
 		<pubDate>Wed, 23 Feb 2011 18:55:14 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/</guid>
+		<guid isPermaLink="false">/</guid>
 		<description/>
 		<content:encoded><![CDATA[Here's a list of books that had quite an influence on my professional life as software creator/engineer, or shared my view on how software should be created:
 
@@ -625,10 +625,10 @@ Now I'm reading functional programming in Scala. I think if you want to know mor
 	</item>
 	<item>
 		<title>Paying for software</title>
-		<link>https://www.functional-consulting.nl/?p=569</link>
+		<link>/?p=569</link>
 		<pubDate>Mon, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=569</guid>
+		<guid isPermaLink="false">/?p=569</guid>
 		<description/>
 		<content:encoded><![CDATA[I recently used ITunes for the first time on my current Mac laptop, and as result a I came accross the TuneUp store. TuneUp is software to find duplicate tracks, fix track names and find the correct information for mp3 files with names such as 'Track 01.mp3'. All in all quite usuful, allthough my paid Winamp can already do the same, I downloaded the trial. That's where I wanted to blog about: TuneUp, as well as several other software and web-applications such as Wordpress now offer free but limited accounts and paid accounts. I really like that trend: rather then relying on something vague as advertisements, those companies at least for a part on paid subscriptions.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -652,10 +652,10 @@ Now I'm reading functional programming in Scala. I think if you want to know mor
 	</item>
 	<item>
 		<title>Alternative economy/usefull social apps.</title>
-		<link>https://www.functional-consulting.nl/?p=585</link>
+		<link>/?p=585</link>
 		<pubDate>Mon, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=585</guid>
+		<guid isPermaLink="false">/?p=585</guid>
 		<description/>
 		<content:encoded><![CDATA[In the (Dutch) news  paper I read, NRC, an column by Erica Verdegaal on saving (tax) money by exchanging goods rather then selling new stuff and loaning stuff to friends rather then from banks.
 Via mywheels.nl, snappcar.nl and toogethr.com and wego,.nu you can lend out your car. Via connectcar.nl and greenwheels.nl and studentcar.nl you can borrow a car very easy and flexible. To rent your cars to family or friends there's a example loan agreement on autodate.nl Sharing stuff can be via spullendelen.nl. Swapping clothes via kledingruilfeest and kleding ruilen (?). Ruilkringen.
@@ -682,10 +682,10 @@ Flexible daycare via buurtoudersnederland.nl]]></content:encoded>
 	</item>
 	<item>
 		<title>Contact</title>
-		<link>https://www.functional-consulting.nl/contact/</link>
+		<link>/contact/</link>
 		<pubDate>Thu, 12 Apr 2012 12:30:38 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?page_id=588</guid>
+		<guid isPermaLink="false">/?page_id=588</guid>
 		<description/>
 		<content:encoded><![CDATA[<script src="http://www.skypeassets.com/i/scom/js/skype-uri.js" type="text/javascript"></script>
 
@@ -763,10 +763,10 @@ Skype.ui({
 	</item>
 	<item>
 		<title>Hibernate and (still) using SQL directly</title>
-		<link>https://www.functional-consulting.nl/?p=618</link>
+		<link>/?p=618</link>
 		<pubDate>Mon, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=618</guid>
+		<guid isPermaLink="false">/?p=618</guid>
 		<description/>
 		<content:encoded><![CDATA[Hibernate is the most used ORM-framework in the Java-world. Hypothetically you could then switch from database (Oracle, IBM DB2, PostgresQL) but the main advantage is that you don't have to write SQL-statements directly.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -790,10 +790,10 @@ Skype.ui({
 	</item>
 	<item>
 		<title>Privacy and cookies</title>
-		<link>https://www.functional-consulting.nl/privacy-and-cookies/</link>
+		<link>/privacy-and-cookies/</link>
 		<pubDate>Mon, 18 May 2015 11:30:39 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?page_id=697</guid>
+		<guid isPermaLink="false">/?page_id=697</guid>
 		<description/>
 		<content:encoded><![CDATA[<h2>English</h2>
 This website uses cookies to track your visitor behavior, in order to display you advertisements more effectively, hoping that your (consumer) behavior is influenced.
@@ -803,7 +803,7 @@ Deze website maakt gebruik van cookies om je bezoekgedrag bij te houden, om jou
 Om cookies uit te zetten, kun je hiervoor de standaardfunctionaliteit van je browser gebruiker. Chrome heeft een <a href="https://support.google.com/accounts/answer/61416?hl=nl">handleiding</a> op haar website staan, net als <a href="https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences">Firefox</a> en <a href="http://windows.microsoft.com/nl-nl/windows-vista/block-or-allow-cookies">Internet Explorer</a>.
 Daarnaast zul je contact hebben gemaakt met de server waar deze website op staat gehost via een <em>internetverbinding.</em> Hierdoor is je ip-adres bekend bij het hosting-bedrijf, <a href="http://aws.amazon.com/">Amazon</a>. Mocht de noodzaak hiervoor zijn, dan kunnen overheidsinstanties van de Verenigde Staten of Nederland mijn provider dwingen jouw fysieke thuisadres te geven. Het maakt niet uit of de fysieke locatie van de server in Europa of Amerika is. Wil je dat vermijden, dan kun je het beste gebruik van maken van een software zoals <a href="https://www.torproject.org/">Tor</a>.
 
-Neem <a href="https://www.functional-consulting.nl/contact/">contact </a>op met mij, Gerbrand van Dieijen als je meer wilt weten over dit onderwerp.]]></content:encoded>
+Neem <a href="/contact/">contact </a>op met mij, Gerbrand van Dieijen als je meer wilt weten over dit onderwerp.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>697</wp:post_id>
 		<wp:post_date>2015-05-18 13:30:39</wp:post_date>
@@ -840,10 +840,10 @@ Neem <a href="https://www.functional-consulting.nl/contact/">contact </a>op met 
 	</item>
 	<item>
 		<title>fotoserverinkast</title>
-		<link>https://www.functional-consulting.nl/2015/08/24/cluster-at-home/fotoserverinkast/</link>
+		<link>/2015/08/24/cluster-at-home/fotoserverinkast/</link>
 		<pubDate>Mon, 24 Aug 2015 07:42:22 +0000</pubDate>
 		<dc:creator><![CDATA[gerbrand]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/wp-content/uploads/2015/08/fotoserverinkast.jpg</guid>
+		<guid isPermaLink="false">/wp-content/uploads/2015/08/fotoserverinkast.jpg</guid>
 		<description/>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -859,7 +859,7 @@ Neem <a href="https://www.functional-consulting.nl/contact/">contact </a>op met 
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password/>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>https://www.functional-consulting.nl/wp-content/uploads/2015/08/fotoserverinkast.jpg</wp:attachment_url>
+		<wp:attachment_url>/wp-content/uploads/2015/08/fotoserverinkast.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attached_file</wp:meta_key>
 			<wp:meta_value><![CDATA[2015/08/fotoserverinkast.jpg]]></wp:meta_value>
@@ -871,10 +871,10 @@ Neem <a href="https://www.functional-consulting.nl/contact/">contact </a>op met 
 	</item>
 	<item>
 		<title>Devoxx'08</title>
-		<link>https://www.functional-consulting.nl/2008/12/24/devoxx08/</link>
+		<link>/2008/12/24/devoxx08/</link>
 		<pubDate>Wed, 24 Dec 2008 11:52:08 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=8</guid>
+		<guid isPermaLink="false">/?p=8</guid>
 		<description/>
 		<content:encoded><![CDATA[<span style="color: #000000;">This posting is a translation of the posting on my old weblog <a href="http://twistedmind.nu/2008/12/12/devoxx08/">Devoxx'08 in Dutch</a>.</span>
 
@@ -978,10 +978,10 @@ Ron Hitchens
 	</item>
 	<item>
 		<title>Parallel execution of SQL</title>
-		<link>https://www.functional-consulting.nl/2009/01/02/parallel-execution-of-sql/</link>
+		<link>/2009/01/02/parallel-execution-of-sql/</link>
 		<pubDate>Fri, 02 Jan 2009 18:10:45 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=14</guid>
+		<guid isPermaLink="false">/?p=14</guid>
 		<description/>
 		<content:encoded><![CDATA[<strong>The end of increasing clockspeeds</strong>
 
@@ -1030,10 +1030,10 @@ In short, a modern DBMS can do a lot more then you may imagine. Smart SQL can so
 	</item>
 	<item>
 		<title>Trying to do good for the wrong reasons</title>
-		<link>https://www.functional-consulting.nl/2009/01/10/doing-good-for-the-wrong-reasons/</link>
+		<link>/2009/01/10/doing-good-for-the-wrong-reasons/</link>
 		<pubDate>Sat, 10 Jan 2009 17:42:05 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=43</guid>
+		<guid isPermaLink="false">/?p=43</guid>
 		<description/>
 		<content:encoded><![CDATA[Many programmers with at least some education computer science code by a few principles:
 <ul>
@@ -1097,10 +1097,10 @@ Read who a  <a href="http://www.paulgraham.com/gh.html">great hacker</a> is, ho
 	</item>
 	<item>
 		<title>Scala release</title>
-		<link>https://www.functional-consulting.nl/2009/01/15/scala-release/</link>
+		<link>/2009/01/15/scala-release/</link>
 		<pubDate>Wed, 14 Jan 2009 23:36:47 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=53</guid>
+		<guid isPermaLink="false">/?p=53</guid>
 		<description/>
 		<content:encoded><![CDATA[The final release of Scala <strong>2.7.3</strong> is out! You can download the release from the <a href="http://www.scala-lang.org/downloads">scala-download</a> page.
 
@@ -1198,10 +1198,10 @@ Below a book about Scala I recently read
 	</item>
 	<item>
 		<title>Pattern in RIA</title>
-		<link>https://www.functional-consulting.nl/2009/01/17/pattern-in-ria/</link>
+		<link>/2009/01/17/pattern-in-ria/</link>
 		<pubDate>Sat, 17 Jan 2009 16:49:48 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=60</guid>
+		<guid isPermaLink="false">/?p=60</guid>
 		<description/>
 		<content:encoded><![CDATA[The Flex framework is getting more and  more populair, and other similar RIA-frameworks as JavaFX and Sliverlight get a lot of attention. Some people see Flex as a alternative for webframeworks as Widget, JSF, Struts or GWT. However, there's something fundementelly different. When program in Flex, you actually build a client-application. That application runs entirely on the client's computers. The client connects to the server only when the client need information from the server. The client retrieves information via (web)services.
 
@@ -1246,10 +1246,10 @@ For an overview on different RIA-frameworks, and more on this subject see: <a hr
 	</item>
 	<item>
 		<title>Combining Flex and Scala using Liftweb and BlazeDS</title>
-		<link>https://www.functional-consulting.nl/2009/01/18/combining-flex-and-scala-using-liftweb-and-blazeds/</link>
+		<link>/2009/01/18/combining-flex-and-scala-using-liftweb-and-blazeds/</link>
 		<pubDate>Sun, 18 Jan 2009 17:05:03 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=64</guid>
+		<guid isPermaLink="false">/?p=64</guid>
 		<description/>
 		<content:encoded><![CDATA[I wanted to setup a sample project that uses Flex and Scala. I followed the excellent tutorial on FlexOnRails: <a href="http://flexonrails.net/?p=103">Integrating Flex, BlazeDS, and Scala/Lift</a>. The tutorial helps a lot explaining how to set up your sample project. Unfortunately the tutorial is a bit outdated with regard to latest versions. Fortunately I could solve all problems! I'll list the problems I had. Also, I'll post my project. I won't redo the tutorial, as I certainly couldn't to a better job then Derek Wischusen.
 <ul>
@@ -1263,7 +1263,7 @@ I setup flexbuilder to deploy in the backend/webapp directly, as is explained in
 	<li>After that I ran the project  again. Now I get a NullPointerException, seems the line <em>val msgBroker = MessageBroker.getMessageBroker(null)</em> returns Null.
 Turned out I forgot to update the web.xml, the Flex servlet and other configuration has to be added.</li>
 </ul>
-I named the sample project Elegante. Download the source here: <a href="https://www.functional-consulting.nl/wp-content/uploads/2009/01/elegante.zip">elegante.zip</a>. For explanation see the original tutorial.
+I named the sample project Elegante. Download the source here: <a href="/wp-content/uploads/2009/01/elegante.zip">elegante.zip</a>. For explanation see the original tutorial.
 <hr/>
 <iframe src="http://rcm.amazon.com/e/cm?t=geonic-20&o=1&p=8&l=as1&asins=0981531601&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
 ]]></content:encoded>
@@ -1321,10 +1321,10 @@ http://groups.google.com/group/liftweb/browse_thread/thread/33a4d1d111f54ef0]]><
 	</item>
 	<item>
 		<title>Flex, Spring and Java</title>
-		<link>https://www.functional-consulting.nl/2009/02/08/flex-spring-and-java/</link>
+		<link>/2009/02/08/flex-spring-and-java/</link>
 		<pubDate>Sun, 08 Feb 2009 10:14:03 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=78</guid>
+		<guid isPermaLink="false">/?p=78</guid>
 		<description/>
 		<content:encoded><![CDATA[Last year I worked with a collegue on a software project. As I architect I set up a backend. As frontend technology we used flex. As backend technology, we used Spring, JPA (via Toplink) and Java. Communication between frontend and backend was accomplished by using Blazeds.
 
@@ -1356,10 +1356,10 @@ A nice and informative article on how to use these technologies is recently writ
 	</item>
 	<item>
 		<title>Frustation on JBoss</title>
-		<link>https://www.functional-consulting.nl/2009/02/12/frustation-on-jboss/</link>
+		<link>/2009/02/12/frustation-on-jboss/</link>
 		<pubDate>Thu, 12 Feb 2009 20:41:07 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=82</guid>
+		<guid isPermaLink="false">/?p=82</guid>
 		<description/>
 		<content:encoded><![CDATA[For some application I need a notion of 'shared state' within a cluster of computers within a network. The software will have to run on JBoss. Yesterday I had successfully setup a JGroups using the default configuration. Using a fine tutorial I had set up a shared state. JGroups provided a lot functionality so that I not have to work with sockets, multicast, discovery, etc. myself. However, transactions, 2 phase commits, serialization wasn’t standard functionality, which I needed too. I didn’t want to reinvent the wheel, so I decided to use JBoss Cache, which is built on top on JGroups.
 
@@ -1425,10 +1425,10 @@ Arg! Why can’t those people of JBoss just explain *how* I have to do that. You
 	</item>
 	<item>
 		<title>Distributed software with JGroups</title>
-		<link>https://www.functional-consulting.nl/2009/03/11/shared-state-with-jgroups/</link>
+		<link>/2009/03/11/shared-state-with-jgroups/</link>
 		<pubDate>Wed, 11 Mar 2009 08:59:48 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=85</guid>
+		<guid isPermaLink="false">/?p=85</guid>
 		<description/>
 		<content:encoded><![CDATA[<!-- 	 	 -->
 <h1>JGroups</h1>
@@ -1581,10 +1581,10 @@ Of course the cache can be used outsite JBoss too. JBoss cache can be used <a hr
 	</item>
 	<item>
 		<title>Scala and twitter</title>
-		<link>https://www.functional-consulting.nl/2009/03/04/scala-and-twitter/</link>
+		<link>/2009/03/04/scala-and-twitter/</link>
 		<pubDate>Wed, 04 Mar 2009 16:01:42 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=89</guid>
+		<guid isPermaLink="false">/?p=89</guid>
 		<description/>
 		<content:encoded><![CDATA[By stumbled on a presentation by API lead of <a href="http://twitter.com/">Twitter </a>on <a href="http://www.scala-lang.org/">Scala</a>. For a moment I hoped Twitter was developed, but the language used at Twitter is Ruby. The <a href="http://www.web2expo.com/webexsf2009/public/schedule/speaker/3485">speaker </a>investigated a few current-date programming languages and found Scala met his needs best. See <a href="http://www.slideshare.net/al3x/why-scala-presentation">Why Scala</a>.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1613,10 +1613,10 @@ Of course the cache can be used outsite JBoss too. JBoss cache can be used <a hr
 	</item>
 	<item>
 		<title>Lessons learnt using JBoss 5 clustering</title>
-		<link>https://www.functional-consulting.nl/2009/03/04/lessons-learnt-using-jboss-500ga-clustering/</link>
+		<link>/2009/03/04/lessons-learnt-using-jboss-500ga-clustering/</link>
 		<pubDate>Wed, 04 Mar 2009 21:55:56 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=91</guid>
+		<guid isPermaLink="false">/?p=91</guid>
 		<description/>
 		<content:encoded><![CDATA[Last week I spent some time getting clustering to work using JBoss 5.0.0 GA. I made a few mistakes and I thought I share them - even though they were rather obvious:
 <ol>
@@ -1774,10 +1774,10 @@ http://docs.jboss.org/jbossclustering/cluster_guide/5.1/html-single/index.html]]
 	</item>
 	<item>
 		<title>Scala and Twitter update</title>
-		<link>https://www.functional-consulting.nl/2009/03/15/scala-and-twitter-update/</link>
+		<link>/2009/03/15/scala-and-twitter-update/</link>
 		<pubDate>Sun, 15 Mar 2009 12:50:40 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=108</guid>
+		<guid isPermaLink="false">/?p=108</guid>
 		<description/>
 		<content:encoded><![CDATA[Recently wrote about a presentation on the interesest in Scala of tech-lead at Twitter. On another site a Twitter developer<a href="http://www.gracelessfailures.com/2008/06/test-post.html"> wrote half a year ago</a> that several people at his company are learning Scala.  On the Twitter dev site I found a <a href="http://github.com/dcbriccetti/scala-experiments/tree/master">client-application</a> for Twitter written in Scala.  <a href="http://davebsoft.com/applications/simple-twitter-client">The application</a> looks simple, but I make to little use of Twitter to know how good it compares. According to another article I found via Google, <a href="http://www.scala-lang.org/node/1008">part of Twitter is (re)implemented in Scala</a>!]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1806,13 +1806,13 @@ http://docs.jboss.org/jbossclustering/cluster_guide/5.1/html-single/index.html]]
 	</item>
 	<item>
 		<title>False sense of security in https</title>
-		<link>https://www.functional-consulting.nl/2009/03/15/false-sense-of-security-in-https/</link>
+		<link>/2009/03/15/false-sense-of-security-in-https/</link>
 		<pubDate>Sun, 15 Mar 2009 14:09:16 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=121</guid>
+		<guid isPermaLink="false">/?p=121</guid>
 		<description/>
 		<content:encoded><![CDATA[Like most Internet users, I use https a lot. Whenever I login to a, say, my bank, Firefox shows a nice picture of the bank and a message the communication is secured and authorized. Should for any reason the communication between my computer and the bank being intercepted, I should get a security warning. That way I should be assured, I am communication with the bank and not with a <a href="http://www.xs4all.nl/veiligheid/phishing/">phishing </a>site.
-<img class="alignnone size-full wp-image-125" title="https-example1" src="https://www.functional-consulting.nl/wp-content/uploads/2009/03/https-example1.jpg" alt="https-example1" width="543" height="110" />
+<img class="alignnone size-full wp-image-125" title="https-example1" src="/wp-content/uploads/2009/03/https-example1.jpg" alt="https-example1" width="543" height="110" />
 
 Few people realize even when you make certain you don't ignore any security warnings there's still a chance the communication is compromised: when the computer you're using is itself compromised by, for example, a sophisticated virus.
 
@@ -1855,10 +1855,10 @@ Final word, I mention two banks in the above example. My article however, is not
 	</item>
 	<item>
 		<title>Internal DSLs in Scala</title>
-		<link>https://www.functional-consulting.nl/2009/03/15/internal-dsls-in-scala/</link>
+		<link>/2009/03/15/internal-dsls-in-scala/</link>
 		<pubDate>Sun, 15 Mar 2009 20:42:30 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=135</guid>
+		<guid isPermaLink="false">/?p=135</guid>
 		<description/>
 		<content:encoded><![CDATA[The language Ruby is very extendible, making the language very suitable for designing internal DSL's - custom languages for domain, or single purpose as you could call it. Togetter with a collegue I wrote on <a href="http://www.whitehorses.nl/?link=2099">Internal DSLs in Ruby </a>some time ago for my company's website and newsletter. Scala is also quite extensible, and type safe. How good will Scala be on the creation on Internal DSL? Bill Venners write about this subject on Artima: <a href="http://www.artima.com/weblogs/viewpost.jsp?thread=251945">Comparing DSLs in Ruby and Scala</a>.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1891,10 +1891,10 @@ Final word, I mention two banks in the above example. My article however, is not
 	</item>
 	<item>
 		<title>Swing popularity rising</title>
-		<link>https://www.functional-consulting.nl/2009/03/15/swing-popularity-rising/</link>
+		<link>/2009/03/15/swing-popularity-rising/</link>
 		<pubDate>Sun, 15 Mar 2009 22:43:19 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=138</guid>
+		<guid isPermaLink="false">/?p=138</guid>
 		<description/>
 		<content:encoded><![CDATA[Years ago I developed several Swing application - most of them are still being used now. Later I switched to webapplication using http, javascript and html. I do like thinking about client-server communication, distributed software, databases and other parts of enterprise development. I never liked devoping client frameworks using any of the many webapplication frameworks like jsp/servlets, struts2, jsf. Somehow they never give the same ease of use. Usually it takes a lot more them having the application behave good, and still the GUI is slower and less responsive for the user. Even applicationd developed using advanced ajax frameworks like GWT are as good as application once written in Visual Basic or Delphi - considering a computer is now-a-days a whole lot faster.
 
@@ -1999,10 +1999,10 @@ By the way, regarding the new architect you mention, he seems to have disappeare
 	</item>
 	<item>
 		<title>Open JMX consoles</title>
-		<link>https://www.functional-consulting.nl/2009/03/23/open-jmx-consoles/</link>
+		<link>/2009/03/23/open-jmx-consoles/</link>
 		<pubDate>Mon, 23 Mar 2009 13:24:21 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=151</guid>
+		<guid isPermaLink="false">/?p=151</guid>
 		<description/>
 		<content:encoded><![CDATA[If you search on google on <a href="http://www.google.nl/search?q=DummyResourceAdapter">DummyResourceAdapter</a>, you'll find (at least currently) a lot of open administration consoles of JBoss, the JMX-console. These consoles should not be available to the open internet, but I guess someone forgot the close them.
 
@@ -2010,7 +2010,7 @@ Take for example the console of the website called <a href="http://www.ccidgroup
 <table border="0">
 <tbody>
 <tr>
-<td><img src="https://www.functional-consulting.nl/wp-content/uploads/2009/03/logo.gif" border="0" alt="JBoss" align="left" /></td>
+<td><img src="/wp-content/uploads/2009/03/logo.gif" border="0" alt="JBoss" align="left" /></td>
 <td valign="middle">
 <h1>JMX MBean View</h1>
 </td>
@@ -2050,7 +2050,7 @@ Take for example the console of the website called <a href="http://www.ccidgroup
 </tbody></table>
 ...
 
-<img class="alignnone size-full wp-image-152" title="destroy" src="https://www.functional-consulting.nl/wp-content/uploads/2009/03/destroy.jpg" alt="destroy" width="142" height="102" />
+<img class="alignnone size-full wp-image-152" title="destroy" src="/wp-content/uploads/2009/03/destroy.jpg" alt="destroy" width="142" height="102" />
 
 I haven't tried and I've sent a mail to webmaster@domain - but I'm slightly curious.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2079,10 +2079,10 @@ I haven't tried and I've sent a mail to webmaster@domain - but I'm slightly curi
 	</item>
 	<item>
 		<title>A conversation with webservices</title>
-		<link>https://www.functional-consulting.nl/?p=654</link>
+		<link>/?p=654</link>
 		<pubDate>Mon, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=654</guid>
+		<guid isPermaLink="false">/?p=654</guid>
 		<description/>
 		<content:encoded><![CDATA[I once had to integrate a point of sale (POS) device with a payment device, with which I could only communicate via https. The POS was a tablet, while the payment device was an external device that allowed credit-and debit-card payment.
 Communication between the POS en payment device required several webservice-calls, of which the next call depended on the result of the previous call.
@@ -2124,10 +2124,10 @@ I ended up writing quite a lot calls like this:
 	</item>
 	<item>
 		<title>ICT bij de Overheid</title>
-		<link>https://www.functional-consulting.nl/?p=672</link>
+		<link>/?p=672</link>
 		<pubDate>Mon, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=672</guid>
+		<guid isPermaLink="false">/?p=672</guid>
 		<description/>
 		<content:encoded><![CDATA[De overheid en ICT komt niet vaak goed in het nieuws. In de Volkskrant staat een staat een artikel over het <a href="https://blendle.com/i/de-volkskrant/blok-slaat-de-tanden-uit-plan-voor-beter-ict/bnl-vkn-20150408-4093667">niet opvolgen van advies van commissie Elias</a>, Blendle gaf ook de suggestie voor de <a href="https://blendle.com/i/de-groene-amsterdammer/gezellig-samen-falen/bnl-groeneamsterdammer-20150211-1_20_1">Groene Amsterdammer over hoe de overheid samenwerkt met haar it-dienstverleners</a>. Beide geven als oorzaak dat de overheid te weinig expertise heeft om IT-projecten te leiden. Maar wat zou dat goed leiden van IT-projecten moeten behelzen? Wat is een IT-project, bestaat het wel?
 Het ontwikkelen van software is inherent een <a href="http://en.wikipedia.org/wiki/Complex_systems">complex proces</a>. Wat een complex proces is, wordt verklaard in de <a href="http://www.methodsandtools.com/archive/archive.php?id=119">system theory</a>.]]></content:encoded>
@@ -2160,10 +2160,10 @@ Het ontwikkelen van software is inherent een <a href="http://en.wikipedia.org/wi
 	</item>
 	<item>
 		<title>Welcome</title>
-		<link>https://www.functional-consulting.nl/2008/12/24/welcome/</link>
+		<link>/2008/12/24/welcome/</link>
 		<pubDate>Wed, 24 Dec 2008 10:40:47 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=3</guid>
+		<guid isPermaLink="false">/?p=3</guid>
 		<description/>
 		<content:encoded><![CDATA[Welcome to my new weblog on ICT.  I am Gerbrand van Dieijen, JEE consultant with a broad interest in all aspects of software-engineering. On this weblog I'll post thoughts, opinions, analyses on trends and tutorials on IT-related subjects.
 
@@ -2198,10 +2198,10 @@ All in all a good reason to start a new weblog. I hope to gain a lot more hits a
 	</item>
 	<item>
 		<title>Ethereum as an event-store</title>
-		<link>https://www.functional-consulting.nl/?p=746</link>
+		<link>/?p=746</link>
 		<pubDate>Mon, 30 Nov -0001 00:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[gerbrand]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=746</guid>
+		<guid isPermaLink="false">/?p=746</guid>
 		<description/>
 		<content:encoded><![CDATA[I just starting to use Ethereum, a novel]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2225,10 +2225,10 @@ All in all a good reason to start a new weblog. I hope to gain a lot more hits a
 	</item>
 	<item>
 		<title>InfoQ, Tim Bray on the Future of the web</title>
-		<link>https://www.functional-consulting.nl/2009/03/24/infoq-tim-bray-on-the-future-of-the-web/</link>
+		<link>/2009/03/24/infoq-tim-bray-on-the-future-of-the-web/</link>
 		<pubDate>Tue, 24 Mar 2009 20:45:46 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=165</guid>
+		<guid isPermaLink="false">/?p=165</guid>
 		<description/>
 		<content:encoded><![CDATA[I often view or read the InfoQ, a site with articles on software development, programming. Almost all content they publish is very good. One I just saw was: <a href="http://www.infoq.com/interviews/tim-bray-future-of-web">Tim Bray on the Future of the web</a>, an interview with someone of Sun. Interesting view has Tim on the web. He's quite sceptical on RIA. Many ordinary users we're quite glad when webapplications came - as they replaces often hard to use applications created using Visual Basic, VC++, Delphi and others with pull-down menu's, ill-designs user interfaces. He also considers a bad thing if the back-button is disabled, many users find very relieving if they can go back once they're confused. Gives you something to think about.
 I don't agree for entirely - they're a lot of very good applications too, and there are quite confusing webapplications. But still, maybe for many applications he's right.]]></content:encoded>
@@ -2258,10 +2258,10 @@ I don't agree for entirely - they're a lot of very good applications too, and 
 	</item>
 	<item>
 		<title>Back from the grave: Model Driven Design</title>
-		<link>https://www.functional-consulting.nl/2009/04/17/back-from-the-grave-model-driven-design/</link>
+		<link>/2009/04/17/back-from-the-grave-model-driven-design/</link>
 		<pubDate>Fri, 17 Apr 2009 08:25:40 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=168</guid>
+		<guid isPermaLink="false">/?p=168</guid>
 		<description/>
 		<content:encoded><![CDATA[A few weeks ago I attended a symposium that was hold to celebrate  the <a href="http://25jaar.cs.uu.nl/">25 year</a> anniversary of Computer Science at the Utrecht University.
 In the drink after I talked to former fellow students who incidentally both for a companies that developed software that allowed you to develop software very quickly based on high level specifications: Model Driven Design. I though MDD had died out a few year as a big promise, but apparently I was wrong. One of the companies, <a href="http://www.mendix.com/">Mendix</a>, was already quite <a href="http://www.mendix.com/customer_cases">successful</a>, at least according to the person working as software architect. The software of <a href="http://www.mdacompany.com">MDACompany </a>seems still work in progress, but their approach of <a href="http://www.mdacompany.com/products.html">metaphors </a>looks promising.
@@ -2297,10 +2297,10 @@ I started noticing other publications and advertisements on similar technologies
 	</item>
 	<item>
 		<title>Threads-alternative in JEE: using the timerservice</title>
-		<link>https://www.functional-consulting.nl/2009/04/14/threads-alternative-in-jee-using-the-timerservice/</link>
+		<link>/2009/04/14/threads-alternative-in-jee-using-the-timerservice/</link>
 		<pubDate>Tue, 14 Apr 2009 15:14:46 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=171</guid>
+		<guid isPermaLink="false">/?p=171</guid>
 		<description/>
 		<content:encoded><![CDATA[A common problem in in developing Java Enterprise (JEE or J2EE) application is working with threads, or more generally executing code asynchronously. Starting and instantiating threads in the old-fashioned java way is not allowed.
 The reason: within JEE you work with EJB's: Java Beans with managed resources. Databaseconnections, transactions, sessions, all of these resources are managed by the application server. Usually resources such as databaseconnections are not thread-safe. The application server will take of any issues related to thread-safefety, as long as you don't instantiate threads yourself. That being said, <em><strong>what is the JEE-alternative to using threads</strong></em>?
@@ -2405,14 +2405,14 @@ The myInfo is modified and passed again to the timerserver. So next time the bea
 	</item>
 	<item>
 		<title>Hyves now also OpenId provider</title>
-		<link>https://www.functional-consulting.nl/2009/04/17/hyves-now-also-openid-provider/</link>
+		<link>/2009/04/17/hyves-now-also-openid-provider/</link>
 		<pubDate>Fri, 17 Apr 2009 08:09:08 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=185</guid>
+		<guid isPermaLink="false">/?p=185</guid>
 		<description/>
 		<content:encoded><![CDATA[OpenID is gaining popularity!  Hyves is now also OpenId-provider, as published on the (Dutch) site <a href="http://webwereld.nl/nieuws/56963/hyves-ondersteunt-nu-ook-openid.html">Webwereld</a>. This means you can use your hyve account to login to any site that provides OpenId. Saves remembering passwords. Unfortunatelly, you can't login to Hyves using another OpenId - Hyves is not a OpenId consumer. If Hyves would be an OpenId consumer you could login using for example your Hotmail account or Gmail account.
 
-<img class="alignnone size-full wp-image-273" title="openid2" src="https://www.functional-consulting.nl/wp-content/uploads/2009/04/openid2.png" alt="openid2" width="276" height="92" />]]></content:encoded>
+<img class="alignnone size-full wp-image-273" title="openid2" src="/wp-content/uploads/2009/04/openid2.png" alt="openid2" width="276" height="92" />]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>185</wp:post_id>
 		<wp:post_date>2009-04-17 09:09:08</wp:post_date>
@@ -2440,7 +2440,7 @@ The myInfo is modified and passed again to the timerserver. So next time the bea
 			<wp:comment_id>10</wp:comment_id>
 			<wp:comment_author><![CDATA[OpenID from my website &#8211; Gerbrand on ICT]]></wp:comment_author>
 			<wp:comment_author_email/>
-			<wp:comment_author_url>https://www.functional-consulting.nl/2011/06/openid-from-my-website/</wp:comment_author_url>
+			<wp:comment_author_url>/2011/06/openid-from-my-website/</wp:comment_author_url>
 			<wp:comment_author_IP>67.210.120.35</wp:comment_author_IP>
 			<wp:comment_date>2011-06-23 14:19:04</wp:comment_date>
 			<wp:comment_date_gmt>2011-06-23 13:19:04</wp:comment_date_gmt>
@@ -2465,12 +2465,12 @@ The myInfo is modified and passed again to the timerserver. So next time the bea
 	</item>
 	<item>
 		<title>Volatile keyword</title>
-		<link>https://www.functional-consulting.nl/2009/04/22/volatile-keyword/</link>
+		<link>/2009/04/22/volatile-keyword/</link>
 		<pubDate>Wed, 22 Apr 2009 21:29:38 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=191</guid>
+		<guid isPermaLink="false">/?p=191</guid>
 		<description/>
-		<content:encoded><![CDATA[<img class="alignnone size-full wp-image-268" title="warningsign" src="https://www.functional-consulting.nl/wp-content/uploads/2009/04/warningsign.jpg" alt="warningsign" width="138" height="136" />
+		<content:encoded><![CDATA[<img class="alignnone size-full wp-image-268" title="warningsign" src="/wp-content/uploads/2009/04/warningsign.jpg" alt="warningsign" width="138" height="136" />
 
 What does the volatile keyword in Java do? For years I thought the keyword was quite obsolete, synchronization of values between the memory multiple processors seemed quite exotic. Since even modern-day processors have multiple cores, the keyword has become more relevant. A few months ago I saw a good presentation by <a href="http://pveentjer.wordpress.com">Peter Veentjer</a> on NLJug, that you can see online <a href="http://www.xebia.com/sites/default/files/J-Spring%202009%20-%20Peter%20Veentjer.pdf">here</a>. I can recommend the presentation.
 Peter Veentjer also hinted about the Java Transaction Memory model. He was going to <a href="http://pveentjer.wordpress.com/2009/03/08/going-to-speak-on-nljug-j-spring-2009/">present </a>on this subject on JSpring. Unfortunately I couldn't attend the presentation myself, but I guess the presentation will be online soon as well.
@@ -2580,10 +2580,10 @@ I've fixed the link so you can view the presentation again. Fixed some spelling 
 	</item>
 	<item>
 		<title>Internet storage review</title>
-		<link>https://www.functional-consulting.nl/2009/04/25/internet-storage/</link>
+		<link>/2009/04/25/internet-storage/</link>
 		<pubDate>Sat, 25 Apr 2009 13:53:25 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=202</guid>
+		<guid isPermaLink="false">/?p=202</guid>
 		<description/>
 		<content:encoded><![CDATA[<div>A non-profit organization that's just starting up needed someway to share files and backup files. Mailing files and taking with them USB sticks and using the dvd-writer is a solution, but I guessed there should be an easier way: internet accessible storage. There are lots of companies providing that service, so that shouldn't be to hard.</div>
 My requirements were:
@@ -2601,7 +2601,7 @@ Using a <a href="http://www.google.nl">search engine</a> I found a few sites tha
 <ol>
 	<li><a href="http://zumodrive.com">ZumoDrive</a>, I heard of <a href="http://tomuse.com/zumodrive-free-web-storage-files-syncing-solutions/">just recently</a>. Unlike most other services, ZumoDrive doesn't synchronise selected directories but rather provides (in Windows) a virtual drive that behaves mostly the same as a normal drive: you can even access the drive from the commandline. Conceptually this works quite easy. Files and directories can be shared as well to other ZumoDrive users via a smart synchronisation process, or as via a http link, to webusers. ZumoDrive supports versioning as well, previous versions of files are kept.
 Zumodrive is still beta however. I had some rare occasions a file, including history got lost after a crash. There a frequent updates, so this problem might not occur anymore. Also, a disadvantage is that you have to start the zumodrive application to access your files, although you don't have to be online.<br/>
-<a href="http://zumodrive.com/"><img class="alignnone size-full wp-image-276" title="zumodrivelogo" src="https://www.functional-consulting.nl/wp-content/uploads/2009/04/zumodrivelogo.png" alt="zumodrivelogo" width="178" height="61" /></a></li>
+<a href="http://zumodrive.com/"><img class="alignnone size-full wp-image-276" title="zumodrivelogo" src="/wp-content/uploads/2009/04/zumodrivelogo.png" alt="zumodrivelogo" width="178" height="61" /></a></li>
 	<li><a href="https://www.getdropbox.com/">Dropbox</a>: Very comparable to ZumoDrive, with a few exceptions. First, unlike ZumoDrive, in Windows you won't get an extra driveletter. Rather Dropbox <a href="http://paulstefanort.com/2009/02/17/dropbox-and-zumodrive-%E2%80%94-two-approaches-to-web-storage/">synchronizes a directory</a>, so when you've stored files on Dropbox, they won't be available to other computers immediately. Advantage of not having using a drive letter is, you're files will still be available even if you quite the dropbox application.<br/> More detailed comparison can be found on <a href="http://news.ycombinator.com/item?id=438410">Hacker News</a> and <a href="http://www.newsome.org/2009/02/zumodrive-vs-dropbox.shtml">Newsome.Org</a>.
 <a href="http://www.getdropbox.com"><img class="alignnone" title="Get Dropbox" src="https://www.getdropbox.com/static/images/dropbox_logo_home.png" alt="" width="157" height="41" /></a></li>
 	<li><a href="http://www.diino.com">Diino</a>: requested a trial. Lots of online space. The Java Client was very easy to install, using webstart. After that, setting up a backup job was very easy.<br/>Minor disadvantage, Diino doesn't have a free account.<br/>
@@ -2615,7 +2615,7 @@ DriveHQ doesn't seem to support versioning. However, if one (or two) users modif
 Egnyte is little bit expensive maybe, but all good things have a price.
 <a href="http://www.egnyte.com/"><img class="alignnone" title="Egnyte" src="http://www.egnyte.com/images/default/logo/logo_head.gif" alt="" width="161" height="35" /></a></li>
 	<li>On <a href="http://skydrive.live.com/">Skydrive </a>of Microsoft, I found positive review (including interesting comments). As far from what I read, skydrive doesn't support versioning. I guess Microsoft wants business-users to use <a href="http://office.microsoft.com/nl-nl/sharepointserver/default.aspx">Sharepoint</a> for that, allong with a old-fashioned fileserver.
-<a href="http://skydrive.live.com/"><img class="alignnone size-full wp-image-265" title="windows-live-logo" src="https://www.functional-consulting.nl/wp-content/uploads/2009/04/windows-live-logo.jpg" alt="windows-live-logo" width="79" height="55" /></a>. Since I have a hotmail account, I could get a skydrive with little effort. I can upload files via a webbrowser, but I couldn't find how to synchronize files with a local folder/directory.</li>
+<a href="http://skydrive.live.com/"><img class="alignnone size-full wp-image-265" title="windows-live-logo" src="/wp-content/uploads/2009/04/windows-live-logo.jpg" alt="windows-live-logo" width="79" height="55" /></a>. Since I have a hotmail account, I could get a skydrive with little effort. I can upload files via a webbrowser, but I couldn't find how to synchronize files with a local folder/directory.</li>
 	<li><a href="http://www.box.net">Box.net</a>: cool-looking website, and it's a featured app on <a href="http://www.linkedin.com">linkedin</a>. However, box.net only provided webbased access.
 <a href="http://www.box.net/"><img class="alignnone" title="Box.net" src="http://e3.boxcdn.net/img/sales/box_logo.gif" alt="" width="83" height="46" /></a></li>
 </ol>
@@ -2657,7 +2657,7 @@ If you want backup, there are countless synchronization services like IDrive and
 			<wp:comment_id>13</wp:comment_id>
 			<wp:comment_author><![CDATA[In between LAN-sync, Dropbox &#8211; Gerbrand on ICT]]></wp:comment_author>
 			<wp:comment_author_email/>
-			<wp:comment_author_url>https://www.functional-consulting.nl/2009/07/in-between-lan-sync-dropbox/</wp:comment_author_url>
+			<wp:comment_author_url>/2009/07/in-between-lan-sync-dropbox/</wp:comment_author_url>
 			<wp:comment_author_IP>67.210.120.35</wp:comment_author_IP>
 			<wp:comment_date>2009-07-16 08:17:07</wp:comment_date>
 			<wp:comment_date_gmt>2009-07-16 07:17:07</wp:comment_date_gmt>
@@ -2716,10 +2716,10 @@ For those users prefer FTP service or WebDAV drive mapping service, the version 
 	</item>
 	<item>
 		<title>Diagram software</title>
-		<link>https://www.functional-consulting.nl/2009/05/01/diagram-software/</link>
+		<link>/2009/05/01/diagram-software/</link>
 		<pubDate>Fri, 01 May 2009 11:55:20 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=227</guid>
+		<guid isPermaLink="false">/?p=227</guid>
 		<description/>
 		<content:encoded><![CDATA[Sometimes a diagram says more then a thousands words. That being said, what is good software to draw diagrams? I could quickly draw a diagram on my paper notepad, but known I wanted to visualize my diagram. I tried Dia. Advantage of that software is that is very basic, so you don't have to waste time on any nifty features more expensive diagram software may have. Disadvantage is the amazingly user unfriendly interface.
 Well, I don't know Diagram Drawing program is the best one, but I did find a nice review of several free versions: <a href="http://www.techmixer.com/free-diagram-software-to-replace-visio-for-diagramming-purpose/">Free Diagram Software</a>. There are already several on line versions, which is quite cool.]]></content:encoded>
@@ -2774,10 +2774,10 @@ Well, I don't know Diagram Drawing program is the best one, but I did find a nic
 	</item>
 	<item>
 		<title>Alternative to SQL</title>
-		<link>https://www.functional-consulting.nl/2009/05/04/alternative-to-sql/</link>
+		<link>/2009/05/04/alternative-to-sql/</link>
 		<pubDate>Mon, 04 May 2009 14:55:57 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=241</guid>
+		<guid isPermaLink="false">/?p=241</guid>
 		<description/>
 		<content:encoded><![CDATA[Database alternative, for people just browsing and scanning, I'll write in staccato.
 <ul>
@@ -2830,10 +2830,10 @@ In short, where's a new language for the relation model and why isn't that langu
 	</item>
 	<item>
 		<title>Generics support for Apache commons collections</title>
-		<link>https://www.functional-consulting.nl/2009/05/16/generics-support-for-apache-commons-collections/</link>
+		<link>/2009/05/16/generics-support-for-apache-commons-collections/</link>
 		<pubDate>Sat, 16 May 2009 21:30:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=281</guid>
+		<guid isPermaLink="false">/?p=281</guid>
 		<description/>
 		<content:encoded><![CDATA[In my day to day work program I use the <a href="http://commons.apache.org/">Apache Commons</a> library quite a lot.  One of those libraries is the<a href="http://commons.apache.org/collections/"> commons collections </a>library, of which I use the <a href="http://commons.apache.org/collections/api-release/org/apache/commons/collections/CollectionUtils.html">CollectionUtils</a> class and <a href="http://commons.apache.org/collections/api-release/org/apache/commons/collections/ListUtils.html">ListUtils </a>mostly. One great disadvantage of the commons collection library is lack of Java Generics support, added in Java 1.5.  This means if you call a function like <a href="http://commons.apache.org/collections/api-release/org/apache/commons/collections/ListUtils.html#predicatedList(java.util.List,%20org.apache.commons.collections.Predicate)">predicatedList</a> with a typed list and predicate argument, the function will return an untyped list. The list has to be cast again, which clutters up the code and doesn't look very nice, like the following example:
 <pre class="brush: java;">
@@ -2900,12 +2900,12 @@ The code looks quite better! A lot less code would be needed if <a href="http://
 	</item>
 	<item>
 		<title>Breaking SMS security</title>
-		<link>https://www.functional-consulting.nl/2009/05/22/breaking-sms-security/</link>
+		<link>/2009/05/22/breaking-sms-security/</link>
 		<pubDate>Fri, 22 May 2009 12:53:25 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=291</guid>
+		<guid isPermaLink="false">/?p=291</guid>
 		<description/>
-		<content:encoded><![CDATA[I wrote some time ago about <a href="https://www.functional-consulting.nl/wp-admin/post.php?action=edit&amp;post=121">false sense of security</a> in many secure applications such as internet-banking. Now one of the predictions I made have become reality, as you can read on this (Dutch) article on webwereld: <a href="http://webwereld.nl/nieuws/58572/onderzoekers-kapen-tan-code-met-nokia-1100.html">Onderzoekers kapen tan-code met Nokia 1100</a>.
+		<content:encoded><![CDATA[I wrote some time ago about <a href="/wp-admin/post.php?action=edit&amp;post=121">false sense of security</a> in many secure applications such as internet-banking. Now one of the predictions I made have become reality, as you can read on this (Dutch) article on webwereld: <a href="http://webwereld.nl/nieuws/58572/onderzoekers-kapen-tan-code-met-nokia-1100.html">Onderzoekers kapen tan-code met Nokia 1100</a>.
 Using a hacked mobile phone, a security company could intercept a TAN-code that is used to authorize payments and money-transfers using internet-banking. Although there is no reported use of this hack, researchers did notice second-hand mobile phones did increase a lot in value.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>291</wp:post_id>
@@ -2933,13 +2933,13 @@ Using a hacked mobile phone, a security company could intercept a TAN-code that 
 	</item>
 	<item>
 		<title>Clean code</title>
-		<link>https://www.functional-consulting.nl/2009/07/04/clean-code/</link>
+		<link>/2009/07/04/clean-code/</link>
 		<pubDate>Sat, 04 Jul 2009 22:20:45 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=303</guid>
+		<guid isPermaLink="false">/?p=303</guid>
 		<description/>
 		<content:encoded><![CDATA[Recently I read the book <a href="http://www.amazon.com/gp/product/B001GSTOAM?ie=UTF8&amp;tag=geonic-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B001GSTOAM">Clean Code</a><img style="border:none !important; margin:0px !important;" src="http://www.assoc-amazon.com/e/ir?t=geonic-20&amp;l=as2&amp;o=1&amp;a=B001GSTOAM" border="0" alt="" width="1" height="1" /> by Robert C. Martin. I was very pleasently surprised by the book. The book was well written, for me it was a page-turner. The book starts with explaining why you (or the people you manage) should write clean code: writing good, well-written, consise - in short clean - code, is essential to agile software development. Writing clean code makes certain both yourself and any future developers can easily extend and maintain your software.
-<p style="text-align: center;"><a href="http://www.amazon.com/gp/product/B001GSTOAM?ie=UTF8&amp;tag=geonic-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B001GSTOAM"><img class="aligncenter" src="https://www.functional-consulting.nl/wp-content/uploads/2009/07/41Obj6pdGtL._SL160_.jpg" border="0" alt="" /></a><img style="border:none !important; margin:0px !important;" src="http://www.assoc-amazon.com/e/ir?t=geonic-20&amp;l=as2&amp;o=1&amp;a=B001GSTOAM" border="0" alt="" width="1" height="1" /></p>
+<p style="text-align: center;"><a href="http://www.amazon.com/gp/product/B001GSTOAM?ie=UTF8&amp;tag=geonic-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B001GSTOAM"><img class="aligncenter" src="/wp-content/uploads/2009/07/41Obj6pdGtL._SL160_.jpg" border="0" alt="" /></a><img style="border:none !important; margin:0px !important;" src="http://www.assoc-amazon.com/e/ir?t=geonic-20&amp;l=as2&amp;o=1&amp;a=B001GSTOAM" border="0" alt="" width="1" height="1" /></p>
 
 Every chapter goes on specific part of programming, amongst others: using meaning full names, how to write good, consise and easy-to-understand functions, writing good comments, writing good unit tests, and having a good class design. A lot of content I already knew or was at least aware of, either intuitively through experience or from other sources. However, that didn't made reading it any less usuful, the book does very well on explaining why and offering good arguments, just to convince other people. The book also questions a lot of common practices, I did not think of before.
 <br/>
@@ -2993,10 +2993,10 @@ Bol.com<br />
 	</item>
 	<item>
 		<title>Architect</title>
-		<link>https://www.functional-consulting.nl/2009/07/06/architect/</link>
+		<link>/2009/07/06/architect/</link>
 		<pubDate>Mon, 06 Jul 2009 20:09:19 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=330</guid>
+		<guid isPermaLink="false">/?p=330</guid>
 		<description/>
 		<content:encoded><![CDATA[Do you call yourself architect, while you're developing software or telling other people how to program? At least in the Netherlands, calling yourself Architect is illegal when you're not a officially registered architect:
 <div id="title"><a href="http://www.architectenregister.nl/sba.php?p=3"><img src="http://www.architectenregister.nl/imgs/titles/3.gif" alt="Wet op de architectentitel" /></a></div>
@@ -3028,10 +3028,10 @@ Bol.com<br />
 	</item>
 	<item>
 		<title>JBoss on Linux</title>
-		<link>https://www.functional-consulting.nl/2009/07/13/jboss-on-linux/</link>
+		<link>/2009/07/13/jboss-on-linux/</link>
 		<pubDate>Mon, 13 Jul 2009 11:21:26 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=342</guid>
+		<guid isPermaLink="false">/?p=342</guid>
 		<description/>
 		<content:encoded><![CDATA[Lately I tried to run JBoss on my Linux-installation (KUBuntu 9). I got lots of  <code>java.lang.OutOfMemoryError: PermGen</code> space errors while starting JBoss 5. First I thought that had something to do with Linux. I google'd the error, and from what I read, permgen errors are caused by bugs in either JBoss or the JavaVM. So increasing memory won't help, besides, JBoss ran fine on my Windows installation.
 Then I remembered JBoss had a separate package for Java JDK 1.5 and JDK 1.6. I used the JBoss- version for JDK 1.5, but I have JDK 1.6 installed on my Linux installation. After I switched to the JBoss 5.0 version for JDK 1.5, JBoss ran smoothly!]]></content:encoded>
@@ -3062,12 +3062,12 @@ Then I remembered JBoss had a separate package for Java JDK 1.5 and JDK 1.6. I u
 	</item>
 	<item>
 		<title>In between LAN-sync, Dropbox</title>
-		<link>https://www.functional-consulting.nl/2009/07/16/in-between-lan-sync-dropbox/</link>
+		<link>/2009/07/16/in-between-lan-sync-dropbox/</link>
 		<pubDate>Thu, 16 Jul 2009 07:17:03 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=349</guid>
+		<guid isPermaLink="false">/?p=349</guid>
 		<description/>
-		<content:encoded><![CDATA[On both my laptop and my desktop computer I have <a href="https://www.zumodrive.com/">Zumodrive </a>running, a form of <a href="https://www.functional-consulting.nl/2009/04/internet-storage/">Internet storage</a> I wrote about before. When I store something on my desktop while my laptop is connected to the same network-lan (via WIFI) I always wondered if Zumodrive would be smart enough to directly transfer files from the desktop to the laptop. That way my files would be available a lot faster then when they would be uploaded first.
+		<content:encoded><![CDATA[On both my laptop and my desktop computer I have <a href="https://www.zumodrive.com/">Zumodrive </a>running, a form of <a href="/2009/04/internet-storage/">Internet storage</a> I wrote about before. When I store something on my desktop while my laptop is connected to the same network-lan (via WIFI) I always wondered if Zumodrive would be smart enough to directly transfer files from the desktop to the laptop. That way my files would be available a lot faster then when they would be uploaded first.
 I still have not bothered to ask Zumodrive, but I just got a newsletter mail from their competitor <a href="https://www.getdropbox.com">Dropbox</a>, claiming the following:
 
 
@@ -3102,10 +3102,10 @@ So all in all Dropbox now has that feature. Either Zumodrive follows fast, or th
 	</item>
 	<item>
 		<title>JFall on Google Guice</title>
-		<link>https://www.functional-consulting.nl/2009/09/26/google-guice/</link>
+		<link>/2009/09/26/google-guice/</link>
 		<pubDate>Sat, 26 Sep 2009 12:47:55 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=358</guid>
+		<guid isPermaLink="false">/?p=358</guid>
 		<description/>
 		<content:encoded><![CDATA[Yesterday I've submitted a paper to <a href="http://www.nljug.org/">NLJUG</a>, the Dutch Java User Group for the <a href="http://www.nljug.org/pages/events/content/jfall_2009/">JFall 2009</a> conference. Together with colleagues we worked on a proposal for a very nice presentation on the <a href="http://code.google.com/p/google-guice/">Google Guice</a>. Like many programmers we were quite skeptical on yet-another <a href="http://en.wikipedia.org/wiki/Inversion_of_control">Dependency Injection</a>/IC framework. We all know Spring, and dependency injection is now also part of the J2EE 1.5 / EJB3 standard. What makes Guice worth looking at?
 In our talk we'll explain (of course) what Google Guice is, and how Guice compares to Spring and EJB3. Hope to see you on JFall!]]></content:encoded>
@@ -3163,10 +3163,10 @@ In our talk we'll explain (of course) what Google Guice is, and how Guice compar
 	</item>
 	<item>
 		<title>Whitebook on parallel programming</title>
-		<link>https://www.functional-consulting.nl/2009/11/02/whitebook-on-parallel-programming/</link>
+		<link>/2009/11/02/whitebook-on-parallel-programming/</link>
 		<pubDate>Mon, 02 Nov 2009 09:42:47 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=365</guid>
+		<guid isPermaLink="false">/?p=365</guid>
 		<description/>
 		<content:encoded><![CDATA[Via the newsletter of <a href="http://www.whitehorses.nl">Whitehorses</a>, the company I work for, an article written by me is published: <a href="http://www.whitehorses.nl/whitebooks/2009/gebruik-de-multi-core-omgeving-met-java-7">Gebruik de multi-core omgeving met Java 7 </a>. As the title suggest, the article is in Dutch. The article explains some of the new features of Java 7 for creating software that runs in parallel on multiple cores.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3197,10 +3197,10 @@ In our talk we'll explain (of course) what Google Guice is, and how Guice compar
 	</item>
 	<item>
 		<title>JFall report</title>
-		<link>https://www.functional-consulting.nl/2009/11/30/jfall-report/</link>
+		<link>/2009/11/30/jfall-report/</link>
 		<pubDate>Mon, 30 Nov 2009 21:43:22 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=368</guid>
+		<guid isPermaLink="false">/?p=368</guid>
 		<description/>
 		<content:encoded><![CDATA[Ik heb een verslag geschreven over JFall 2009 voor <a href="http://www.whitehorses.nl">Whitehorses</a>, het bedrijf waarvoor ik werk.
 
@@ -3244,10 +3244,10 @@ en hier is de whitebook: <a href="http://www.whitehorses.nl/whitebooks/2009/jfal
 	</item>
 	<item>
 		<title>Presentations</title>
-		<link>https://www.functional-consulting.nl/2009/12/08/presentations/</link>
+		<link>/2009/12/08/presentations/</link>
 		<pubDate>Tue, 08 Dec 2009 21:16:24 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=370</guid>
+		<guid isPermaLink="false">/?p=370</guid>
 		<description/>
 		<content:encoded><![CDATA[I am subscribed to several technology related newsletters, including those of <a href="http://www.infoq.com">InfoQ</a>. Very often these newsletters feature very interesting content. Unfortunately, a increasingly large portion of those newsletters now includes broadcasts of presentations. With the emerge of Youtube, broadband and Al Gore's movie <a href="http://www.moviemeter.nl/film/36759/">An Inconvenient Truth</a>, the trend is that information on the Internet should be in movies or sound.
 That's quite unfortunate for me. I often prefer to read something, rather then listening and watching something, at least to get information. Also, all too often I'm reading those newsletters in the occasion I can't bother other people with sound. Well, could use a headphone - but I don't have any ;-).
@@ -3278,10 +3278,10 @@ I wonder if other people have that problem too?]]></content:encoded>
 	</item>
 	<item>
 		<title>Cloud storage, review of Zumodrive</title>
-		<link>https://www.functional-consulting.nl/2009/12/09/cloud-storage/</link>
+		<link>/2009/12/09/cloud-storage/</link>
 		<pubDate>Wed, 09 Dec 2009 11:49:25 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=373</guid>
+		<guid isPermaLink="false">/?p=373</guid>
 		<description/>
 		<content:encoded><![CDATA[A while ago a reviewed <a href="/2009/04/internet-storage/">a few online storage solutions</a>. I especially liked Zumodrive, second to Dropbox. Now I found a nice article that reviews Zumodrive and compares it to Sugarsync and Dropbox: <a href="http://online.wsj.com/article/SB10001424052748704107104574572002476586722.html#mod=todays_us_section_b">A Review of ZumoDrive Service</a>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3310,10 +3310,10 @@ I wonder if other people have that problem too?]]></content:encoded>
 	</item>
 	<item>
 		<title>Software: bouwen of ontwerpen?</title>
-		<link>https://www.functional-consulting.nl/2010/02/01/software-bouwen-of-ontwerpen/</link>
+		<link>/2010/02/01/software-bouwen-of-ontwerpen/</link>
 		<pubDate>Mon, 01 Feb 2010 14:16:19 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=379</guid>
+		<guid isPermaLink="false">/?p=379</guid>
 		<description/>
 		<content:encoded><![CDATA[Software werd in de afgelopen decennia steeds belangrijker binnen de overheid, en bij vrijwel alle overheidsinstanties is software de kurk waarop de bureaucratie drijft. Verbazingwekkend lijken de meeste mensen bij de overheid, net als bij veel bedrijven overigens, een slecht idee van software te hebben. Overheden denken dat software iets is wat je ´bouwt´, net als kantoorgebouw, een <a href="http://www.parool.nl/parool/nl/1084/DOSSIER-NOORD-ZUIDLIJN/index.dhtml">metrolijn</a>. Dit is een misvatting. Software, in essentie, bouw je niet, software schrijf je. Als een softwareprogramma geschreven is, kan het eindeloos verspreid worden, geïnstalleerd worden of hergebruikt worden.
 Behoorlijk, als niet vrijwel alle, it-projecten van de overheden falen jammerlijk of zijn veel duurder dan verwacht. Recente voorbeelden zijn b.v. het<a href="http://www.computable.nl/artikel/ict_topics/ecm/2994678/1277020/nieuw-computersysteem-politie-werkt-niet-goed.html"> aangiftesysteem van de overheid</a> of de <a href="http://forum.fok.nl/topic/1113596">ov-chipcard</a>. De overheid wilde software binnen een bepaalde vaste periode 'gebouwd' hebben, koos de goedkoopste leverancier en probeerde zoveel mogelijk de kosten gedurende het proces te laag te houden. Resultaat is keer op keer dat de overheid vele miljoenen betaald voor software, die nauwelijks zo ingewikkeld is als software die bedrijven als Google of Microsoft, of open-sourceprogrammeurs op een vrijdag-namiddag maken.
@@ -3321,8 +3321,8 @@ Behoorlijk, als niet vrijwel alle, it-projecten van de overheden falen jammerlij
 Hoe moet het maken van software dan wel gezien worden? Voor een deel is software schrijven creatief, voor een ander deel wetenschappelijk-analytisch (scientific zouden Engelsen zeggen, helaas weet ik geen goede vertaling daarvoor). Als je het maken van software al zou willen vergelijken met bouwen van huizen, dan is dat alleen het maken van het ontwerp.
 Wat een junior-programmer doet is vergelijkbaar met wat in de bouw ontwerpers van leiding en electriciteitssystemen in huizen doet. Wat een senior-programmer of architect doet, is vergelijkbaar met wat een (daadwerkelijke) architect doet of projectontwikkelaar.
 Als je de metafoor van bouwen zou moeten vergelijken: De gemeente Utrecht had het idee een gigantische woontoren te bouwen: de Belle van Zuyden.
-<a href="https://www.functional-consulting.nl/wp-content/uploads/2010/02/kaart-overzicht1.jpg"><img class="alignnone size-medium wp-image-384" title="Belle van Zuylen ontwerp" src="https://www.functional-consulting.nl/wp-content/uploads/2010/02/kaart-overzicht1-150x300.jpg" alt="" width="150" height="300" /></a>
-Een archtictbureau heeft een ontwerp gemaakt, een projectontwikkelaar heeft een schatting van de kosten gemaakt. Na een grondige test van het <a href="http://sargasso.nl/archief/2009/11/29/belle-van-zuylen-verleiding-of-misleiding/">bouwontwerp</a> en -plan, en een <a href="http://www.lombox.nl/cinebox/bellevanzuylen.html">gebruikerstest</a>, bleek het gebouw totaal niet werkbaar. Verder ontwerp is gestopt: intekenen van de verwarming is vermoedelijk niet gedaan. <img src="https://www.functional-consulting.nl/wp-content/uploads/2010/02/webedumortsel011.jpg" alt="" title="verwarmingssysteem" width="300" height="300" class="alignnone size-full wp-image-388" /><br/>
+<a href="/wp-content/uploads/2010/02/kaart-overzicht1.jpg"><img class="alignnone size-medium wp-image-384" title="Belle van Zuylen ontwerp" src="/wp-content/uploads/2010/02/kaart-overzicht1-150x300.jpg" alt="" width="150" height="300" /></a>
+Een archtictbureau heeft een ontwerp gemaakt, een projectontwikkelaar heeft een schatting van de kosten gemaakt. Na een grondige test van het <a href="http://sargasso.nl/archief/2009/11/29/belle-van-zuylen-verleiding-of-misleiding/">bouwontwerp</a> en -plan, en een <a href="http://www.lombox.nl/cinebox/bellevanzuylen.html">gebruikerstest</a>, bleek het gebouw totaal niet werkbaar. Verder ontwerp is gestopt: intekenen van de verwarming is vermoedelijk niet gedaan. <img src="/wp-content/uploads/2010/02/webedumortsel011.jpg" alt="" title="verwarmingssysteem" width="300" height="300" class="alignnone size-full wp-image-388" /><br/>
 Belle van Zuylen is niet daadwerkelijk gebouwd, ofwel het is nooit in productie gekomen.
 
 Softwareontwikkeling is dus vergelijkbaar met ontwerpen van machines, gebouwen, en systemen in het algemeen, niet het bouwen zelf. Dat verzin ik niet ter plekke, dit wordt ook onderbouwd door meerdere mensen die er<a href="http://www.poppendieck.com/"> verstand van hebben</a>. Collega's hebben recentelijk nog een mooi artikel hierover geschreven:
@@ -3357,10 +3357,10 @@ Goed boek om mee te beginnen:
 	</item>
 	<item>
 		<title>Proxying authentication using JBoss</title>
-		<link>https://www.functional-consulting.nl/2010/06/22/proxying-authentication-using-jboss/</link>
+		<link>/2010/06/22/proxying-authentication-using-jboss/</link>
 		<pubDate>Mon, 21 Jun 2010 23:00:19 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=264</guid>
+		<guid isPermaLink="false">/?p=264</guid>
 		<description/>
 		<content:encoded><![CDATA[Wouldn't it be nice if the connection to the database is done using the same username as the username used to login to a (JEE) application? Oracle has a solution for that: <a href="http://download.oracle.com/docs/cd/B28359_01/java.111/b31224/proxya.htm">proxy authentication</a>.  When using proxy authentication, every application user is also a database user: meaning when someone logins to your JEE webapplication using username john, he'll also access the database as user john. This way all actions of the user are logged at the database-level: an administrator or auditer can see exactly what data a certain user modified or accessed during a JEE session.
 
@@ -3368,7 +3368,7 @@ Goed boek om mee te beginnen:
 
 Also, this allows for fine-grained security at database level: <a href="http://www.oracle.com/technology/deploy/security/database-security-10g/virtual-private-database/index.html">Virtual Private Database</a>.
 
-[caption id="attachment_297" align="alignnone" width="456" caption="(c) Oracle"]<a href="http://www.oracle.com/technology/deploy/security/database-security-10g/virtual-private-database/index.html"><img class="size-full wp-image-297" title="virtual-private-database1" src="https://www.functional-consulting.nl/wp-content/uploads/2009/06/virtual-private-database1.gif" alt="Virtual private database" width="456" height="175" /></a>[/caption]
+[caption id="attachment_297" align="alignnone" width="456" caption="(c) Oracle"]<a href="http://www.oracle.com/technology/deploy/security/database-security-10g/virtual-private-database/index.html"><img class="size-full wp-image-297" title="virtual-private-database1" src="/wp-content/uploads/2009/06/virtual-private-database1.gif" alt="Virtual private database" width="456" height="175" /></a>[/caption]
 
 As described in the above image and referenced article, the user identified by userid 106 (let's say that's user john) will access the database using a private database connection. The user can only access rows that have that userid as primary or foreign key.  John can't see the passwords, orders, credit card data or anything of other users even if he would somehow hack the webapplication. How to set up this finegrained securiy is beyond this article, but I hope the above example explains what the purpose VPD is.
 
@@ -3474,10 +3474,10 @@ All in all, after some tweaking, all queries and updates to your Oracle database
 	</item>
 	<item>
 		<title>Gen Xers, Gen Y’s and the Millennium generation</title>
-		<link>https://www.functional-consulting.nl/2010/02/12/394/</link>
+		<link>/2010/02/12/394/</link>
 		<pubDate>Fri, 12 Feb 2010 08:46:24 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=394</guid>
+		<guid isPermaLink="false">/?p=394</guid>
 		<description/>
 		<content:encoded><![CDATA[From the newsletter of <a href="http://www.theserverside.com/">TheServerSide.com</a> I received a whitepaper of <a href="http://www.instantiations.com/rcpdeveloper/index.html">Instantiations</a>, a GUI building tool. While I haven't read the entire paper yet, the introduction was quite intriguing;
 
@@ -3511,10 +3511,10 @@ I am intrigued by the terms: Gen Xers, Gen Y’s and the Millennium generation. 
 	</item>
 	<item>
 		<title>Very old accounts</title>
-		<link>https://www.functional-consulting.nl/2010/02/17/very-old-accounts/</link>
+		<link>/2010/02/17/very-old-accounts/</link>
 		<pubDate>Wed, 17 Feb 2010 21:47:30 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=397</guid>
+		<guid isPermaLink="false">/?p=397</guid>
 		<description/>
 		<content:encoded><![CDATA[I've been on the Internet since 1997. I was also on <a href="http://www.fidonet.org/">Fidonet</a> since 1995, until I got high speed internet (2Mbit shared) in 2000.
 
@@ -3558,10 +3558,10 @@ Well these were some accounts a browsed to, fun enough. Fortunately, not all acc
 	</item>
 	<item>
 		<title>Develop with faster with smarter tools</title>
-		<link>https://www.functional-consulting.nl/2010/02/27/develop-with-jrebel/</link>
+		<link>/2010/02/27/develop-with-jrebel/</link>
 		<pubDate>Fri, 26 Feb 2010 23:23:58 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=401</guid>
+		<guid isPermaLink="false">/?p=401</guid>
 		<description/>
 		<content:encoded><![CDATA[I develop software for a living. This involves quite a lot of talking, coaching, attending meetings, drinking coffee, etc. but the actual work is done during programming - when the software is created. That programming involves repeated cycles of the following: modify or type some code, compile, deploy and then run the code and perform some tests to see if it works. How cumbersome that process was ranged from:
 <ul>
@@ -3605,15 +3605,15 @@ You can specify the output directories of your IDE (target/classes, /bin, etc.).
 	</item>
 	<item>
 		<title>Google Docs and MS-Office</title>
-		<link>https://www.functional-consulting.nl/2010/02/27/google-docs-and-ms-office/</link>
+		<link>/2010/02/27/google-docs-and-ms-office/</link>
 		<pubDate>Sat, 27 Feb 2010 17:21:55 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=405</guid>
+		<guid isPermaLink="false">/?p=405</guid>
 		<description/>
 		<content:encoded><![CDATA[Google Docs is a great tool store and edit documents online. MS-Office is a pretty good tool as well. Wouldn't it be nice if you could open documents stored at Google Doc using MS-Office. Of course MS-Office has something similar, MS Office Live, but that's still beta and I'm more used to Google Docs. However, since recently, Google Docs integration is possible, using <a href="http://offisync.com/">OffiSync</a>!
 OfficeSync is a plugin for MS-Office. After installation, you'll get an extra menu.
 
-<a href="https://www.functional-consulting.nl/wp-content/uploads/2010/02/MSOffice-with-OffiSync.png"><img class="alignnone size-medium wp-image-406" title="MSOffice with OffiSync" src="https://www.functional-consulting.nl/wp-content/uploads/2010/02/MSOffice-with-OffiSync-300x150.png" alt="" width="404" height="202" /></a>
+<a href="/wp-content/uploads/2010/02/MSOffice-with-OffiSync.png"><img class="alignnone size-medium wp-image-406" title="MSOffice with OffiSync" src="/wp-content/uploads/2010/02/MSOffice-with-OffiSync-300x150.png" alt="" width="404" height="202" /></a>
 
 Using the menu, you can open and save documents at Google Docs, in a similar fashion when you'd use MS Office Live or Sharepoint. OffiSync is free to use, but when you use the free tool, any MS Office feature that isn't supported by Google doc is lost when you save you're files at Google Docs. The paid version doesn't have this disadvantage.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3642,10 +3642,10 @@ Using the menu, you can open and save documents at Google Docs, in a similar fas
 	</item>
 	<item>
 		<title>Scala and Java</title>
-		<link>https://www.functional-consulting.nl/2010/03/05/scala-and-java/</link>
+		<link>/2010/03/05/scala-and-java/</link>
 		<pubDate>Fri, 05 Mar 2010 12:53:22 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=408</guid>
+		<guid isPermaLink="false">/?p=408</guid>
 		<description/>
 		<content:encoded><![CDATA[When you say Ruby, you say Rails. When you say Groovy, you say unit-tests, scripting and integration. Well that might be over-acted, but that's what most people make of it.
 Some people remark Scala is best-suited for backend-code, or very good at parallel code, but apart from that I've never heard that Scala is the language for the Lift framework. Or the language to use when you want to create multi-threaded code. What I hear mostly, Scala is the new Java.<br/>
@@ -3737,15 +3737,15 @@ But really... it's more a matching between you wit and the language than what ot
 	</item>
 	<item>
 		<title>Springsource and electric cars</title>
-		<link>https://www.functional-consulting.nl/2010/06/23/springsource-and-electric-cars/</link>
+		<link>/2010/06/23/springsource-and-electric-cars/</link>
 		<pubDate>Wed, 23 Jun 2010 15:18:56 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=416</guid>
+		<guid isPermaLink="false">/?p=416</guid>
 		<description/>
 		<content:encoded><![CDATA[Just read an article on electric cars in of the Saturday's edition of the <a href="http://www.nrc.nl/">NRC</a> - a Dutch newspaper, which can be found online at the <a href="http://weblogs.nrc.nl/luyendijk/2010/06/21/jeroen-pauw-als-rolmodel/">authors blog (in Dutch)</a>. Some entrepreneur in electric cars is mentioned by the name of Alef Arendsen. The name did not immediately rang a bell, but when it was mentioned got his wealth after the sale of a opensource software company he co-founded I recalled. Alef Arendsen was part of <a href="http://www.springsource.com/people/aarendsen">SpringSource</a>, early on and made Spring big in the Netherlands (hm, I think I've read about the framework in about 2004 on javaworld, found it pretty cool - too bad I didn't do anything anything with it by then). He quit SpringSource about a year ago because he wanted to do something else.
 He has now started a company in electric cars: <a onclick="pageTracker._trackPageview('/outgoing/www.thenewmotion.com?referer=http://www.springsource.com/people/aarendsen');" href="http://www.thenewmotion.com/">The  New Motion</a>, which he mentions in his blog: <a href="http://blog.arendsen.net/index.php/2010/06/09/challenges-when-introducing-new-technologies-to-the-market/">Challenges when introducing new technologies to the market</a>. Quite a surprising move, but then again, you could say <a href="http://en.wikipedia.org/wiki/Electric_car">Electric cars</a> are to traditional Petrol cars as Spring is to EJB2/J2EE.
 
-[caption id="attachment_417" align="alignnone" width="300" caption="German electric car, 1904, with the chauffeur on top"]<a href="https://www.functional-consulting.nl/wp-content/uploads/2010/06/Bundesarchiv_Bild_183-1990-1126-500_Kraftdroschke.jpg"><img class="size-medium wp-image-417" title="German electric car, 1904" src="https://www.functional-consulting.nl/wp-content/uploads/2010/06/Bundesarchiv_Bild_183-1990-1126-500_Kraftdroschke-300x223.jpg" alt="" width="300" height="223" /></a>[/caption]
+[caption id="attachment_417" align="alignnone" width="300" caption="German electric car, 1904, with the chauffeur on top"]<a href="/wp-content/uploads/2010/06/Bundesarchiv_Bild_183-1990-1126-500_Kraftdroschke.jpg"><img class="size-medium wp-image-417" title="German electric car, 1904" src="/wp-content/uploads/2010/06/Bundesarchiv_Bild_183-1990-1126-500_Kraftdroschke-300x223.jpg" alt="" width="300" height="223" /></a>[/caption]
 
 (Above picture from <a href="http://en.wikipedia.org/wiki/Electric_car">Wikipedia</a> - of course electric cars aren't actually new, just as the idea dependency injection or reversion of control existed long before spring)]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -3777,10 +3777,10 @@ He has now started a company in electric cars: <a onclick="pageTracker._trackPag
 	</item>
 	<item>
 		<title>Virtual secretary</title>
-		<link>https://www.functional-consulting.nl/2010/07/04/virtual-secretary/</link>
+		<link>/2010/07/04/virtual-secretary/</link>
 		<pubDate>Sun, 04 Jul 2010 00:35:21 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=425</guid>
+		<guid isPermaLink="false">/?p=425</guid>
 		<description/>
 		<content:encoded><![CDATA[Most of my friends are in there are twenty/thirty something and have quite a busy (social live). Making appointsments can be quite cumbersome, especially when multiple people are involved. Fortunately, there's electronic help, there are websites were you can schedule appointments. I've used the Dutch sites <a href="http://www.datumprikker.nl">Datumprikker.nl</a> and the fairly new startup <a href="http://www.pleft.com">Pleft</a>. Although there both quite easy to start using, I'm far from satisfied. Datumprikker and pleft both have quite limited functionality. The only thing you can enter are available dates and a list of contacts/emailaddresses with whom you want to make an appointment.
 
@@ -3818,10 +3818,10 @@ I was thinking, such an application shouldn't be hard to make. I wasn't the only
 	</item>
 	<item>
 		<title>Apprentice in software</title>
-		<link>https://www.functional-consulting.nl/2010/07/14/apprentice-in-software/</link>
+		<link>/2010/07/14/apprentice-in-software/</link>
 		<pubDate>Wed, 14 Jul 2010 07:25:28 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=430</guid>
+		<guid isPermaLink="false">/?p=430</guid>
 		<description/>
 		<content:encoded><![CDATA[When you want to become a pilot, you'll first have to be a co-pilot (after your training). You'll won't become a medical professional without working with an experienced doctor first. As software engineering is a profession that also combines deep knowledge, analytical skills and experience as well, why would this be any difference?
 
@@ -3859,10 +3859,10 @@ My company, Xebia, has started a master-apprentice program in the Netherlands. S
 	</item>
 	<item>
 		<title>Apple: 32 bit or 64 bit</title>
-		<link>https://www.functional-consulting.nl/2010/07/15/apple-32-bit-or-64-bit/</link>
+		<link>/2010/07/15/apple-32-bit-or-64-bit/</link>
 		<pubDate>Thu, 15 Jul 2010 07:26:29 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=432</guid>
+		<guid isPermaLink="false">/?p=432</guid>
 		<description/>
 		<content:encoded><![CDATA[I am about to download the latest version of Eclipse IDE, <a href="http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/heliosr">Helios</a>. Naturally there are packages for various types of platforms. I know I have a Mac, however I also had to choose between 32 bit version and 64 bit version. There was a time I exactly knew these kind of things, but then I also used to build my computer myself.
 Fortunately, there's a Apple support page which exactly tells me exactly that: <a href="http://support.apple.com/kb/ht3696">How to tell if your Intel-based Mac has a 32-bit or 64-bit processor</a>]]></content:encoded>
@@ -3895,13 +3895,13 @@ Fortunately, there's a Apple support page which exactly tells me exactly that: <
 	</item>
 	<item>
 		<title>Motorola milestone: frustating as hell</title>
-		<link>https://www.functional-consulting.nl/2010/07/21/motorola-milestone-frustating-as-hell/</link>
+		<link>/2010/07/21/motorola-milestone-frustating-as-hell/</link>
 		<pubDate>Wed, 21 Jul 2010 12:35:40 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=435</guid>
+		<guid isPermaLink="false">/?p=435</guid>
 		<description/>
 		<content:encoded><![CDATA[Since a few weeks I have a Motorola Milestone, the European version of the Motorola Droid. For a small computer/handheld works very well. I can browse, use email, install application, write documents. As a phone the device fails.
-<a href="https://www.functional-consulting.nl/wp-content/uploads/2010/07/Motorola-Milestone-2.jpg"><img class="alignnone size-medium wp-image-438" title="Motorola-Milestone" src="https://www.functional-consulting.nl/wp-content/uploads/2010/07/Motorola-Milestone-2-300x250.jpg" alt="" width="300" height="250" /></a>
+<a href="/wp-content/uploads/2010/07/Motorola-Milestone-2.jpg"><img class="alignnone size-medium wp-image-438" title="Motorola-Milestone" src="/wp-content/uploads/2010/07/Motorola-Milestone-2-300x250.jpg" alt="" width="300" height="250" /></a>
 
 There's a lot of talk about the IPhone 4 supposedly having bad reception. Well, the Motorola Milestone has a problem too. When calling, I very often incidentally put the telephone to mute, which causes the other party not to hear me anymore. This is caused by the mute button in the middle of the touch screen. I often press is that area with my hear while calling, as I have the habit of putting my telephone to my ear... Well apparently few people in Motorola though of that.
 
@@ -3942,10 +3942,10 @@ Well bottom line, <a href="http://www.apple.com/hotnews/openiphoneletter/">Apple
 	</item>
 	<item>
 		<title>Database upgrade during deployment</title>
-		<link>https://www.functional-consulting.nl/2010/07/29/database-upgrade-during-deployment/</link>
+		<link>/2010/07/29/database-upgrade-during-deployment/</link>
 		<pubDate>Thu, 29 Jul 2010 15:33:18 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=446</guid>
+		<guid isPermaLink="false">/?p=446</guid>
 		<description/>
 		<content:encoded><![CDATA[I  want to create an installation package of a Java application. Part of  the installation involves upgrading a SQL database (Oracle) - by running  a few SQL scripts. Creating the SQL scripts to do the update by itself  isn't the problem, however I need to find a way to easily run those  script.
 
@@ -3983,10 +3983,10 @@ I  was about to ask a question on stackoverflow, but before I finished  typing m
 	</item>
 	<item>
 		<title>Google buys Instantiations</title>
-		<link>https://www.functional-consulting.nl/2010/08/11/google-buys-instantiations/</link>
+		<link>/2010/08/11/google-buys-instantiations/</link>
 		<pubDate>Wed, 11 Aug 2010 20:51:12 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=451</guid>
+		<guid isPermaLink="false">/?p=451</guid>
 		<description/>
 		<content:encoded><![CDATA[A while a go I used to do Swing development, and I sometimes used the tool of <a href="http://instantiations.com/">Instantiations </a>to develop my GUI. I quite liked the tool.
 Before that I used Visual Basic and Visual Studio frequently. I never fully understood why people would fiddle so much with pixels, stylesheets, colors etc when you could just design your GUI visually.
@@ -4028,10 +4028,10 @@ I just recently Google bought Instantiations. Will this mean developer productiv
 	</item>
 	<item>
 		<title>Stuff to research: JDO on Cassandra, GIT on Windows, Restlet, VMForce</title>
-		<link>https://www.functional-consulting.nl/2010/07/30/stuff-to-research-jdo-on-cassandra-git-on-windows-restlet-vmforce/</link>
+		<link>/2010/07/30/stuff-to-research-jdo-on-cassandra-git-on-windows-restlet-vmforce/</link>
 		<pubDate>Fri, 30 Jul 2010 22:15:13 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=452</guid>
+		<guid isPermaLink="false">/?p=452</guid>
 		<description/>
 		<content:encoded><![CDATA[Just had evening of just trying out stuff and not finishing anything on my Windows machine.
 
@@ -4046,7 +4046,7 @@ I wanted to try out both, starting with the JDO version, as that seemed  more li
 I'd need a git client on Windows, and apparently there's already a <a href="http://code.google.com/p/tortoisegit/">Tortoise Git client</a>, based on the truly great <a href="http://tortoisesvn.tigris.org/">TortoiseSVN</a>, on of the tools I really miss on my Mac. The client version of git first had to be installed, but that was quite easy as well, just download and install <a href="http://code.google.com/p/msysgit/">msysgit</a>.
 The tortoisegit client looks very well, and seems easy to use. At least I got the code of datanucleus-cassandra in a breeze. Well now it's kind of late, I'll try out later.
 
-<a href="http://commons.wikimedia.org/wiki/File:Hector_Cassandra_Pomarici_Santomasi.jpg"><img class="alignnone size-medium wp-image-456" title="541px-Hector_Cassandra_Pomarici_Santomasi" src="https://www.functional-consulting.nl/wp-content/uploads/2010/07/541px-Hector_Cassandra_Pomarici_Santomasi-270x300.jpg" alt="" width="270" height="300" /></a>
+<a href="http://commons.wikimedia.org/wiki/File:Hector_Cassandra_Pomarici_Santomasi.jpg"><img class="alignnone size-medium wp-image-456" title="541px-Hector_Cassandra_Pomarici_Santomasi" src="/wp-content/uploads/2010/07/541px-Hector_Cassandra_Pomarici_Santomasi-270x300.jpg" alt="" width="270" height="300" /></a>
 
 Other stuff I want to try out: creating a Rest service using <a href="http://wiki.restlet.org/docs_2.0/13-restlet/21-restlet.html">Restlet </a>on Google AppEngine. Just to find out how that works. But later.
 
@@ -4082,14 +4082,14 @@ Finally I saw a demo on <a href="http://www.vmforce.com/">VMForce</a>. Looks ver
 	</item>
 	<item>
 		<title>McDonalds running Linux</title>
-		<link>https://www.functional-consulting.nl/2010/08/05/mcdonalds-running-linux/</link>
+		<link>/2010/08/05/mcdonalds-running-linux/</link>
 		<pubDate>Thu, 05 Aug 2010 20:21:24 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=459</guid>
+		<guid isPermaLink="false">/?p=459</guid>
 		<description/>
 		<content:encoded><![CDATA[A unix like OS on their video-screens outside, in shopping center Hoog Caterijne, Utrecht. At least something else then those Windows 95/98/NT screens I often see running at terminals, when they've crashed.
 
-<a href="/wp-content/uploads/2010/08/2010-08-01_14-54-53_5.jpg"><img class="alignnone wp-image-460 size-medium" title="McDonalds screen" src="https://www.functional-consulting.nl/wp-content/uploads/2010/08/2010-08-01_14-54-53_5-168x300.jpg" alt="" width="168" height="300" /></a>]]></content:encoded>
+<a href="/wp-content/uploads/2010/08/2010-08-01_14-54-53_5.jpg"><img class="alignnone wp-image-460 size-medium" title="McDonalds screen" src="/wp-content/uploads/2010/08/2010-08-01_14-54-53_5-168x300.jpg" alt="" width="168" height="300" /></a>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>459</wp:post_id>
 		<wp:post_date>2010-08-05 21:21:24</wp:post_date>
@@ -4131,10 +4131,10 @@ Finally I saw a demo on <a href="http://www.vmforce.com/">VMForce</a>. Looks ver
 	</item>
 	<item>
 		<title>Wicket Exception when using wrong order in addComponent</title>
-		<link>https://www.functional-consulting.nl/2011/02/19/wicket-exception-when-using-wrong-order-in-addcomponent/</link>
+		<link>/2011/02/19/wicket-exception-when-using-wrong-order-in-addcomponent/</link>
 		<pubDate>Sat, 19 Feb 2011 16:19:01 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=467</guid>
+		<guid isPermaLink="false">/?p=467</guid>
 		<description/>
 		<content:encoded><![CDATA[Today I working on a application that uses the <a href="http://wicket.apache.org/">Wicket framework</a>. I was plagued with the following Exception:
 <pre>WicketMessage: org.apache.wicket.WicketRuntimeException: component myForm:myTable:editor not found on page nl.gerbrand-ict.gui.HomePage[id = 4], listener interface = [RequestListenerInterface name=IActivePageBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
@@ -4263,10 +4263,10 @@ var bol_pml={"id":"bol_1298467075904","secure":false,"baseUrl":"partnerprogramma
 	</item>
 	<item>
 		<title>Creating an ear with version for Weblogic using Maven</title>
-		<link>https://www.functional-consulting.nl/2010/11/12/creating-an-ear-with-version-for-weblogic-using-maven/</link>
+		<link>/2010/11/12/creating-an-ear-with-version-for-weblogic-using-maven/</link>
 		<pubDate>Fri, 12 Nov 2010 10:35:28 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=471</guid>
+		<guid isPermaLink="false">/?p=471</guid>
 		<description/>
 		<content:encoded><![CDATA[Using the <a href="http://maven.apache.org/plugins/maven-ear-plugin/">ear plugin</a> of Maven 2 creating an ear is very easy. The produced ear follows the JEE spec, so you can normally use it in any application server.
 I'm using the ear plugin as well, in my case to be used for Weblogic 9. Weblogic has a feature that allows you to update applications on the fly using the Deployments, update command. However, to be able to use that feature well, the MANIFEST file of the ear has to include a Weblogic specific version field called <em>WebLogic-Application-Version</em>, with a unique version for each ear you'd want to include. Without the version number, Weblogic will list the application twice in the weblogic administration console.
@@ -4461,10 +4461,10 @@ glücklich dass ich beide Sprachen  lesen kann (und ein bisschen schreiben), abe
 	</item>
 	<item>
 		<title>Enabling accesskeys for javascript events</title>
-		<link>https://www.functional-consulting.nl/2010/12/29/enabling-accesskeys-for-general-html-elements/</link>
+		<link>/2010/12/29/enabling-accesskeys-for-general-html-elements/</link>
 		<pubDate>Wed, 29 Dec 2010 16:48:43 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=478</guid>
+		<guid isPermaLink="false">/?p=478</guid>
 		<description/>
 		<content:encoded><![CDATA[Using the <a href="https://developer.mozilla.org/en/XUL/Attribute/accesskey">accesskey</a> attribute, you can enable hotkeys for various html input elements. This allows one to get the focus to an input element by using the ALT-key + &lt;CHARACTER&gt; (on Windows) or CTRL-key + &lt;CHARACTER&gt; (on Mac). This way, your page is accessible by keyboards besides mouse.
 
@@ -4515,10 +4515,10 @@ The javascript is executed when the acesskey is hit, this case an ALT+y on Windo
 	</item>
 	<item>
 		<title>Software engineering is design all the way: code as design</title>
-		<link>https://www.functional-consulting.nl/2011/02/12/articles-that-had-an-influence-on-me-code-as-design/</link>
+		<link>/2011/02/12/articles-that-had-an-influence-on-me-code-as-design/</link>
 		<pubDate>Sat, 12 Feb 2011 21:23:31 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=483</guid>
+		<guid isPermaLink="false">/?p=483</guid>
 		<description/>
 		<content:encoded><![CDATA[Recently I came across an article I remember reading quite some years ago and having quite an influence on my thinking.
 A short summary in my own words. Creating software is usually viewed as a form of engineering, hence the name software engineering.  Engineering consists of designing constructs and building them.<!--more--> What exactly is then programming? In engineering of products like hardware, house-hold devices, bridges, or houses - <em>hard products</em>- first a design is created, then a the actual product is build. How can engineers know if they're design is correct? They create mock-ups, use calculations and their knowledge to verify correctness of their design (nowadays usually with help of software) and show mock-ups and visualizations of design to end-users, product managers, marketing or other people involved.
@@ -4554,10 +4554,10 @@ See <a href="http://www.developerdotstar.com/mag/articles/reeves_design_main.htm
 	</item>
 	<item>
 		<title>JavaFX 2.0</title>
-		<link>https://www.functional-consulting.nl/2011/02/18/javafx-2-0-by-roger-brinkley/</link>
+		<link>/2011/02/18/javafx-2-0-by-roger-brinkley/</link>
 		<pubDate>Fri, 18 Feb 2011 22:01:27 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=495</guid>
+		<guid isPermaLink="false">/?p=495</guid>
 		<description/>
 		<content:encoded><![CDATA[Yesterday I attended a <a href="http://www.nljug.org/">NLJug </a>meeting at Oracle at De Meern on <a href="http://javafx.com/">JavaFX</a>, called '<a href="http://www.nljug.org/pages/events/content/university_20110217/">JavaFX 2.0 EA</a>'. The meeting was presented by Roger Brinkley, who's a called 'Community leader', of Mobile and Embedded. That he was formally part of Sun wasn't hard to see based on his clothing and style.
 
@@ -4815,10 +4815,10 @@ I need this translator to migrate from javafx script to JavaFX 2.0!]]></wp:comme
 	</item>
 	<item>
 		<title>Slow right click on Windows</title>
-		<link>https://www.functional-consulting.nl/2011/06/19/slow-right-click-on-windows/</link>
+		<link>/2011/06/19/slow-right-click-on-windows/</link>
 		<pubDate>Sun, 19 Jun 2011 07:12:44 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=544</guid>
+		<guid isPermaLink="false">/?p=544</guid>
 		<description/>
 		<content:encoded><![CDATA[Besides by Mac laptop I have a Windows desktop at home. Windows 7 is all in all quite a nice OS. However, after using Windows for a while, Windows seems to start degrading. Of course one solution is to reinstall Windows, but that's not exactly a clean solution. I wanted to know the source why Windows seems so slow. Better investigation seems the only problem is the File Explorer, especially when using the context menu/right clicking on a file.
 This led me to think some third shell extension for the explorer might be the cause.
@@ -4849,13 +4849,13 @@ After some google'ing I found this nice article: <a href="http://windowsxp.mvps.
 	</item>
 	<item>
 		<title>OpenID from my website</title>
-		<link>https://www.functional-consulting.nl/2011/06/23/openid-from-my-website/</link>
+		<link>/2011/06/23/openid-from-my-website/</link>
 		<pubDate>Thu, 23 Jun 2011 08:07:03 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=558</guid>
+		<guid isPermaLink="false">/?p=558</guid>
 		<description/>
 		<content:encoded><![CDATA[A lot of websites now provide a way to authenticate yourself via <a href="http://openid.net/">OpenID</a>. That way, you don't have to remember a separate username and password to login to such a website, while still being secure.
-The only challenge in using openid is remembering your openid URL, because there are quite a few possible openid providers. I currently can choose from (amongst others) <a href="http://code.google.com/intl/nl/apis/accounts/docs/OpenID.html">Google</a>, <a href="http://www.yahoo.com">Yahoo</a>, <a href="http://mijnopenid.nl/">mijnopenid.nl</a>, <a href="https://www.functional-consulting.nl/2009/04/hyves-now-also-openid-provider/">hyves.nl</a> and quite a few others. Instead of remembering the username/password you have to remember which openid provider you've used for what account - which I think is the reason other authentication mechanism as <a href="http://developers.facebook.com/blog/post/108/">facebook's connect a</a>re becoming more popular. I'll write about that later, in this page I just want to explain how I made my homepage, http://www.gerbrand-ict.nl an openid provider.
+The only challenge in using openid is remembering your openid URL, because there are quite a few possible openid providers. I currently can choose from (amongst others) <a href="http://code.google.com/intl/nl/apis/accounts/docs/OpenID.html">Google</a>, <a href="http://www.yahoo.com">Yahoo</a>, <a href="http://mijnopenid.nl/">mijnopenid.nl</a>, <a href="/2009/04/hyves-now-also-openid-provider/">hyves.nl</a> and quite a few others. Instead of remembering the username/password you have to remember which openid provider you've used for what account - which I think is the reason other authentication mechanism as <a href="http://developers.facebook.com/blog/post/108/">facebook's connect a</a>re becoming more popular. I'll write about that later, in this page I just want to explain how I made my homepage, http://www.gerbrand-ict.nl an openid provider.
 Very simple:
 <ul>
 	<li>My homepage is running <a href="http://wordpress.org/">Wordpress</a>, a popular open source weblog.</li>
@@ -4888,10 +4888,10 @@ Very simple:
 	</item>
 	<item>
 		<title>Serializable Exception in Java</title>
-		<link>https://www.functional-consulting.nl/2011/07/23/serializable-exception-in-java/</link>
+		<link>/2011/07/23/serializable-exception-in-java/</link>
 		<pubDate>Sat, 23 Jul 2011 20:07:21 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=563</guid>
+		<guid isPermaLink="false">/?p=563</guid>
 		<description/>
 		<content:encoded><![CDATA[When  you use Wicket as webfrontend framework to build your application, sooner or later you'll encounter the NotSerializableException. This is because Wicket will want to serialize any state you have into a HTTPSession. In Wicket, the first three pages are usually in memory too, so you could ignore the exception for a while, but of course this will fail immediately in case use want to use your webapplication in a clustered configuration. Not to mention you should never ignore Exceptions anyway.
 
@@ -4939,10 +4939,10 @@ Although I haven't tried, enabling this option in production is most likely a ba
 	</item>
 	<item>
 		<title>Diginotar</title>
-		<link>https://www.functional-consulting.nl/2011/09/20/diginotar/</link>
+		<link>/2011/09/20/diginotar/</link>
 		<pubDate>Tue, 20 Sep 2011 21:58:35 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=572</guid>
+		<guid isPermaLink="false">/?p=572</guid>
 		<description/>
 		<content:encoded><![CDATA[I just updated my (virtual) server, on which this weblog is running too. The update log was rather interesting this time:
 <pre>Setting up tzdata-java (2011j-0ubuntu0.11.04) ...
@@ -4991,7 +4991,7 @@ For more information, I found the following <a href="http://uscyberlabs.com/blog
 			<wp:comment_author_IP>70.39.249.136</wp:comment_author_IP>
 			<wp:comment_date>2011-09-21 04:15:25</wp:comment_date>
 			<wp:comment_date_gmt>2011-09-21 03:15:25</wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[[...] More information can be found about this hack -https://www.functional-consulting.nl/2011/09/diginotar/ [...]]]></wp:comment_content>
+			<wp:comment_content><![CDATA[[...] More information can be found about this hack -/2011/09/diginotar/ [...]]]></wp:comment_content>
 			<wp:comment_approved>1</wp:comment_approved>
 			<wp:comment_type>pingback</wp:comment_type>
 			<wp:comment_parent>0</wp:comment_parent>
@@ -5017,7 +5017,7 @@ For more information, I found the following <a href="http://uscyberlabs.com/blog
 			<wp:comment_author_IP>70.39.249.136</wp:comment_author_IP>
 			<wp:comment_date>2011-09-21 04:17:30</wp:comment_date>
 			<wp:comment_date_gmt>2011-09-21 03:17:30</wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[[...] More information can be found about this hack @ -https://www.functional-consulting.nl/2011/09/diginotar/ [...]]]></wp:comment_content>
+			<wp:comment_content><![CDATA[[...] More information can be found about this hack @ -/2011/09/diginotar/ [...]]]></wp:comment_content>
 			<wp:comment_approved>1</wp:comment_approved>
 			<wp:comment_type>pingback</wp:comment_type>
 			<wp:comment_parent>0</wp:comment_parent>
@@ -5038,10 +5038,10 @@ For more information, I found the following <a href="http://uscyberlabs.com/blog
 	</item>
 	<item>
 		<title>Databases on SSD</title>
-		<link>https://www.functional-consulting.nl/2011/10/12/databases-on-ssd/</link>
+		<link>/2011/10/12/databases-on-ssd/</link>
 		<pubDate>Wed, 12 Oct 2011 18:34:47 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=574</guid>
+		<guid isPermaLink="false">/?p=574</guid>
 		<description/>
 		<content:encoded><![CDATA[SSD disk are becoming increasingly popular. As they read faster, you might consider running databases such as Oracle DBMS, MySQL or non-sql databases. However, interestingly, originally databases are optimized for tradition hard drives with spinning disks: most importantly: data is read in small chunks, and sequential reads are faster than random reads. I can't remember everything anymore, but I do remember doing calculations on various reading/writing algorithms during my university days.
 For SSD's this model doesn't hold anymore: this blog posting shortly explains why: <a href="http://www.acunu.com/blogs/irit-katriel/theoretical-model-writes-ssds/">Why theory fails for SSDs</a> There's no difference, if I understand correctly between random reads and sequential reads. However writes are much slower. Also SSD's have to calculate the physical address for every different read or write access. Meaning if you read a different part of the disk continuously, this will be slower then reading in the same pattern again and again.
@@ -5075,10 +5075,10 @@ Of course the theory doesn't fail, but it just doesn't apply to SSD :-).]]></con
 	</item>
 	<item>
 		<title>Money waste at the government</title>
-		<link>https://www.functional-consulting.nl/2011/10/18/money-waste-at-the-government/</link>
+		<link>/2011/10/18/money-waste-at-the-government/</link>
 		<pubDate>Tue, 18 Oct 2011 14:10:32 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=579</guid>
+		<guid isPermaLink="false">/?p=579</guid>
 		<description/>
 		<content:encoded><![CDATA[The (Dutch) website Computable has a <a href="http://www.computable.nl/artikel/ict_topics/overheid/4230545/1277202/rijk-verspeelt-doelbewust-5-miljard-euro-aan-ict.html">interesting article</a> on how awful it is the government wastes enormous amounts of money on it-projects. With that regard a report by System Error on the UK government who are (were?) equally awful is still a good read: <a href="http://www.instituteforgovernment.org.uk/publications/23/">Fixing the flaws in government IT</a>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5108,10 +5108,10 @@ Of course the theory doesn't fail, but it just doesn't apply to SSD :-).]]></con
 	</item>
 	<item>
 		<title>Filesystem notifications in Java</title>
-		<link>https://www.functional-consulting.nl/2012/05/08/filesystem-notifications-in-java/</link>
+		<link>/2012/05/08/filesystem-notifications-in-java/</link>
 		<pubDate>Tue, 08 May 2012 15:48:54 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=591</guid>
+		<guid isPermaLink="false">/?p=591</guid>
 		<description/>
 		<content:encoded><![CDATA[Inspired by an OS that went in oblivion some years ago (BeOS) operating systems as Windows, Linux and MacOS all have ways to monitor directories for changes built into the filesystem: meaning if a directory is changed because a file or directory is added, removed or changed you can get an event. There's need for running a program that periodically monitors the directory (nor does the OS do that, it's build into the filesystem). Software like Dropbox and other filesyncing products use this, so whenever you change or update a file it's immediately updated to the 'cloud'.
 The name of the API's for the listed OS's are:
@@ -5150,12 +5150,12 @@ There are a number of open source libraries that allow you to use that API in Ja
 	</item>
 	<item>
 		<title>Lean overheid</title>
-		<link>https://www.functional-consulting.nl/2012/05/09/lean-overheid/</link>
+		<link>/2012/05/09/lean-overheid/</link>
 		<pubDate>Wed, 09 May 2012 11:11:49 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=594</guid>
+		<guid isPermaLink="false">/?p=594</guid>
 		<description/>
-		<content:encoded><![CDATA[<p>Quite a while, my top posting was about <a href="https://www.functional-consulting.nl/2011/10/money-waste-at-the-government/" title="Money waste at the government">waste at the government</a>.  Now something more positive on waste, and other lean subjects: I recently read the book '<a href="http://partner.bol.com/click/click?p=1&s=2396&t=p&sec=books-nl&pid=9200000001057519&f=PDL&name=leanoverheid">Een lean overheid</a>'. The book is in Dutch, and gives a nice introduction on using Lean in government organizations.
+		<content:encoded><![CDATA[<p>Quite a while, my top posting was about <a href="/2011/10/money-waste-at-the-government/" title="Money waste at the government">waste at the government</a>.  Now something more positive on waste, and other lean subjects: I recently read the book '<a href="http://partner.bol.com/click/click?p=1&s=2396&t=p&sec=books-nl&pid=9200000001057519&f=PDL&name=leanoverheid">Een lean overheid</a>'. The book is in Dutch, and gives a nice introduction on using Lean in government organizations.
 Unlike other lean books, translated to Dutch or not, it's written specifically for the Dutch government. I guess most of this information is relevant for Dutch speaking readers, for those that speak English only: I am very fond of using lean at the government. Some people at the UK government seems to be getting it, as well as the US government. Hopefully the government in the Netherlands catches up soon!</p>
 ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5183,10 +5183,10 @@ Unlike other lean books, translated to Dutch or not, it's written specifically f
 	</item>
 	<item>
 		<title>Gesture</title>
-		<link>https://www.functional-consulting.nl/2012/10/08/gesture/</link>
+		<link>/2012/10/08/gesture/</link>
 		<pubDate>Mon, 08 Oct 2012 20:06:56 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=599</guid>
+		<guid isPermaLink="false">/?p=599</guid>
 		<description/>
 		<content:encoded><![CDATA[Lots of SF movies and futerist though that the future interface of the computer would be voice: talking to your computer like it was a human. Nothing less is true: the future are gestures to the computer? Why, now that people have smartphones, they could communicate with each other using video-calls - the videophone of the past. Rather than that, many people just post text messages to each other. People prefer to text to other people, why would they even use voice to talk to a computer?
 
@@ -5217,10 +5217,10 @@ A few start-ups already have the technology available: <a href="http://www.techn
 	</item>
 	<item>
 		<title>Hoe je baan te behouden bij introductie van Agile</title>
-		<link>https://www.functional-consulting.nl/2012/11/18/hoe-je-baan-te-behouden-bij-introductie-van-agile/</link>
+		<link>/2012/11/18/hoe-je-baan-te-behouden-bij-introductie-van-agile/</link>
 		<pubDate>Sun, 18 Nov 2012 10:20:58 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=606</guid>
+		<guid isPermaLink="false">/?p=606</guid>
 		<description/>
 		<content:encoded><![CDATA[De organisatie waarvoor je werkt besluit Agile te worden. Dat klinkt eng! Ongetwijfeld betekent dat een reorganisatie en dus dat mensen ontslagen worden. In deze tijden van economische tegenspoed zou het jammer zijn als mensen zonder baan komen te zitten, dus laten we eens kijken wat mensen in de softwarewereld, die gewend zijn aan Waterfall, PRINCE2, TMAP of CMMI zouden kunnen doen als hun organisatie besluit Agile te worden.
 <!--more-->
@@ -5270,10 +5270,10 @@ Agile software development omvat dus meer dan iedere dag een stand up houden of 
 	</item>
 	<item>
 		<title>Friend of Eclipse</title>
-		<link>https://www.functional-consulting.nl/2013/06/26/friend-of-eclipse/</link>
+		<link>/2013/06/26/friend-of-eclipse/</link>
 		<pubDate>Wed, 26 Jun 2013 08:53:46 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=611</guid>
+		<guid isPermaLink="false">/?p=611</guid>
 		<description/>
 		<content:encoded><![CDATA[I just became friend of Eclipse. The new version <a href="http://projects.eclipse.org/releases/kepler">Kepler </a>is available for friends of <a href="http://www.eclipse.org/downloads/">Eclipse</a>, which is a good reason to do something I planned to do before.
 
@@ -5309,10 +5309,10 @@ Agile software development omvat dus meer dan iedere dag een stand up houden of 
 	</item>
 	<item>
 		<title>SQL Performance</title>
-		<link>https://www.functional-consulting.nl/2014/02/27/sql-performance/</link>
+		<link>/2014/02/27/sql-performance/</link>
 		<pubDate>Thu, 27 Feb 2014 14:41:46 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=620</guid>
+		<guid isPermaLink="false">/?p=620</guid>
 		<description/>
 		<content:encoded><![CDATA[If you have to access persisted data, of course, you do not have to necessarely use SQL. But in case you do, knowing something about SQL-performance helps.
 I just did a this <a href="http://use-the-index-luke.com/3-minute-test">3-minute test</a> on SQL performance (for Oracle), with <a href="http://use-the-index-luke.com/3-minute-test/oracle?quizkey=25f289f14109a401df2199aa2ce582fc">4/5 score</a>. Pretty fine.
@@ -5353,10 +5353,10 @@ The answer I failed was <a href="http://use-the-index-luke.com/sql/where-clause/
 	</item>
 	<item>
 		<title>Scala to extract XML from SOAPUI-project file</title>
-		<link>https://www.functional-consulting.nl/2014/03/21/scala-to-extract-xml/</link>
+		<link>/2014/03/21/scala-to-extract-xml/</link>
 		<pubDate>Fri, 21 Mar 2014 08:35:37 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=627</guid>
+		<guid isPermaLink="false">/?p=627</guid>
 		<description/>
 		<content:encoded><![CDATA[I've created a small scala-script to extract messages from SOAPUI. Writing this was surprisingly easy, and certainly faster and more pleasant then processing the SOAPUI manually.
 <script src="https://gist.github.com/gerbrand/9681875.js"></script>]]></content:encoded>
@@ -5411,16 +5411,16 @@ The answer I failed was <a href="http://use-the-index-luke.com/sql/where-clause/
 	</item>
 	<item>
 		<title>Demonstrating using GWT-RequestFactory and Spring togetter</title>
-		<link>https://www.functional-consulting.nl/2014/03/24/demonstrating-gwt-requestfactory-and-spring/</link>
+		<link>/2014/03/24/demonstrating-gwt-requestfactory-and-spring/</link>
 		<pubDate>Mon, 24 Mar 2014 13:29:52 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=634</guid>
+		<guid isPermaLink="false">/?p=634</guid>
 		<description/>
 		<content:encoded><![CDATA[I present a <a href="https://github.com/gerbrand/gwt-dynatablerf-spring">sample-project</a> that demonstrates using the GWT RequestFactory together with Spring.
 <!--more-->
 <p>
 GWT, the <a href="http://www.gwtproject.org/">Webapplication Toolkit</a> formerly <a href="http://www.infoworld.com/d/application-development/google-hands-over-control-of-google-web-toolkit-steering-committee-196753">owned/led</a> by Google allows you to write single-page, client-side webapplications fully in Java. Older versions of GWT only allowed communication with the client via <a href="http://www.gwtproject.org/doc/latest/tutorial/RPC.html">RPC</a>, which has quite a few drawbacks. Using RPC may lead to unresponsive design as it tries to hide that you're communicating over an unreliable (internet)connection. Also RPC can quickly result in ugly mixture of back- and frontend-code.</p><p>Since recent years in GWT you can also use the <a href="http://www.gwtproject.org/doc/latest/DevGuideRequestFactory.html">RequestFactory (RF)</a> for client/server communication. RF allows for a better separation of the client/server code and enforces better design of client/server communication.<br/>The GWT-SDK ships with a sample project, <a href="https://code.google.com/p/google-web-toolkit/source/browse/trunk/samples/dynatablerf/">DynaTableRF</a> which demonstrate how to use the RequestFactory. Integrating the RF back-end technologies such as JEE and <a href="http://spring.io/">Spring</a> is not as straight-forward as the sample-project suggested. So I've extended the sample-project to use Spring. The sample-project <a href="https://github.com/gerbrand/gwt-dynatablerf-spring">gwt-dynatablerf-spring</a> can be found at my Github-page</a>.</p>
-<p>I hope you find the sample-project useful. If you have any questions or remarks, feel free to <a href="https://www.functional-consulting.nl/contact/" title="Contact">contact</a> me.</p>]]></content:encoded>
+<p>I hope you find the sample-project useful. If you have any questions or remarks, feel free to <a href="/contact/" title="Contact">contact</a> me.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>634</wp:post_id>
 		<wp:post_date>2014-03-24 14:29:52</wp:post_date>
@@ -5461,10 +5461,10 @@ GWT, the <a href="http://www.gwtproject.org/">Webapplication Toolkit</a> formerl
 	</item>
 	<item>
 		<title>Going to do functional programming</title>
-		<link>https://www.functional-consulting.nl/2014/05/24/going-to-do-functional-programming/</link>
+		<link>/2014/05/24/going-to-do-functional-programming/</link>
 		<pubDate>Sat, 24 May 2014 22:01:38 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=656</guid>
+		<guid isPermaLink="false">/?p=656</guid>
 		<description/>
 		<content:encoded><![CDATA[I've learned about functional programming during my university years, with <a href="http://www.haskell.org/">Haskell</a> as primary language. I considered functional programming as quite elegant, but also impractical. I felt I could get practical results more quickly when using Java or C# than using Haskell. Sometimes I used functional constructs like immutability, separating action from calculation or transforming and trying to limit the side-effects of functions. Usually this ended up in remarks from colleagues, ranging from 'just accept java isn't functional' to 'I don't understand this code'.
 
@@ -5599,10 +5599,10 @@ I'm not quite sure yet how to make the time for it though. Professionally, I don
 	</item>
 	<item>
 		<title>Functional programming in Scala</title>
-		<link>https://www.functional-consulting.nl/2014/12/15/functional-programming-in-scala/</link>
+		<link>/2014/12/15/functional-programming-in-scala/</link>
 		<pubDate>Mon, 15 Dec 2014 08:59:23 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=666</guid>
+		<guid isPermaLink="false">/?p=666</guid>
 		<description/>
 		<content:encoded><![CDATA[I've completed the Coursera course <a href="https://class.coursera.org/progfun-005/">Functional Programming Principles in Scala</a>, with a <a href="https://coursera.org/verify/GVBCD4J8XX">Verified certificate</a>! Going through the course was a nice experience. It felt a-lot like the university years, including even finishing assignments at the last moment.. Even though I already experience on functional programming and some in <a href="http://www.scala-lang.org/">Scala</a>, I did learn quite a lot. The course was a refresher on functional programming, which I learned at the university. Also, some functional programming principles I knew how to apply in <a href="https://www.haskell.org/">Haskell</a>, now I know how to use them in Scala.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -5649,10 +5649,10 @@ I'm not quite sure yet how to make the time for it though. Professionally, I don
 	</item>
 	<item>
 		<title>Hoe kijk jij tegen softwareontwikkeling aan?</title>
-		<link>https://www.functional-consulting.nl/2015/04/27/hoe-kijk-jij-tegen-software/</link>
+		<link>/2015/04/27/hoe-kijk-jij-tegen-software/</link>
 		<pubDate>Mon, 27 Apr 2015 18:55:09 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=676</guid>
+		<guid isPermaLink="false">/?p=676</guid>
 		<description/>
 		<content:encoded><![CDATA[Wat is software, hoe creëer je nieuwe programma's? Wat is programmeren? Hoe iemand tegen softwareontwikkeling kijkt, bepaalt veel hoe iemand tegen problemen en uitdagingen in de IT kijkt. Voor sommige is falen van it-projecten en kwestie van beter plannen, voor ander zijn projecten inherent de oorzaak aan falen. Sommige vragen zich af hoe je agile kan schalen, andere vragen zich af hoe je schaalbare software maakt.
 
@@ -5879,10 +5879,10 @@ Agile softwareontwikkeling, invoeren van lean, scrum, en vele gerelateerde idee�
 	</item>
 	<item>
 		<title>Online diary on the fly</title>
-		<link>https://www.functional-consulting.nl/2015/05/13/online-diary/</link>
+		<link>/2015/05/13/online-diary/</link>
 		<pubDate>Wed, 13 May 2015 14:36:51 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=692</guid>
+		<guid isPermaLink="false">/?p=692</guid>
 		<description/>
 		<content:encoded><![CDATA[For quite a while I just to have digital personal diary. First as a text file stored in my computer, occasionally backed up on cd. Then I switched to <a href="http://ohlife.com/">ohlife.com</a>. I liked the clean interface and the fact that you'd get reminder mails you could just reply to create a new entry. Most of those reminders I just deleted I noticed. Ohlife shut down last year. Fortunately the creators allowed you to download a backup of all your entries so no content is lost.
 Since then I don't keep a personal diary. I do post occasionally on <a href="https://twitter.com/gerbrandvd">twitter</a> as well as lots of other social media or as it just to be called <a href="https://en.wikipedia.org/wiki/World_Wide_Web">word wide web</a>. My calendar is on <a href="https://www.google.com/calendar">google</a>, just as my mail and part of my documents. Besides that my photos and other documents are stored on my own laptop - not stored on any cloud (at least not that I know of), but synced via <a href="https://syncthing.net/">syncthing</a> in case I lose my laptop. I create notes on <a href="https://evernote.com">evernote</a>, store articles I might want to read on <a href="https://getpocket.com">getpocket</a>, and sometimes publish code on <a href="https://github.com/">github</a>, <a href="https://bitbucket.org/">bitbucket</a> or other hosted code services. And of course most of my activity is tracked by <a href="https://maps.google.com/locationhistory">Google</a>, Facebook and probably other organizations I know or not know of.
@@ -5955,12 +5955,12 @@ I wonder if something like that already exist?]]></content:encoded>
 	</item>
 	<item>
 		<title>Joy of coding, property-based testing</title>
-		<link>https://www.functional-consulting.nl/2015/05/31/joy-of-coding-property-based-testing/</link>
+		<link>/2015/05/31/joy-of-coding-property-based-testing/</link>
 		<pubDate>Sun, 31 May 2015 18:49:26 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=706</guid>
+		<guid isPermaLink="false">/?p=706</guid>
 		<description/>
-		<content:encoded><![CDATA[Afgelopen vrijdag heb ik <a href="http://joyofcoding.org/">Joy of Coding</a> bezocht, een conferentie voor programmeurs. Ik wilde met name John Hughes horen, onder meer bekend van de paper '<a href="http://www.cse.chalmers.se/~rjmh/Papers/whyfp.html">Why functional programming matters</a>' (uit 1984 !). In dit artikel een verslag van zijn sessie over property-based testing, <strong><a href="https://www.functional-consulting.nl/2015/05/joy-of-coding-property-based-testing/">Joy of Testing</a></strong>.
+		<content:encoded><![CDATA[Afgelopen vrijdag heb ik <a href="http://joyofcoding.org/">Joy of Coding</a> bezocht, een conferentie voor programmeurs. Ik wilde met name John Hughes horen, onder meer bekend van de paper '<a href="http://www.cse.chalmers.se/~rjmh/Papers/whyfp.html">Why functional programming matters</a>' (uit 1984 !). In dit artikel een verslag van zijn sessie over property-based testing, <strong><a href="/2015/05/joy-of-coding-property-based-testing/">Joy of Testing</a></strong>.
 <!--more-->
 Bij Rotterdam cs was niet moeilijk om de juiste bus naar de conferentie te vinden, andere conferentiebezoekers waren makkelijk bij een bushalte te herkennen.
 
@@ -6031,7 +6031,7 @@ Binnenkort vervolg van dit artikel, met verslag van andere interessante sessies 
 	</item>
 	<item>
 		<title>Scala Days 2015 Amsterdam</title>
-		<link>https://www.functional-consulting.nl/2015/06/24/scala-days-2015-amsterdam/</link>
+		<link>/2015/06/24/scala-days-2015-amsterdam/</link>
 		<pubDate>Wed, 24 Jun 2015 11:50:11 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://functional-consulting.nl/?p=726</guid>
@@ -6120,7 +6120,7 @@ I'll write more on what I've learned soon. For now, if you want to know somethin
 	</item>
 	<item>
 		<title>Hallo wereld!</title>
-		<link>https://www.functional-consulting.nl/2015/08/24/hallo-wereld/</link>
+		<link>/2015/08/24/hallo-wereld/</link>
 		<pubDate>Mon, 24 Aug 2015 07:35:51 +0000</pubDate>
 		<dc:creator><![CDATA[gerbrand]]></dc:creator>
 		<guid isPermaLink="false">http://functional-consulting.nl.webhosting117.transurl.nl/?p=1</guid>
@@ -6170,10 +6170,10 @@ Reacties verwijderen kan door in te loggen en de reacties op de berichten te bek
 	</item>
 	<item>
 		<title>Cluster at home</title>
-		<link>https://www.functional-consulting.nl/2015/08/24/cluster-at-home/</link>
+		<link>/2015/08/24/cluster-at-home/</link>
 		<pubDate>Mon, 24 Aug 2015 07:42:44 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=740</guid>
+		<guid isPermaLink="false">/?p=740</guid>
 		<description/>
 		<content:encoded><![CDATA[When I was a student I had old desktop computer in running in the closet which acted as a server. The server hosted my homepage, email-domain, fileserver and sort of cloud storage. The internet-connection, being part of the university's campus network was very fast and reliable. Of course the set up could occasionally fail some component of my desktop failed or someone accidentally unplugged the server to use the vacuum cleaner.
 
@@ -6210,10 +6210,10 @@ When I wanted my email to be a bit more reliable, rather then spending time on s
 	</item>
 	<item>
 		<title>Bunq, Dutch startup with banking license</title>
-		<link>https://www.functional-consulting.nl/2015/08/26/bunq-nederlandse-startup-met-bankvergunning/</link>
+		<link>/2015/08/26/bunq-nederlandse-startup-met-bankvergunning/</link>
 		<pubDate>Wed, 26 Aug 2015 11:53:45 +0000</pubDate>
 		<dc:creator><![CDATA[gerbrand]]></dc:creator>
-		<guid isPermaLink="false">https://www.functional-consulting.nl/?p=747</guid>
+		<guid isPermaLink="false">/?p=747</guid>
 		<description/>
 		<content:encoded><![CDATA[<a href="http://www.dnb.nl/toezichtprofessioneel/de-consument-en-toezicht/registers/WFTDG/detail.jsp?id=c9dc52ce0358e311b55a005056b672cf">A Dutch start-up has a banking licence</a>: <strong><a href="https://www.bunq.com/nl/">Bunq</a></strong>. According to their <a href="https://www.bunq.com/nl/blog">blog</a> they use <a href="https://www.bunq.com/nl/blog/phava-by-bunq/">Object-Oriented PHP as language</a> of choice, which get me more worried than excited. Nevertheless, quite cool that a startup is going to challenge the Dutch banking world. I am looking forward to what they accomplish.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
