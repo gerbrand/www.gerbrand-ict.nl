@@ -1,25 +1,12 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Static website using Jekyll"
 date:   2015-09-15 12:41:04
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+In my daily work I frequently use build-tools such as [Maven](http://maven.apache.org), [Sbt](http://www.scala-sbt.org/), [Meteor](https://www.meteor.com) (sigh) and version-control software such as Git.  Blogging on Wordpress always feels like a step back. My content is in a database with its own versioning control and can only be maintained and added by the Wordpress software itself. Wordpress and plugins are hard to maintain, the only way to update reasonable easy is by using the Wordpress software itself and let PHP overwrite files.
 
-Jekyll also offers powerful support for code snippets:
+So today I moved my homepage to git, and I started using a static website generator. I didn't want to spent to much time on choosing the best static website generator. After all, using static files should give me more flexibility to change later on. I did want to import all my Wordpress-posts and pages. On [this website](https://www.staticgen.com/) I found a nice overview of static generators. Tried Hexo first as this one runs on Node and was in the top 4. Hexo works pretty nice. Wordpress import works reasonable well. However Hexo seems a bit Asian oriented, when using an unrecognized language such as Dutch, it switches to Chinese, specifically [Taiwan](https://en.wikipedia.org/wiki/Zh-TW). Not hard to fix - either add translations myself or update the default locale in the configuration, but still I decided to switch to the most popular static website-generator: [jekyll](http://jekyllrb.com)
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+I exported my original Wordpress site using Wordpress' export functionality. Fixed the export-xml by making links relative. After that I could convert the xml file to markdown files using [https://github.com/thomasf/exitwp](exitwp). To avoid a hassle, I just downloaded the complete wp-content/uploads dir as is so I didn't have to update any links to uploaded images or other files.
