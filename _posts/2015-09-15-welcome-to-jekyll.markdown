@@ -10,8 +10,12 @@ So today I moved my homepage to git, and I started using a static website genera
 
 I exported my original Wordpress site using Wordpress' export functionality. Fixed the export-xml by making links relative. After that I could convert the xml file to markdown files using [https://github.com/thomasf/exitwp](exitwp). To avoid a hassle, I just downloaded the complete wp-content/uploads dir as is so I didn't have to update any links to uploaded images or other files.
 
-Comments I had already hosted in [Disqus](https://www.disqus.com), so adding them was quite easy by just adding the [universalcode](https://gerbrandsblog.disqus.com/admin/universalcode/) in the post.html template. The only minor change was a modification in the disqus_url to comments to load regardless of the appended html extensions or local domain:
+All imported pages got the catagory added to the url, and .html exension. This would make all urls different from my original wordpress-blog, which would probably result in a lot of 404s. Fortunately there's an easy fix, by adding the following in the `_config.yml` file.
 
-``var disqus_url = 'https://www.gerbrand-ict.nl'+window.location.pathname.replace('.html','')+'/';``
+``permalink: /:year/:month/:day/:title/``
+
+Comments I had already hosted in [Disqus](https://www.disqus.com), so adding them was quite easy by adding the [universalcode](https://gerbrandsblog.disqus.com/admin/universalcode/) in the post.html template. The only minor change was a modification in the disqus_url to comments to load regardless of local domain:
+
+``var disqus_url = 'https://www.functional-consulting.nl'+window.location.pathname;``
 
 For more details, just look at my github repo.
