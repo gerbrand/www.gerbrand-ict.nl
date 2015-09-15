@@ -6,6 +6,7 @@ layout: post
 slug: online-diary
 title: Online diary on the fly
 wordpress_id: 692
+categories:
 - Ideas
 tags:
 - blockchain

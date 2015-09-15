@@ -6,7 +6,8 @@ layout: post
 slug: very-old-accounts
 title: Very old accounts
 wordpress_id: 397
-
+categories:
+- Various
 ---
 
 I've been on the Internet since 1997. I was also on [Fidonet](http://www.fidonet.org/) since 1995, until I got high speed internet (2Mbit shared) in 2000.

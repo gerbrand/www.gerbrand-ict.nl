@@ -6,7 +6,8 @@ layout: post
 slug: jboss-on-linux
 title: JBoss on Linux
 wordpress_id: 342
-
+categories:
+- Technology
 tags:
 - java
 - jboss

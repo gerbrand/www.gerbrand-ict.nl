@@ -6,6 +6,7 @@ layout: post
 slug: money-waste-at-the-government
 title: Money waste at the government
 wordpress_id: 579
+categories:
 - Ideas
 tags:
 - agile

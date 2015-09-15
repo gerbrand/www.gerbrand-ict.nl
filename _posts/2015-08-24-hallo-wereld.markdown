@@ -7,6 +7,7 @@ published: false
 slug: hallo-wereld
 title: Hallo wereld!
 wordpress_id: 1
+categories:
 - Geen categorie
 ---
 

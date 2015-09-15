@@ -6,7 +6,8 @@ layout: post
 slug: jfall-report
 title: JFall report
 wordpress_id: 368
-
+categories:
+- Reviews
 tags:
 - concurrency
 - java

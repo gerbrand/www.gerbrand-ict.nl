@@ -6,7 +6,8 @@ layout: post
 slug: frustation-on-jboss
 title: Frustation on JBoss
 wordpress_id: 82
-
+categories:
+- Reviews
 tags:
 - java
 - jboss

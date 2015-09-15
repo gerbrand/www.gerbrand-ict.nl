@@ -6,7 +6,8 @@ layout: post
 slug: combining-flex-and-scala-using-liftweb-and-blazeds
 title: Combining Flex and Scala using Liftweb and BlazeDS
 wordpress_id: 64
-
+categories:
+- Technology
 tags:
 - flex
 - scala

@@ -6,6 +6,9 @@ layout: post
 slug: joy-of-coding-property-based-testing
 title: Joy of coding, property-based testing
 wordpress_id: 706
+categories:
+- Various
+- Various @nl
 tags:
 - haskell
 - joyofcoding

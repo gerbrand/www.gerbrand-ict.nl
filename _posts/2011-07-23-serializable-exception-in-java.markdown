@@ -6,7 +6,8 @@ layout: post
 slug: serializable-exception-in-java
 title: Serializable Exception in Java
 wordpress_id: 563
-
+categories:
+- Reviews
 tags:
 - java
 - wicket

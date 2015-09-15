@@ -6,7 +6,8 @@ layout: post
 slug: diginotar
 title: Diginotar
 wordpress_id: 572
-
+categories:
+- Various
 ---
 
 I just updated my (virtual) server, on which this weblog is running too. The update log was rather interesting this time:

@@ -6,7 +6,8 @@ layout: post
 slug: breaking-sms-security
 title: Breaking SMS security
 wordpress_id: 291
-
+categories:
+- Various
 tags:
 - security
 ---

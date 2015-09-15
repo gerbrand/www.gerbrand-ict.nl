@@ -6,7 +6,8 @@ layout: post
 slug: wicket-exception-when-using-wrong-order-in-addcomponent
 title: Wicket Exception when using wrong order in addComponent
 wordpress_id: 467
-
+categories:
+- Technology
 tags:
 - java
 - wicket
@@ -14,11 +15,11 @@ tags:
 
 Today I working on a application that uses the [Wicket framework](http://wicket.apache.org/). I was plagued with the following Exception:
 
-
+    
     WicketMessage: org.apache.wicket.WicketRuntimeException: component myForm:myTable:editor not found on page nl.gerbrand-ict.gui.HomePage[id = 4], listener interface = [RequestListenerInterface name=IActivePageBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
-
+    
     Root cause:
-
+    
     ...
 
 
@@ -32,7 +33,7 @@ I'm using Ajax-features of Wicket extensively.
 I was creating a table, which contained editable fields (AjaxEdiableLabel). This would allow the user to click on a field in the table, to edit the content.
 Somewhere I had the following code:
 
-
+    
     target.addComponent(item);
     if .. needed .. {
     target.addComponent(myTable.this);
@@ -48,7 +49,7 @@ Unfortunately, solving this error isn't quite easy in all cases. Especially when
 
 Fortunately I found [a good tip on the wicket mailing list](http://apache-wicket.1842946.n4.nabble.com/WicketRuntimeException-component-not-found-on-page-td3055902.html) to get rid of the exception. Add the following code your Wicketapplication class (the class that extends org.apache.wicket.protocol.http.WebApplication):
 
-
+    
         @Override
         protected IRequestCycleProcessor newRequestCycleProcessor() {
         	//Tip from http://apache-wicket.1842946.n4.nabble.com/WicketRuntimeException-component-not-found-on-page-td3055902.html
@@ -68,9 +69,11 @@ Fortunately I found [a good tip on the wicket mailing list](http://apache-wicket
         	            }
         	        }
         	    }
-
+    
         	};
         }
 
 
 The above code will ignore all of the exception that occur when wicket tries to do something with an component that's no longer available because of an ajax-update. Of course this fix isn't very nice, hopefully later versions of Wicket fix the error all-together when Ajax-support is improved. For now, this seems the best solution.
+
+

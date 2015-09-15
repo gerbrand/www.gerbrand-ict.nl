@@ -6,7 +6,8 @@ layout: post
 slug: hyves-now-also-openid-provider
 title: Hyves now also OpenId provider
 wordpress_id: 185
-
+categories:
+- Various
 tags:
 - openid
 ---

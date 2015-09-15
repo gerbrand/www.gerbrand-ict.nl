@@ -6,7 +6,8 @@ layout: post
 slug: google-guice
 title: JFall on Google Guice
 wordpress_id: 358
-
+categories:
+- Various
 tags:
 - java
 - jee

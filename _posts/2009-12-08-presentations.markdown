@@ -6,7 +6,8 @@ layout: post
 slug: presentations
 title: Presentations
 wordpress_id: 370
-
+categories:
+- Various
 ---
 
 I am subscribed to several technology related newsletters, including those of [InfoQ](http://www.infoq.com). Very often these newsletters feature very interesting content. Unfortunately, a increasingly large portion of those newsletters now includes broadcasts of presentations. With the emerge of Youtube, broadband and Al Gore's movie [An Inconvenient Truth](http://www.moviemeter.nl/film/36759/), the trend is that information on the Internet should be in movies or sound.

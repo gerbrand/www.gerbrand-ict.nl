@@ -6,7 +6,8 @@ layout: post
 slug: stuff-to-research-jdo-on-cassandra-git-on-windows-restlet-vmforce
 title: 'Stuff to research: JDO on Cassandra, GIT on Windows, Restlet, VMForce'
 wordpress_id: 452
-
+categories:
+- Technology
 tags:
 - java
 - nosql

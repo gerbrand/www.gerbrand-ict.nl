@@ -6,7 +6,8 @@ layout: post
 slug: slow-right-click-on-windows
 title: Slow right click on Windows
 wordpress_id: 544
-
+categories:
+- Reviews
 tags:
 - utils
 ---

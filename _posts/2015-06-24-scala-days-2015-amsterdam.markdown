@@ -6,8 +6,9 @@ layout: post
 slug: scala-days-2015-amsterdam
 title: Scala Days 2015 Amsterdam
 wordpress_id: 726
-
-
+categories:
+- Reviews
+- Various
 tags:
 - java
 - scala

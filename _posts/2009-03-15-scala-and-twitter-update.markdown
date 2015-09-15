@@ -6,7 +6,8 @@ layout: post
 slug: scala-and-twitter-update
 title: Scala and Twitter update
 wordpress_id: 108
-
+categories:
+- Technology
 tags:
 - scala
 ---

@@ -6,7 +6,8 @@ layout: post
 slug: scala-and-twitter
 title: Scala and twitter
 wordpress_id: 89
-
+categories:
+- Technology
 tags:
 - scala
 ---

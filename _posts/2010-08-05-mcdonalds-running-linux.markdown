@@ -6,7 +6,8 @@ layout: post
 slug: mcdonalds-running-linux
 title: McDonalds running Linux
 wordpress_id: 459
-
+categories:
+- Various
 ---
 
 A unix like OS on their video-screens outside, in shopping center Hoog Caterijne, Utrecht. At least something else then those Windows 95/98/NT screens I often see running at terminals, when they've crashed.

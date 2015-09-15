@@ -6,7 +6,8 @@ layout: post
 slug: internet-storage
 title: Internet storage review
 wordpress_id: 202
-
+categories:
+- Reviews
 tags:
 - cloud
 ---

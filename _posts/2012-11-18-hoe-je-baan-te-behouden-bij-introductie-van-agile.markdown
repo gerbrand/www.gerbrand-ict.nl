@@ -6,7 +6,8 @@ layout: post
 slug: hoe-je-baan-te-behouden-bij-introductie-van-agile
 title: Hoe je baan te behouden bij introductie van Agile
 wordpress_id: 606
-
+categories:
+- Methodology
 ---
 
 De organisatie waarvoor je werkt besluit Agile te worden. Dat klinkt eng! Ongetwijfeld betekent dat een reorganisatie en dus dat mensen ontslagen worden. In deze tijden van economische tegenspoed zou het jammer zijn als mensen zonder baan komen te zitten, dus laten we eens kijken wat mensen in de softwarewereld, die gewend zijn aan Waterfall, PRINCE2, TMAP of CMMI zouden kunnen doen als hun organisatie besluit Agile te worden.

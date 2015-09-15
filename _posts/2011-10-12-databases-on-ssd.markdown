@@ -6,7 +6,8 @@ layout: post
 slug: databases-on-ssd
 title: Databases on SSD
 wordpress_id: 574
-
+categories:
+- Technology
 tags:
 - database
 - nosql

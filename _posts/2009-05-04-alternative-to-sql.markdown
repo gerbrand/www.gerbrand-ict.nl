@@ -6,7 +6,8 @@ layout: post
 slug: alternative-to-sql
 title: Alternative to SQL
 wordpress_id: 241
-
+categories:
+- Reviews
 tags:
 - java
 - sql

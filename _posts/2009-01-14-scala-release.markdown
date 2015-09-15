@@ -6,7 +6,8 @@ layout: post
 slug: scala-release
 title: Scala release
 wordpress_id: 53
-
+categories:
+- Technology
 tags:
 - scala
 ---

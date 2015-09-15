@@ -6,7 +6,8 @@ layout: post
 slug: shared-state-with-jgroups
 title: Distributed software with JGroups
 wordpress_id: 85
-
+categories:
+- Technology
 tags:
 - java
 - jboss

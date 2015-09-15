@@ -6,6 +6,8 @@ layout: post
 slug: devoxx08
 title: Devoxx'08
 wordpress_id: 8
+categories:
+- Reviews
 tags:
 - devoxx
 - java
@@ -17,59 +19,59 @@ Of all the presentations that I've seen, this is my top:
 
 
 
-
+	
   1. [From Concurrent to Parallel](http://www.devoxx.be/display/JV08/From+Concurrent+to+Parallel) by [Brian Goetz](http://www.devoxx.be/display/JV08/Brian+Goetz) - A very good presentation. The Parallel Array structure and the Fork-Join - both in Java 7 - seem very powerful.
 I bought the by Brian Goetz [Java Concurrency in practice](http://clk.tradedoubler.com/click?a=1601421&p=67859&g=17297702&epi=1001004002539201). Unfortunately treated the new feature of Java 7 does not, the book is from 2006. However, for a good book shouldn't outdate that soon, so I don't think that should be a problem.
 
-
+	
   2. [](http://66.102.9.104/translate_c?hl=en&sl=nl&u=http://www.devoxx.be/display/JV08/The%2BFeel%2Bof%2BScala&prev=/search%3Fq%3Ddevoxx%2Bscala%26start%3D30%26hl%3Den%26client%3Dsafari%26rls%3Den-us%26sa%3DN&usg=ALkJrhhNridK5_qTHdRwZwCHZOa2cOfIpA)[The Feel of Scala](http://www.devoxx.be/display/JV08/The+Feel+of+Scala) by [Bill Venners](http://www.devoxx.be/display/JV08/Bill+Venners) [](http://66.102.9.104/translate_c?hl=en&sl=nl&u=http://www.devoxx.be/display/JV08/Bill%2BVenners&prev=/search%3Fq%3Ddevoxx%2Bscala%26start%3D30%26hl%3Den%26client%3Dsafari%26rls%3Den-us%26sa%3DN&usg=ALkJrhikw__--3IMNpBRFZFYTpwyykIAFg) - An extraordinary promising and good language.
 I especially liked the demonstration how Scala has a way to extend functionality of existing classes in a similar way that is possible in Ruby (by addin methods, extending the language), but with _static typing_.
 Since Scala is statistically typed, refactoring can be deterministic. This means your code is guarentees to work the same, after refactoring. Dynamically typed languages only support heuristic refactoring. This means heuristics and unit-tests are needed during and after refactoring.
 There are also many other very nice features which makes Scala, for which this posting is too short to list all.
 The newly purchased book [Programming in Scala](http://www.artima.com/shop/programming_in_scala) is now on my desk.
 
-
+	
   3. [](http://66.102.9.104/translate_c?hl=en&sl=nl&u=http://www.devoxx.be/display/JV08/Be%2Bsmart%21&prev=/search%3Fq%3Ddevoxx%2Bscala%26start%3D30%26hl%3Den%26client%3Dsafari%26rls%3Den-us%26sa%3DN&usg=ALkJrhh8tlBq_-kjm7DPIUFtVcq9r6YOmQ)[Be smart!](http://www.devoxx.be/display/JV08/Be+smart%21) by [Ivar Jacobson](http://www.devoxx.be/display/JV08/Ivar+Jacobson)[](http://66.102.9.104/translate_c?hl=en&sl=nl&u=http://www.devoxx.be/display/JV08/Ivar%2BJacobson&prev=/search%3Fq%3Ddevoxx%2Bscala%26start%3D30%26hl%3Den%26client%3Dsafari%26rls%3Den-us%26sa%3DN&usg=ALkJrhiYsctMy2hTQ3-ZorKQQS2WhVpPmw) - A very energetic man. I agree with what he told, and not all that he told was that new, but he can bring his point very well.[
 ](http://66.102.9.104/translate_c?hl=en&sl=nl&u=http://www.devoxx.be/display/JV08/Effective%2BPairing%2BThe%2BGood,%2Bthe%2BBad%2Band%2Bthe%2BUgly&prev=/search%3Fq%3Ddevoxx%2Bscala%26start%3D30%26hl%3Den%26client%3Dsafari%26rls%3Den-us%26sa%3DN&usg=ALkJrhjHUN7M9AtUWpIyOkkFLKWGNSknMg)
 
-
+	
   4. [](http://66.102.9.104/translate_c?hl=en&sl=nl&u=http://www.devoxx.be/display/JV08/RESTful%2BDesign,%2BPatterns%2Band%2BAnti-Patterns&prev=/search%3Fq%3Ddevoxx%2Bscala%26start%3D30%26hl%3Den%26client%3Dsafari%26rls%3Den-us%26sa%3DN&usg=ALkJrhgeq7m8T1jX4lXuRqJt9B7BGUlC-A)[RESTful Design, Patterns and Anti-Patterns](http://www.devoxx.be/display/JV08/RESTful+Design%2C+Patterns+and+Anti-Patterns) by [Stefan Tilkov](http://www.devoxx.be/display/JV08/Stefan+Tilkov) - Through his talk, I became very enthusiastic about REST. Hearing SOAP is actually a bloated (allthough he did not stated that as-such) remoting protocol which doesn't add that much to other remoting technologies is refreshing to hear.
 Using REST, the WWW is much better utilizied. REST brings what SOAP used to promise: a the web as a set of connecting services.
 He presented a few patterns and anti-patterns in using REST.
 
-
+	
   5. [](http://66.102.9.104/translate_c?hl=en&sl=nl&u=http://www.devoxx.be/display/JV08/Effective%2BPairing%2BThe%2BGood,%2Bthe%2BBad%2Band%2Bthe%2BUgly&prev=/search%3Fq%3Ddevoxx%2Bscala%26start%3D30%26hl%3Den%26client%3Dsafari%26rls%3Den-us%26sa%3DN&usg=ALkJrhjHUN7M9AtUWpIyOkkFLKWGNSknMg)[Effective Pairing: The Good, the Bad and the Ugly](http://www.devoxx.be/display/JV08/Effective+Pairing+The+Good%2C+the+Bad+and+the+Ugly) by [Dave Nicolette](http://www.devoxx.be/display/JV08/Dave+Nicolette) - Fun and inspiring. Examples how to do pairing (in programming) and especially how not to. Quite interesting, allthough I think the presentation is less interesting if you're not there directly.
 
-
+	
   6. [](http://66.102.9.104/translate_c?hl=en&sl=nl&u=http://www.devoxx.be/display/JV08/Implementing%2Bagile%2Bat%2Benterprise%2Blevel&prev=/search%3Fq%3Ddevoxx%2Bscala%26start%3D30%26hl%3Den%26client%3Dsafari%26rls%3Den-us%26sa%3DN&usg=ALkJrhgGKb88mI39O_shJ9bucoWkRpRwPw)[Implementing agile at enterprise level](http://www.devoxx.be/display/JV08/Implementing+agile+at+enterprise+level) by [Jef Cumps](http://www.devoxx.be/display/JV08/Jef+Cumps)[](http://66.102.9.104/translate_c?hl=en&sl=nl&u=http://www.devoxx.be/display/JV08/Jef%2BCumps&prev=/search%3Fq%3Ddevoxx%2Bscala%26start%3D30%26hl%3Den%26client%3Dsafari%26rls%3Den-us%26sa%3DN&usg=ALkJrhhZhMZtO6epGpUhoJ_V9hvMHJMpEQ) - Quite informative demonstration how Scrum was introduced and is used at The Belgian Post. I liked the picture of a real Scrum-board as they used it, with yellow and pink-post-its.
 Scrum can be introduced in large organizations as he demonstrated, if the benefit is clear to all parties.
 
 
-
+	
   7. [](http://66.102.9.104/translate_c?hl=en&sl=nl&u=http://www.devoxx.be/pages/viewpage.action%3FpageId%3D1704462&prev=/search%3Fq%3Ddevoxx%2Bscala%26start%3D30%26hl%3Den%26client%3Dsafari%26rls%3Den-us%26sa%3DN&usg=ALkJrhiz75MgNpcxtUmRjtfvbUw5DreKqw)[What's new in Spring Framework 3.0?](http://www.devoxx.be/pages/viewpage.action?pageId=1704462) by [Arjen Poutsma](http://www.devoxx.be/display/JV08/Arjen+Poutsma) and [Alef Arendsen](http://www.devoxx.be/display/JV08/Alef+Arendsen) - Spring remains a powerful framework if you use Java. Very interesting to hear what new features Spring 3.0 brings, since I use the framework almost everyday in my work.
 In Spring 3, finally Spring is going to use Java 1.5 features such as generics in the core, which is already the case for the modules.
 They demonstrated the new REST-features of Spring 3 (this talk was after the talk on REST). As they demonstrated, using Spring it'll be easy to set up or consume a REST service using a few simple annotations and configuration.
 
-
+	
   8. [](http://66.102.9.104/translate_c?hl=en&sl=nl&u=http://www.devoxx.be/pages/viewpage.action%3FpageId%3D1704036&prev=/search%3Fq%3Ddevoxx%2Bscala%26start%3D30%26hl%3Den%26client%3Dsafari%26rls%3Den-us%26sa%3DN&usg=ALkJrhh19PUsq8mUNNA9SMsfaLRZGO-ZLQ)[Java + XSLT 2.0](http://www.devoxx.be/pages/viewpage.action?pageId=1704036)
 [Doug Tidwell](http://www.devoxx.be/display/JV08/Doug+Tidwell) - - Pretty interesting, and good speaker.
 I was especially interested, because I recently wrote a short article on [XSLT](http://www.whitehorses.nl/xslt_en_soa_2145.1195.html). XSLT 2.0 seems very useful, especially the ability to call Java from XSLT.
 
 
-
+	
   9. [Patterns in Mule](http://www.devoxx.be/display/JV08/Patterns+in+Mule)
 by [Antoine Borg](http://www.devoxx.be/display/JV08/Antoine+Borg) Quite interesting, Mule seems a very nice tool. I've worked in organizations in the past, where a ESB seems to fit very nicely. Mule, being open-source and seemingly easy to use could be introduced easily.
 Only thing was the speaker was not that good. Sometimes he appeared just talking as if he was reading aloud.
 
-
+	
   10. [](http://66.102.9.104/translate_c?hl=en&sl=nl&u=http://www.devoxx.be/pages/viewpage.action%3FpageId%3D1377902&prev=/search%3Fq%3Ddevoxx%2Bscala%26start%3D30%26hl%3Den%26client%3Dsafari%26rls%3Den-us%26sa%3DN&usg=ALkJrhgW3Wsq49OyukD4_yAR44fYPftT6g)[How Do We Test This Stuff?](http://www.devoxx.be/pages/viewpage.action?pageId=1377902)
 by [Frank Cohen](http://www.devoxx.be/display/JV08/Frank+Cohen)[](http://66.102.9.104/translate_c?hl=en&sl=nl&u=http://www.devoxx.be/display/JV08/Frank%2BCohen&prev=/search%3Fq%3Ddevoxx%2Bscala%26start%3D30%26hl%3Den%26client%3Dsafari%26rls%3Den-us%26sa%3DN&usg=ALkJrhilBKE-u--4F4_dgzViOcpfhkUJzw) -  Of course I wish to test well. The speaker spoke good, but the content was not so interesting, I heard not much news. Especially on open-source test tools, PushToTest, Selenium, SoapUI.
 
-
+	
   11. [](http://66.102.9.104/translate_c?hl=en&sl=nl&u=http://www.devoxx.be/display/JV08/Preventing%2Bbugs%2Bwith%2Bpluggable%2Btype-checking%2Bfor%2BJava&prev=/search%3Fq%3Ddevoxx%2Bscala%26start%3D30%26hl%3Den%26client%3Dsafari%26rls%3Den-us%26sa%3DN&usg=ALkJrhiFoC0RAt-zZEWYItimdBThNq5fLg)[Preventing bugs with pluggable type-checking for Java](http://www.devoxx.be/display/JV08/Preventing+bugs+with+pluggable+type-checking+for+Java)
 by [Mahmood Ali ](http://www.devoxx.be/display/JV08/Mahmood+Ali)- Very promising and interesting idea and framework: a pluggable type system via Annotations. Only I had the feeling that the speaker had a cold and was a little nervous.
 
-
+	
   12. [](http://www.devoxx.be/display/JV08/Introduction+to+NIO.2)[Introduction to NIO.2](http://www.devoxx.be/display/JV08/Introduction+to+NIO.2)
 by [Jean-Francois Arcand](http://www.devoxx.be/display/JV08/Jean-Francois+Arcand)[](http://66.102.9.104/translate_c?hl=en&sl=nl&u=http://www.devoxx.be/display/JV08/Jean-Francois%2BArcand&prev=/search%3Fq%3Ddevoxx%2Bscala%26start%3D30%26hl%3Den%26client%3Dsafari%26rls%3Den-us%26sa%3DN&usg=ALkJrhgVe48NkyiatLza1g2jc6wu-tDTDw) - This presentation was not as good as I hoped.The speaker spoke messy, half-finished sentences, and with a heavy French accent. NIO2 and Grizzly framework are powerful technologies, I got that though.
 

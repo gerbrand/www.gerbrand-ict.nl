@@ -6,7 +6,8 @@ layout: post
 slug: parallel-execution-of-sql
 title: Parallel execution of SQL
 wordpress_id: 14
-
+categories:
+- Technology
 tags:
 - database
 - parallel

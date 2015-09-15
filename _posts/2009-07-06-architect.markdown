@@ -6,7 +6,8 @@ layout: post
 slug: architect
 title: Architect
 wordpress_id: 330
-
+categories:
+- Various
 tags:
 - design patterns
 ---

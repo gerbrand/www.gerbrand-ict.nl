@@ -6,7 +6,8 @@ layout: post
 slug: filesystem-notifications-in-java
 title: Filesystem notifications in Java
 wordpress_id: 591
-
+categories:
+- Technology
 ---
 
 Inspired by an OS that went in oblivion some years ago (BeOS) operating systems as Windows, Linux and MacOS all have ways to monitor directories for changes built into the filesystem: meaning if a directory is changed because a file or directory is added, removed or changed you can get an event. There's need for running a program that periodically monitors the directory (nor does the OS do that, it's build into the filesystem). Software like Dropbox and other filesyncing products use this, so whenever you change or update a file it's immediately updated to the 'cloud'.

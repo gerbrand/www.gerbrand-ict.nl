@@ -6,7 +6,8 @@ layout: post
 slug: sql-performance
 title: SQL Performance
 wordpress_id: 620
-
+categories:
+- Technology
 tags:
 - oracle
 - sql

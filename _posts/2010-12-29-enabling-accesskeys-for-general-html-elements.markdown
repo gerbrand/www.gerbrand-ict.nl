@@ -6,7 +6,8 @@ layout: post
 slug: enabling-accesskeys-for-general-html-elements
 title: Enabling accesskeys for javascript events
 wordpress_id: 478
-
+categories:
+- Technology
 tags:
 - html
 - javascript

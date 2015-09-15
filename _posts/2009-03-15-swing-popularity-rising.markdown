@@ -6,7 +6,8 @@ layout: post
 slug: swing-popularity-rising
 title: Swing popularity rising
 wordpress_id: 138
-
+categories:
+- Reviews
 tags:
 - java
 - ria

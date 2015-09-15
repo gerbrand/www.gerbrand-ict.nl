@@ -6,7 +6,8 @@ layout: post
 slug: in-between-lan-sync-dropbox
 title: In between LAN-sync, Dropbox
 wordpress_id: 349
-
+categories:
+- Technology
 tags:
 - cloud
 ---

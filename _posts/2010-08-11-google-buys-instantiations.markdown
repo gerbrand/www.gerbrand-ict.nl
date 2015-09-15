@@ -6,7 +6,8 @@ layout: post
 slug: google-buys-instantiations
 title: Google buys Instantiations
 wordpress_id: 451
-
+categories:
+- Various
 tags:
 - gwt
 - java

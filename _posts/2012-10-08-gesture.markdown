@@ -6,7 +6,8 @@ layout: post
 slug: gesture
 title: Gesture
 wordpress_id: 599
-
+categories:
+- Technology
 ---
 
 Lots of SF movies and futerist though that the future interface of the computer would be voice: talking to your computer like it was a human. Nothing less is true: the future are gestures to the computer? Why, now that people have smartphones, they could communicate with each other using video-calls - the videophone of the past. Rather than that, many people just post text messages to each other. People prefer to text to other people, why would they even use voice to talk to a computer?

@@ -6,6 +6,9 @@ layout: post
 slug: hoe-kijk-jij-tegen-software
 title: Hoe kijk jij tegen softwareontwikkeling aan?
 wordpress_id: 676
+categories:
+- Ideas
+- Various @nl
 tags:
 - agile
 - lean
@@ -17,7 +20,7 @@ Agile, lean, scrum zijn populair binnen softwareontwikkeling. Achter al deze me
 Hier onder heb ik wat stellingen gezet. Met welke ben je het meeste eens?
 <!-- more -->
 
-<table cellpadding="0" cellspacing="0" border="0" class="Software_3f_" >
+<table cellpadding="0" cellspacing="0" border="0" class="Software_3f_" > 
 <tbody >
 <tr >
 
@@ -386,3 +389,5 @@ Legacy software moet je beheersbaar maken door te analyseren, refactoren, testba
 </tbody>
 </table>
 Agile softwareontwikkeling, invoeren van lean, scrum, en vele gerelateerde ideeën slagen pas als je  ten volle van bewust bent dat softwareontwikkeling ook een complex proces is
+
+
