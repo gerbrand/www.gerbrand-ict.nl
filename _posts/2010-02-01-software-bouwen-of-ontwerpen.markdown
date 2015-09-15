@@ -6,8 +6,7 @@ layout: post
 slug: software-bouwen-of-ontwerpen
 title: 'Software: bouwen of ontwerpen?'
 wordpress_id: 379
-categories:
-- Methodology
+
 tags:
 - agile
 ---

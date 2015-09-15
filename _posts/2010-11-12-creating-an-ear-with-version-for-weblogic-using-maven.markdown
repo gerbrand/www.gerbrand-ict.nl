@@ -6,8 +6,7 @@ layout: post
 slug: creating-an-ear-with-version-for-weblogic-using-maven
 title: Creating an ear with version for Weblogic using Maven
 wordpress_id: 471
-categories:
-- Technology
+
 tags:
 - java
 ---

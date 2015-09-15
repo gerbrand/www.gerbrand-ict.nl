@@ -2,7 +2,7 @@
 layout: post
 title:  "Static website using Jekyll"
 date:   2015-09-15 12:41:04
-categories: jekyll update
+jekyll update
 ---
 
 In my daily work I frequently use build-tools such as [Maven](http://maven.apache.org), [Sbt](http://www.scala-sbt.org/), [Meteor](https://www.meteor.com) (sigh) and version-control software such as Git.  Blogging on Wordpress always feels like a step back. My content is in a database with its own versioning control and can only be maintained and added by the Wordpress software itself. Wordpress and plugins are hard to maintain, the only way to update reasonable easy is by using the Wordpress software itself and let PHP overwrite files.

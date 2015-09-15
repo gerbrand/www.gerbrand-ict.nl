@@ -6,8 +6,7 @@ layout: post
 slug: back-from-the-grave-model-driven-design
 title: 'Back from the grave: Model Driven Design'
 wordpress_id: 168
-categories:
-- Technology
+
 tags:
 - mdd
 ---

@@ -6,8 +6,7 @@ layout: post
 slug: functional-programming-in-scala
 title: Functional programming in Scala
 wordpress_id: 666
-categories:
-- Methodology
+
 tags:
 - coder
 - haskell

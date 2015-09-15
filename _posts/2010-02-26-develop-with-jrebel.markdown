@@ -6,8 +6,7 @@ layout: post
 slug: develop-with-jrebel
 title: Develop with faster with smarter tools
 wordpress_id: 401
-categories:
-- Technology
+
 tags:
 - coder
 - java

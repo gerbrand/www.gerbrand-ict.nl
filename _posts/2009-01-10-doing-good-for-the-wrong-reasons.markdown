@@ -6,8 +6,7 @@ layout: post
 slug: doing-good-for-the-wrong-reasons
 title: Trying to do good for the wrong reasons
 wordpress_id: 43
-categories:
-- Methodology
+
 tags:
 - coder
 - design patterns

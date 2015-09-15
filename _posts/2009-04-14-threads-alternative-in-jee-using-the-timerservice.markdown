@@ -6,8 +6,7 @@ layout: post
 slug: threads-alternative-in-jee-using-the-timerservice
 title: 'Threads-alternative in JEE: using the timerservice'
 wordpress_id: 171
-categories:
-- Technology
+
 tags:
 - java
 - jboss

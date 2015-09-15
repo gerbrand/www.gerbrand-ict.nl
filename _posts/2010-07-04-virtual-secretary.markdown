@@ -6,7 +6,6 @@ layout: post
 slug: virtual-secretary
 title: Virtual secretary
 wordpress_id: 425
-categories:
 - Ideas
 ---
 

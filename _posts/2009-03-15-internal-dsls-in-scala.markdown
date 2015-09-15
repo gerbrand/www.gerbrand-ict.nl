@@ -6,8 +6,7 @@ layout: post
 slug: internal-dsls-in-scala
 title: Internal DSLs in Scala
 wordpress_id: 135
-categories:
-- Technology
+
 tags:
 - scala
 ---

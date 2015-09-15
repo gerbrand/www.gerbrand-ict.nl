@@ -6,8 +6,7 @@ layout: post
 slug: whitebook-on-parallel-programming
 title: Whitebook on parallel programming
 wordpress_id: 365
-categories:
-- Technology
+
 tags:
 - concurrency
 - java

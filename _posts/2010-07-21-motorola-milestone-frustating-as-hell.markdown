@@ -6,8 +6,7 @@ layout: post
 slug: motorola-milestone-frustating-as-hell
 title: 'Motorola milestone: frustating as hell'
 wordpress_id: 435
-categories:
-- Reviews
+
 tags:
 - motorola
 ---

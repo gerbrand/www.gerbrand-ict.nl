@@ -6,8 +6,7 @@ layout: post
 slug: lessons-learnt-using-jboss-500ga-clustering
 title: Lessons learnt using JBoss 5 clustering
 wordpress_id: 91
-categories:
-- Technology
+
 tags:
 - java
 - jboss

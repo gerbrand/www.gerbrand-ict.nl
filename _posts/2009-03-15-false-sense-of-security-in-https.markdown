@@ -6,8 +6,7 @@ layout: post
 slug: false-sense-of-security-in-https
 title: False sense of security in https
 wordpress_id: 121
-categories:
-- Various
+
 tags:
 - security
 ---

@@ -6,8 +6,7 @@ layout: post
 slug: google-docs-and-ms-office
 title: Google Docs and MS-Office
 wordpress_id: 405
-categories:
-- Reviews
+
 tags:
 - google
 ---

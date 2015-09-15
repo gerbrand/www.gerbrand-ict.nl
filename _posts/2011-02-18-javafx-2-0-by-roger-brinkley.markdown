@@ -6,8 +6,7 @@ layout: post
 slug: javafx-2-0-by-roger-brinkley
 title: JavaFX 2.0
 wordpress_id: 495
-categories:
-- Reviews
+
 tags:
 - java
 - ria

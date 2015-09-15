@@ -6,8 +6,7 @@ layout: post
 slug: apple-32-bit-or-64-bit
 title: 'Apple: 32 bit or 64 bit'
 wordpress_id: 432
-categories:
-- Various
+
 ---
 
 I am about to download the latest version of Eclipse IDE, [Helios](http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/heliosr). Naturally there are packages for various types of platforms. I know I have a Mac, however I also had to choose between 32 bit version and 64 bit version. There was a time I exactly knew these kind of things, but then I also used to build my computer myself.

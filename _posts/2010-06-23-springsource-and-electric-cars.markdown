@@ -6,8 +6,7 @@ layout: post
 slug: springsource-and-electric-cars
 title: Springsource and electric cars
 wordpress_id: 416
-categories:
-- Various
+
 ---
 
 Just read an article on electric cars in of the Saturday's edition of the [NRC](http://www.nrc.nl/) - a Dutch newspaper, which can be found online at the [authors blog (in Dutch)](http://weblogs.nrc.nl/luyendijk/2010/06/21/jeroen-pauw-als-rolmodel/). Some entrepreneur in electric cars is mentioned by the name of Alef Arendsen. The name did not immediately rang a bell, but when it was mentioned got his wealth after the sale of a opensource software company he co-founded I recalled. Alef Arendsen was part of [SpringSource](http://www.springsource.com/people/aarendsen), early on and made Spring big in the Netherlands (hm, I think I've read about the framework in about 2004 on javaworld, found it pretty cool - too bad I didn't do anything anything with it by then). He quit SpringSource about a year ago because he wanted to do something else.

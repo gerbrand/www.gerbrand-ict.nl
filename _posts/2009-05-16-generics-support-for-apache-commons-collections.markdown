@@ -6,8 +6,7 @@ layout: post
 slug: generics-support-for-apache-commons-collections
 title: Generics support for Apache commons collections
 wordpress_id: 281
-categories:
-- Technology
+
 tags:
 - Add new tag
 - java

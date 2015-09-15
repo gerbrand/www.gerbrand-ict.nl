@@ -6,8 +6,7 @@ layout: post
 slug: openid-from-my-website
 title: OpenID from my website
 wordpress_id: 558
-categories:
-- Technology
+
 ---
 
 A lot of websites now provide a way to authenticate yourself via [OpenID](http://openid.net/). That way, you don't have to remember a separate username and password to login to such a website, while still being secure.

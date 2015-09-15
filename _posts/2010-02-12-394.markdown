@@ -6,8 +6,7 @@ layout: post
 slug: '394'
 title: Gen Xers, Gen Y’s and the Millennium generation
 wordpress_id: 394
-categories:
-- Various
+
 ---
 
 From the newsletter of [TheServerSide.com](http://www.theserverside.com/) I received a whitepaper of [Instantiations](http://www.instantiations.com/rcpdeveloper/index.html), a GUI building tool. While I haven't read the entire paper yet, the introduction was quite intriguing;

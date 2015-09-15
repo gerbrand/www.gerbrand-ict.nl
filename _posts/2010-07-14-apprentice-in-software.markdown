@@ -6,7 +6,6 @@ layout: post
 slug: apprentice-in-software
 title: Apprentice in software
 wordpress_id: 430
-categories:
 - Ideas
 ---
 

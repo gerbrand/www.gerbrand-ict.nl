@@ -6,8 +6,7 @@ layout: post
 slug: flex-spring-and-java
 title: Flex, Spring and Java
 wordpress_id: 78
-categories:
-- Various
+
 ---
 
 Last year I worked with a collegue on a software project. As I architect I set up a backend. As frontend technology we used flex. As backend technology, we used Spring, JPA (via Toplink) and Java. Communication between frontend and backend was accomplished by using Blazeds.

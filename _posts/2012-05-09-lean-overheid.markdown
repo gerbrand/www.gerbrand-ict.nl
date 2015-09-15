@@ -6,8 +6,7 @@ layout: post
 slug: lean-overheid
 title: Lean overheid
 wordpress_id: 594
-categories:
-- Reviews
+
 ---
 
 Quite a while, my top posting was about [waste at the government](/2011/10/money-waste-at-the-government/).  Now something more positive on waste, and other lean subjects: I recently read the book '[Een lean overheid](http://partner.bol.com/click/click?p=1&s=2396&t=p&sec=books-nl&pid=9200000001057519&f=PDL&name=leanoverheid)'. The book is in Dutch, and gives a nice introduction on using Lean in government organizations.

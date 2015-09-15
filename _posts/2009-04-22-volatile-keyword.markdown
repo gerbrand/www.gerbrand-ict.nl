@@ -6,8 +6,7 @@ layout: post
 slug: volatile-keyword
 title: Volatile keyword
 wordpress_id: 191
-categories:
-- Reviews
+
 tags:
 - concurrency
 - java

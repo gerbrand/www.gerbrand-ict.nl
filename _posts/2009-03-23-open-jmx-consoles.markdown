@@ -6,8 +6,7 @@ layout: post
 slug: open-jmx-consoles
 title: Open JMX consoles
 wordpress_id: 151
-categories:
-- Various
+
 tags:
 - jboss
 ---

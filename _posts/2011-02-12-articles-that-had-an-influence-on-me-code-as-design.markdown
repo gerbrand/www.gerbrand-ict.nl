@@ -6,8 +6,7 @@ layout: post
 slug: articles-that-had-an-influence-on-me-code-as-design
 title: 'Software engineering is design all the way: code as design'
 wordpress_id: 483
-categories:
-- Methodology
+
 ---
 
 Recently I came across an article I remember reading quite some years ago and having quite an influence on my thinking.

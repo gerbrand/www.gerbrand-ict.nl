@@ -6,8 +6,7 @@ layout: post
 slug: scala-and-java
 title: Scala and Java
 wordpress_id: 408
-categories:
-- Technology
+
 tags:
 - java
 - scala

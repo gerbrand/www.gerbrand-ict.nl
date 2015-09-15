@@ -6,8 +6,6 @@ layout: post
 slug: demonstrating-gwt-requestfactory-and-spring
 title: Demonstrating using GWT-RequestFactory and Spring togetter
 wordpress_id: 634
-categories:
-- Technology
 tags:
 - gwt
 - java

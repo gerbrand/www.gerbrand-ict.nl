@@ -6,8 +6,7 @@ layout: post
 slug: cluster-at-home
 title: Cluster at home
 wordpress_id: 740
-categories:
-- Various
+
 ---
 
 When I was a student I had old desktop computer in running in the closet which acted as a server. The server hosted my homepage, email-domain, fileserver and sort of cloud storage. The internet-connection, being part of the university's campus network was very fast and reliable. Of course the set up could occasionally fail some component of my desktop failed or someone accidentally unplugged the server to use the vacuum cleaner.

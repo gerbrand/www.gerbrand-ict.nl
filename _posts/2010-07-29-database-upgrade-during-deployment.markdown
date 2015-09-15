@@ -6,8 +6,7 @@ layout: post
 slug: database-upgrade-during-deployment
 title: Database upgrade during deployment
 wordpress_id: 446
-categories:
-- Technology
+
 ---
 
 I  want to create an installation package of a Java application. Part of  the installation involves upgrading a SQL database (Oracle) - by running  a few SQL scripts. Creating the SQL scripts to do the update by itself  isn't the problem, however I need to find a way to easily run those  script.

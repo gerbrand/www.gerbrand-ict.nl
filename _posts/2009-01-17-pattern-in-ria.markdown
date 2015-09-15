@@ -6,8 +6,7 @@ layout: post
 slug: pattern-in-ria
 title: Pattern in RIA
 wordpress_id: 60
-categories:
-- Methodology
+
 tags:
 - jfall
 - ria

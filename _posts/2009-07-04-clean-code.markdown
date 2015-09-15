@@ -6,8 +6,7 @@ layout: post
 slug: clean-code
 title: Clean code
 wordpress_id: 303
-categories:
-- Reviews
+
 tags:
 - book
 - coder

@@ -6,8 +6,7 @@ layout: post
 slug: infoq-tim-bray-on-the-future-of-the-web
 title: InfoQ, Tim Bray on the Future of the web
 wordpress_id: 165
-categories:
-- Reviews
+
 tags:
 - ria
 ---

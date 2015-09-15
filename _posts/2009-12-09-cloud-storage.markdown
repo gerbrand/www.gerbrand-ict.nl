@@ -6,8 +6,7 @@ layout: post
 slug: cloud-storage
 title: Cloud storage, review of Zumodrive
 wordpress_id: 373
-categories:
-- Reviews
+
 tags:
 - cloud
 ---
