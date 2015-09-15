@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2010-08-05 20:21:24+00:00
+date: 2010-08-05 20:21:24+02:00
 layout: post
 slug: mcdonalds-running-linux
 title: McDonalds running Linux

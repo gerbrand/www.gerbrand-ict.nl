@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2010-06-23 15:18:56+00:00
+date: 2010-06-23 15:18:56+02:00
 layout: post
 slug: springsource-and-electric-cars
 title: Springsource and electric cars

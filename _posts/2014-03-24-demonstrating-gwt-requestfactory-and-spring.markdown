@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2014-03-24 13:29:52+00:00
+date: 2014-03-24 13:29:52+02:00
 layout: post
 slug: demonstrating-gwt-requestfactory-and-spring
 title: Demonstrating using GWT-RequestFactory and Spring togetter

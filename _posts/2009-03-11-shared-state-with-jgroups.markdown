@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-03-11 08:59:48+00:00
+date: 2009-03-11 08:59:48+02:00
 layout: post
 slug: shared-state-with-jgroups
 title: Distributed software with JGroups

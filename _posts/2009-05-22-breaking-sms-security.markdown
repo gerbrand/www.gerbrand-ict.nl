@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-05-22 12:53:25+00:00
+date: 2009-05-22 12:53:25+02:00
 layout: post
 slug: breaking-sms-security
 title: Breaking SMS security

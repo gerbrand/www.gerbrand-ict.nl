@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-01-14 23:36:47+00:00
+date: 2009-01-14 23:36:47+02:00
 layout: post
 slug: scala-release
 title: Scala release

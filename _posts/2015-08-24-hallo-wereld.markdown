@@ -1,7 +1,7 @@
 ---
 author: gerbrand
 comments: true
-date: 2015-08-24 07:35:51+00:00
+date: 2015-08-24 07:35:51+02:00
 layout: post
 published: false
 slug: hallo-wereld

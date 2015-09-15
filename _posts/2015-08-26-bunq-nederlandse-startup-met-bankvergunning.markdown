@@ -1,7 +1,7 @@
 ---
 author: gerbrand
 comments: true
-date: 2015-08-26 11:53:45+00:00
+date: 2015-08-26 11:53:45+02:00
 layout: post
 slug: bunq-nederlandse-startup-met-bankvergunning
 title: Bunq, Dutch startup with banking license

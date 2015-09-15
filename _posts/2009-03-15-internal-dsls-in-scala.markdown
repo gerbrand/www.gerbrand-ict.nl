@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-03-15 20:42:30+00:00
+date: 2009-03-15 20:42:30+02:00
 layout: post
 slug: internal-dsls-in-scala
 title: Internal DSLs in Scala

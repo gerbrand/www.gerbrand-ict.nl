@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-04-17 08:25:40+00:00
+date: 2009-04-17 08:25:40+02:00
 layout: post
 slug: back-from-the-grave-model-driven-design
 title: 'Back from the grave: Model Driven Design'

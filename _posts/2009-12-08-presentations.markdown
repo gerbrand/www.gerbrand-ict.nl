@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-12-08 21:16:24+00:00
+date: 2009-12-08 21:16:24+02:00
 layout: post
 slug: presentations
 title: Presentations

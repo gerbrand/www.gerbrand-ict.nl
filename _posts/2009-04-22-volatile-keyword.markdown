@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-04-22 21:29:38+00:00
+date: 2009-04-22 21:29:38+02:00
 layout: post
 slug: volatile-keyword
 title: Volatile keyword

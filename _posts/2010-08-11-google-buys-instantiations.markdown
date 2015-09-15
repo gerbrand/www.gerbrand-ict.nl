@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2010-08-11 20:51:12+00:00
+date: 2010-08-11 20:51:12+02:00
 layout: post
 slug: google-buys-instantiations
 title: Google buys Instantiations

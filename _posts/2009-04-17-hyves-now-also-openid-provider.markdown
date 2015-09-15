@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-04-17 08:09:08+00:00
+date: 2009-04-17 08:09:08+02:00
 layout: post
 slug: hyves-now-also-openid-provider
 title: Hyves now also OpenId provider

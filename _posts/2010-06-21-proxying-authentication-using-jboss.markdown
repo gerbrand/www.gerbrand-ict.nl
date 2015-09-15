@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2010-06-21 23:00:19+00:00
+date: 2010-06-21 23:00:19+02:00
 layout: post
 slug: proxying-authentication-using-jboss
 title: Proxying authentication using JBoss

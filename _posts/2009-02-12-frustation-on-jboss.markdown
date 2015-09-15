@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-02-12 20:41:07+00:00
+date: 2009-02-12 20:41:07+02:00
 layout: post
 slug: frustation-on-jboss
 title: Frustation on JBoss

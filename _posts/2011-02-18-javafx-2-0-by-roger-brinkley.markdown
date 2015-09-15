@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2011-02-18 22:01:27+00:00
+date: 2011-02-18 22:01:27+02:00
 layout: post
 slug: javafx-2-0-by-roger-brinkley
 title: JavaFX 2.0

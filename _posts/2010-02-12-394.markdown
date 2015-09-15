@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2010-02-12 08:46:24+00:00
+date: 2010-02-12 08:46:24+02:00
 layout: post
 slug: '394'
 title: Gen Xers, Gen Y’s and the Millennium generation

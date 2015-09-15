@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-01-17 16:49:48+00:00
+date: 2009-01-17 16:49:48+02:00
 layout: post
 slug: pattern-in-ria
 title: Pattern in RIA

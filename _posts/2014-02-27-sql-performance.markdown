@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2014-02-27 14:41:46+00:00
+date: 2014-02-27 14:41:46+02:00
 layout: post
 slug: sql-performance
 title: SQL Performance

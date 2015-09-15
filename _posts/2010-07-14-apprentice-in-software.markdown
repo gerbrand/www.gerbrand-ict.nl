@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2010-07-14 07:25:28+00:00
+date: 2010-07-14 07:25:28+02:00
 layout: post
 slug: apprentice-in-software
 title: Apprentice in software

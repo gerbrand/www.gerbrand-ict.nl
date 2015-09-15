@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2011-10-12 18:34:47+00:00
+date: 2011-10-12 18:34:47+02:00
 layout: post
 slug: databases-on-ssd
 title: Databases on SSD

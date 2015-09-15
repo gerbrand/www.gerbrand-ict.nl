@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2010-12-29 16:48:43+00:00
+date: 2010-12-29 16:48:43+02:00
 layout: post
 slug: enabling-accesskeys-for-general-html-elements
 title: Enabling accesskeys for javascript events

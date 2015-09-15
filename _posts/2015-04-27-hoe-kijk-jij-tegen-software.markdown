@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2015-04-27 18:55:09+00:00
+date: 2015-04-27 18:55:09+02:00
 layout: post
 slug: hoe-kijk-jij-tegen-software
 title: Hoe kijk jij tegen softwareontwikkeling aan?

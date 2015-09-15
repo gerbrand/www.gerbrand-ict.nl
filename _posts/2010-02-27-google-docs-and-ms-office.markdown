@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2010-02-27 17:21:55+00:00
+date: 2010-02-27 17:21:55+02:00
 layout: post
 slug: google-docs-and-ms-office
 title: Google Docs and MS-Office

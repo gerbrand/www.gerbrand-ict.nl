@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2014-05-24 22:01:38+00:00
+date: 2014-05-24 22:01:38+02:00
 layout: post
 slug: going-to-do-functional-programming
 title: Going to do functional programming

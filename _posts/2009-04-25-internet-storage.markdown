@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-04-25 13:53:25+00:00
+date: 2009-04-25 13:53:25+02:00
 layout: post
 slug: internet-storage
 title: Internet storage review

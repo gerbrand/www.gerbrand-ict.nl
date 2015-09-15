@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-11-02 09:42:47+00:00
+date: 2009-11-02 09:42:47+02:00
 layout: post
 slug: whitebook-on-parallel-programming
 title: Whitebook on parallel programming

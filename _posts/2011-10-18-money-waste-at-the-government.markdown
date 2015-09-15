@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2011-10-18 14:10:32+00:00
+date: 2011-10-18 14:10:32+02:00
 layout: post
 slug: money-waste-at-the-government
 title: Money waste at the government

@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-07-16 07:17:03+00:00
+date: 2009-07-16 07:17:03+02:00
 layout: post
 slug: in-between-lan-sync-dropbox
 title: In between LAN-sync, Dropbox

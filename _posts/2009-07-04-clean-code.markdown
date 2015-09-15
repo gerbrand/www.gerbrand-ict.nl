@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-07-04 22:20:45+00:00
+date: 2009-07-04 22:20:45+02:00
 layout: post
 slug: clean-code
 title: Clean code

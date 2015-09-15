@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-05-16 21:30:00+00:00
+date: 2009-05-16 21:30:00+02:00
 layout: post
 slug: generics-support-for-apache-commons-collections
 title: Generics support for Apache commons collections

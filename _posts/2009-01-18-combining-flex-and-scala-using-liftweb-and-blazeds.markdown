@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-01-18 17:05:03+00:00
+date: 2009-01-18 17:05:03+02:00
 layout: post
 slug: combining-flex-and-scala-using-liftweb-and-blazeds
 title: Combining Flex and Scala using Liftweb and BlazeDS

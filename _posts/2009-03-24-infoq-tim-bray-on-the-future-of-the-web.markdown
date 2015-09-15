@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-03-24 20:45:46+00:00
+date: 2009-03-24 20:45:46+02:00
 layout: post
 slug: infoq-tim-bray-on-the-future-of-the-web
 title: InfoQ, Tim Bray on the Future of the web

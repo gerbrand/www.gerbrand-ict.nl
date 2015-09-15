@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-01-02 18:10:45+00:00
+date: 2009-01-02 18:10:45+02:00
 layout: post
 slug: parallel-execution-of-sql
 title: Parallel execution of SQL

@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2011-06-23 08:07:03+00:00
+date: 2011-06-23 08:07:03+02:00
 layout: post
 slug: openid-from-my-website
 title: OpenID from my website

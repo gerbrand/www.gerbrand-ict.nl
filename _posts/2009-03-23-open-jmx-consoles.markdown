@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-03-23 13:24:21+00:00
+date: 2009-03-23 13:24:21+02:00
 layout: post
 slug: open-jmx-consoles
 title: Open JMX consoles

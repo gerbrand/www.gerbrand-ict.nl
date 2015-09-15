@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2014-03-21 08:35:37+00:00
+date: 2014-03-21 08:35:37+02:00
 layout: post
 slug: scala-to-extract-xml
 title: Scala to extract XML from SOAPUI-project file

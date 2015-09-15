@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2015-08-24 07:42:44+00:00
+date: 2015-08-24 07:42:44+02:00
 layout: post
 slug: cluster-at-home
 title: Cluster at home

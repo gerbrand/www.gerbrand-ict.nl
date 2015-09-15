@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2011-02-12 21:23:31+00:00
+date: 2011-02-12 21:23:31+02:00
 layout: post
 slug: articles-that-had-an-influence-on-me-code-as-design
 title: 'Software engineering is design all the way: code as design'

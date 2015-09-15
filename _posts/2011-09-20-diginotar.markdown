@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2011-09-20 21:58:35+00:00
+date: 2011-09-20 21:58:35+02:00
 layout: post
 slug: diginotar
 title: Diginotar

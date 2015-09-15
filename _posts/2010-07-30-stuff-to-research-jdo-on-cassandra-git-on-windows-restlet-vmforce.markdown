@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2010-07-30 22:15:13+00:00
+date: 2010-07-30 22:15:13+02:00
 layout: post
 slug: stuff-to-research-jdo-on-cassandra-git-on-windows-restlet-vmforce
 title: 'Stuff to research: JDO on Cassandra, GIT on Windows, Restlet, VMForce'

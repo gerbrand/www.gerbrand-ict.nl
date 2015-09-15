@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2012-05-09 11:11:49+00:00
+date: 2012-05-09 11:11:49+02:00
 layout: post
 slug: lean-overheid
 title: Lean overheid

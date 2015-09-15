@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2015-05-31 18:49:26+00:00
+date: 2015-05-31 18:49:26+02:00
 layout: post
 slug: joy-of-coding-property-based-testing
 title: Joy of coding, property-based testing

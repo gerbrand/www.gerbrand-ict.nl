@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2010-07-21 12:35:40+00:00
+date: 2010-07-21 12:35:40+02:00
 layout: post
 slug: motorola-milestone-frustating-as-hell
 title: 'Motorola milestone: frustating as hell'

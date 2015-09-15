@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-01-10 17:42:05+00:00
+date: 2009-01-10 17:42:05+02:00
 layout: post
 slug: doing-good-for-the-wrong-reasons
 title: Trying to do good for the wrong reasons

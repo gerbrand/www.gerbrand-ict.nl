@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2008-12-24 10:06:59+00:00
+date: 2008-12-24 10:06:59+02:00
 layout: page
 slug: about
 title: About

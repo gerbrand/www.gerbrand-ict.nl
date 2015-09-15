@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2015-05-18 11:30:39+00:00
+date: 2015-05-18 11:30:39+02:00
 layout: page
 slug: privacy-and-cookies
 title: Privacy and cookies

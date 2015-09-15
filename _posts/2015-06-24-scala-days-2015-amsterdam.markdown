@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2015-06-24 11:50:11+00:00
+date: 2015-06-24 11:50:11+02:00
 layout: post
 slug: scala-days-2015-amsterdam
 title: Scala Days 2015 Amsterdam

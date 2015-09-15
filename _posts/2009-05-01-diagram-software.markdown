@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-05-01 11:55:20+00:00
+date: 2009-05-01 11:55:20+02:00
 layout: post
 slug: diagram-software
 title: Diagram software

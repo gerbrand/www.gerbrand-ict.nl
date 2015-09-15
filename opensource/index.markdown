@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-03-05 08:43:58+00:00
+date: 2009-03-05 08:43:58+02:00
 layout: page
 slug: opensource
 title: Opensource

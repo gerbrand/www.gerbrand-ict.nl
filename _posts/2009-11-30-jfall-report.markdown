@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-11-30 21:43:22+00:00
+date: 2009-11-30 21:43:22+02:00
 layout: post
 slug: jfall-report
 title: JFall report

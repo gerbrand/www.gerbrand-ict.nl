@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-02-08 10:14:03+00:00
+date: 2009-02-08 10:14:03+02:00
 layout: post
 slug: flex-spring-and-java
 title: Flex, Spring and Java

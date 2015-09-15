@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2010-07-29 15:33:18+00:00
+date: 2010-07-29 15:33:18+02:00
 layout: post
 slug: database-upgrade-during-deployment
 title: Database upgrade during deployment

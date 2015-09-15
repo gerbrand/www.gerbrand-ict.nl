@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2010-02-01 14:16:19+00:00
+date: 2010-02-01 14:16:19+02:00
 layout: post
 slug: software-bouwen-of-ontwerpen
 title: 'Software: bouwen of ontwerpen?'

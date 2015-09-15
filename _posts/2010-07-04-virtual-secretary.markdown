@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2010-07-04 00:35:21+00:00
+date: 2010-07-04 00:35:21+02:00
 layout: post
 slug: virtual-secretary
 title: Virtual secretary

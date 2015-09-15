@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-05-04 14:55:57+00:00
+date: 2009-05-04 14:55:57+02:00
 layout: post
 slug: alternative-to-sql
 title: Alternative to SQL

@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-03-04 21:55:56+00:00
+date: 2009-03-04 21:55:56+02:00
 layout: post
 slug: lessons-learnt-using-jboss-500ga-clustering
 title: Lessons learnt using JBoss 5 clustering

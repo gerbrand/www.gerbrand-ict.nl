@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-04-14 15:14:46+00:00
+date: 2009-04-14 15:14:46+02:00
 layout: post
 slug: threads-alternative-in-jee-using-the-timerservice
 title: 'Threads-alternative in JEE: using the timerservice'

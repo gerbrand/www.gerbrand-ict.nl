@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-07-06 20:09:19+00:00
+date: 2009-07-06 20:09:19+02:00
 layout: post
 slug: architect
 title: Architect

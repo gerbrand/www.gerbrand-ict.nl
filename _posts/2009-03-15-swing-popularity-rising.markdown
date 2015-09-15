@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-03-15 22:43:19+00:00
+date: 2009-03-15 22:43:19+02:00
 layout: post
 slug: swing-popularity-rising
 title: Swing popularity rising

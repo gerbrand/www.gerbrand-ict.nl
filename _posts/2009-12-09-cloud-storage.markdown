@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-12-09 11:49:25+00:00
+date: 2009-12-09 11:49:25+02:00
 layout: post
 slug: cloud-storage
 title: Cloud storage, review of Zumodrive

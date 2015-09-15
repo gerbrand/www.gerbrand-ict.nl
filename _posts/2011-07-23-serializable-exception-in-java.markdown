@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2011-07-23 20:07:21+00:00
+date: 2011-07-23 20:07:21+02:00
 layout: post
 slug: serializable-exception-in-java
 title: Serializable Exception in Java

@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-03-15 12:50:40+00:00
+date: 2009-03-15 12:50:40+02:00
 layout: post
 slug: scala-and-twitter-update
 title: Scala and Twitter update

@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2014-12-15 08:59:23+00:00
+date: 2014-12-15 08:59:23+02:00
 layout: post
 slug: functional-programming-in-scala
 title: Functional programming in Scala

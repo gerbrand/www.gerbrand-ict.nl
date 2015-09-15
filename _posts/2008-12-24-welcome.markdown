@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2008-12-24 10:40:47+00:00
+date: 2008-12-24 10:40:47+02:00
 layout: post
 slug: welcome
 title: Welcome

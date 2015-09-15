@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2010-02-26 23:23:58+00:00
+date: 2010-02-26 23:23:58+02:00
 layout: post
 slug: develop-with-jrebel
 title: Develop with faster with smarter tools

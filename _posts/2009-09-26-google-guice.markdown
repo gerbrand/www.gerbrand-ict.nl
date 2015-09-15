@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2009-09-26 12:47:55+00:00
+date: 2009-09-26 12:47:55+02:00
 layout: post
 slug: google-guice
 title: JFall on Google Guice

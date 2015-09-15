@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2010-11-12 10:35:28+00:00
+date: 2010-11-12 10:35:28+02:00
 layout: post
 slug: creating-an-ear-with-version-for-weblogic-using-maven
 title: Creating an ear with version for Weblogic using Maven

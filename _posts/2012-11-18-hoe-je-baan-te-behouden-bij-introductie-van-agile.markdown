@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2012-11-18 10:20:58+00:00
+date: 2012-11-18 10:20:58+02:00
 layout: post
 slug: hoe-je-baan-te-behouden-bij-introductie-van-agile
 title: Hoe je baan te behouden bij introductie van Agile

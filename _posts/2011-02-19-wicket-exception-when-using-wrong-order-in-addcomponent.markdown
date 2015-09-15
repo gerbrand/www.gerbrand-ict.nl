@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2011-02-19 16:19:01+00:00
+date: 2011-02-19 16:19:01+02:00
 layout: post
 slug: wicket-exception-when-using-wrong-order-in-addcomponent
 title: Wicket Exception when using wrong order in addComponent

@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2011-06-19 07:12:44+00:00
+date: 2011-06-19 07:12:44+02:00
 layout: post
 slug: slow-right-click-on-windows
 title: Slow right click on Windows

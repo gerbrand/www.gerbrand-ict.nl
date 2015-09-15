@@ -1,7 +1,7 @@
 ---
 author: admin
 comments: true
-date: 2015-05-13 14:36:51+00:00
+date: 2015-05-13 14:36:51+02:00
 layout: post
 slug: online-diary
 title: Online diary on the fly
