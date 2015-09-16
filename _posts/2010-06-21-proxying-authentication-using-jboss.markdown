@@ -95,7 +95,7 @@ Since we're using a database, the best option would be to use database based aut
          * @return
          */
         public String getDefaultProxyUser() {
-        	return this.defaultProxyUser;
+            return this.defaultProxyUser;
         }
     }
 

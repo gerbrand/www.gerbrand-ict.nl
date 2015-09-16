@@ -17,16 +17,16 @@ I develop software for a living. This involves quite a lot of talking, coaching,
 
 
 
-	
+    
   * Hitting 'Run' and waiting a few seconds,
 
-	
+    
   * to hitting 'Run and deploy' in my IDE and waiting about 20-30 seconds,
 
-	
+    
   * to executing a ant script, restarting the application server and waiting 5 minutes
 
-	
+    
   * to compiling a class file, uploading the class and accompanied libraries using a cumbersome webinterface and then executing a PLSQL script to run that class, wasting in total time amount 15 minutes (_yes, that was a a very big and professional company)
 _
 

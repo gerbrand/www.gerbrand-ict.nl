@@ -56,25 +56,25 @@ Fortunately I found [a good tip on the wicket mailing list](http://apache-wicket
 
         @Override
         protected IRequestCycleProcessor newRequestCycleProcessor() {
-        	//Tip from http://apache-wicket.1842946.n4.nabble.com/WicketRuntimeException-component-not-found-on-page-td3055902.html
-        	return new WebRequestCycleProcessor(){
-        		public IRequestTarget resolve(final RequestCycle requestCycle,
-        				final RequestParameters requestParameters) {
-        	        try {
-        	            return super.resolve(requestCycle, requestParameters);
-        	        } catch (InvalidUrlException e) {
-        	            if (requestCycle.getRequest().getURL().contains("LinkListener") || requestCycle.getRequest().getURL().contains("BehaviorListener")) {
-        	            	log.warn("Couldn't process event, is ignored because of: "+e.getMessage());
+            //Tip from http://apache-wicket.1842946.n4.nabble.com/WicketRuntimeException-component-not-found-on-page-td3055902.html
+            return new WebRequestCycleProcessor(){
+                public IRequestTarget resolve(final RequestCycle requestCycle,
+                        final RequestParameters requestParameters) {
+                    try {
+                        return super.resolve(requestCycle, requestParameters);
+                    } catch (InvalidUrlException e) {
+                        if (requestCycle.getRequest().getURL().contains("LinkListener") || requestCycle.getRequest().getURL().contains("BehaviorListener")) {
+                            log.warn("Couldn't process event, is ignored because of: "+e.getMessage());
                             //ignore exception
-        	                return new PageRequestTarget(requestCycle.getRequest().getPage());
-        	            } else {
+                            return new PageRequestTarget(requestCycle.getRequest().getPage());
+                        } else {
                             //normal operation
-        	            	throw e;
-        	            }
-        	        }
-        	    }
+                            throw e;
+                        }
+                    }
+                }
 
-        	};
+            };
         }
 
 

@@ -17,16 +17,16 @@ Many programmers with at least some education computer science code by a few pri
 
 
 
-	
+    
   * _Encapsulate database access, using Data Access Objects so we're not tied to one or another database_
 
-	
+    
   * _Use Model View Controller pattern, so we can change the view logic easily without having to change the entire software._
 
-	
+    
   * _Use Facade beans and Remote Beans so we can separate our application server in a frontend-server and business-logic server._
 
-	
+    
   * _Know the book of [GoF](http://clk.tradedoubler.com/click?a=1601421&p=67859&g=17297702&epi=1001004004976354) by heart and use their [patterns](http://en.wikipedia.org/wiki/Design_Patterns), so our code is good._
 
 

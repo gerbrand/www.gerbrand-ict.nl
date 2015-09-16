@@ -22,22 +22,22 @@ The preview is available now for a limited audience, in May the first public bet
 
 
 
-	
+    
   * JavaFX 2.0 will be a **library **(jfx.jar), rather than a separate scripting language _JavaFX_. The language works in the language Java of course, but you can use the language [Scala](http://www.scala-lang.org/), [JRuby](http://jruby.org/), [Jython](http://www.jython.org/) or other languages available on the JVM. JavaFX script is end-of-life. Fortunately, the syntax of the library calls is quite similar, and there's a program to translate JavaFX script into equivalent Javacode. Curiously, the translator, _FX Translator_, is written in [Scala](http://www.scala-lang.org/).
 _**Update 2011-06-15**: I only heard about the fx translator at the here mentioned presentation. I could find little references to the translator: a back-reference to [this postin](http://forums.oracle.com/forums/thread.jspa?threadID=2232556&tstart=45)g (sigh) and the fxtranslator mentioned shortly in this posting on [DrDobbs](http://drdobbs.com/blogs/java/229400781)._
 _If you want to use the FXtranslator, you'll have to contact Oracle for now. I guess Oracle will release the automatic translation tool in some time too._
 
-	
+    
   * The **Swing**-controls can be used from JavaFX 2.0. The 'traditional Swing' is now in maintenance mode, Oracle won't create an new features for the original Swing library. Meaning, if you want to develop Swing applications, or more generally, desktop applications in Java now, you can best get the beta or coming GA of JavaFX.
 
-	
+    
   * JavaFX 2.0 will be available on **neither the Mobiles nor Televisions**! Oracle has accepted (Sun's) loss, and will only focus on the desktop for the time being.
 JavaFX seems practical on tablet-devices. However, since most tablet devices are enlarged mobiles (running a mobile os) ratter than flattened laptops (running a full desktop os), you can't use JavaFX on any of those devices for the time being.
 
-	
+    
   * The JavaFX is supported on the **MS-Windows **platform only for the coming time, (but) it will run on Mac, Linux or other platforms unsupported. This means, you might miss the hardware acceleration when not using Windows. Mind you: Roger was using a Mac while doing his presentation and demonstration the code-samples so the MS-Windows-only support might not look as dramatic as it seems at first glance.
 
-	
+    
   * Of course JavaFX runs on the JVM 6 or higher. If all goes well, JavaFX will be part of JDK 8. Before that JavaFX can be downloaded as a plugin before from [java.com](http://www.java.com), which will be not to painful for users, especially if they already have some version of the Java-plugin installed.
 
 

@@ -16,16 +16,16 @@ Very simple:
 
 
 
-	
+    
   * My homepage is running [Wordpress](http://wordpress.org/), a popular open source weblog.
 
-	
+    
   * There are a lot of plugins for Wordpress, of which one is the openid plugin. By going to the administration screen and then to the section plugins, you can install the openid plugin easily by entering openid in the search box.
 
-	
+    
   * After installation, setup a default account.
 
-	
+    
   * Now I can authenticate myself to any site that uses openid, by just entering http://www.gerbrand-ict.nl !
 
 

@@ -15,13 +15,13 @@ The name of the API's for the listed OS's are:
 
 
 
-	
+    
   * On Windows, the [ReadDirectoryChangesW](http://msdn.microsoft.com/en-us/library/aa365465%28v=vs.85%29.aspx) function as part of the filesystem API.
 
-	
+    
   * On Linux, the [inotify](http://en.wikipedia.org/wiki/Inotify) can be used.
 
-	
+    
   * On MacOS, there's [FSEvent ](http://arstechnica.com/apple/reviews/2007/10/mac-os-x-10-5.ars/7)api (source [arstechnica](http://arstechnica.com/apple/reviews/2007/10/mac-os-x-10-5.ars/7)).
 
 

@@ -10,7 +10,7 @@ categories:
 - Technology
 redirect_from:
   - /2009/04/threads-alternative-in-jee-using-the-timerservice
-	- /2009/04/threads-alternative-in-jee-using-the-timerservice/147522
+    - /2009/04/threads-alternative-in-jee-using-the-timerservice/147522
 tags:
 - java
 - jboss

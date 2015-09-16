@@ -19,7 +19,7 @@ Sessions I visited. I've attempted to order them by what I found most interestin
 
 
 
-	
+    
   1. [Types vs Tests : An Epic Battle?](https://www.parleys.com/tutorial/types-vs-tests-an-epic-battle)
 
 
@@ -43,16 +43,16 @@ Sessions I visited. I've attempted to order them by what I found most interestin
 
   8. [Meerkat parsers: a general parser combinator library for real programming languages](https://www.parleys.com/tutorial/meerkat-parsers-general-parser-combinator-library-real-programming-languages)
 
-	
+    
   9. [Yoyak : Static analysis framework for Scala](https://www.parleys.com/tutorial/yoyak-static-analysis-framework-scala)
 
-	
+    
   10. [Scala Puzzlers: "In the Matrix, anything is possible!"](https://www.parleys.com/tutorial/scala-puzzlers-in-matrix-anything-possible)
 
         
   11. [Life Beyond the Illusion of Present](https://www.parleys.com/tutorial/life-beyond-illusion-present)
 
-	
+    
   12. [Project Valhalla: Part 2 – Value Types in the JVM](https://www.parleys.com/tutorial/project-valhalla-part-2-value-types-jvm)
 
 

@@ -29,7 +29,7 @@ There are quite some tutorials, so I just list the basic steps to get started, m
 
 First download JGroups. You can get the latest version from the website [JGroups](http://www.jgroups.org/). Alternatively, you can use Maven. First set up a maven-project, which is beyond the scope of this tutorial.
 
-Add the JBoss repository, by adding 	the following entry to the repositories section of the maven project 	file (pom.xml):
+Add the JBoss repository, by adding     the following entry to the repositories section of the maven project     file (pom.xml):
 
     
     <repository>
@@ -43,7 +43,7 @@ Add the JBoss repository, by adding 	the following entry to the repositories sec
     </repository>
 
 
-After that add the following dependencies to the 	Maven for the jgroups artifact (I use the current latest 	versions):
+After that add the following dependencies to the     Maven for the jgroups artifact (I use the current latest     versions):
 
     
     <dependency>
@@ -93,52 +93,52 @@ This is possible by implementing the Receiver interface, as demonstrated below:
     
     public class JGroupStart implements Receiver {
     
-    	private final static String CLUSTERNAME = "JGroups tutorial cluster";
+        private final static String CLUSTERNAME = "JGroups tutorial cluster";
     
-    	public JGroupStart() throws Exception {
+        public JGroupStart() throws Exception {
     
-    		JChannel ch = new JChannel();
-    		ch.setReceiver(this);
+            JChannel ch = new JChannel();
+            ch.setReceiver(this);
     
-    		ch.connect(CLUSTERNAME);
+            ch.connect(CLUSTERNAME);
     
             System.out.println("JGroups cluster is gestart");
     
             Thread.sleep(10000);
     
             Message m = new Message();
-    		m.setObject(new String("Hello world from node "+ch.getLocalAddressAsString()));
+            m.setObject(new String("Hello world from node "+ch.getLocalAddressAsString()));
             ch.send(m);
-    	}
+        }
     
-    	public byte[] getState() {
+        public byte[] getState() {
             return null;
-    	}
+        }
     
-    	public void receive(Message message) {
-    		System.out.println("Messsage received: " + message.getObject());
-    	}
+        public void receive(Message message) {
+            System.out.println("Messsage received: " + message.getObject());
+        }
     
-    	public void setState(byte[] state) {
+        public void setState(byte[] state) {
     
-    	}
+        }
     
-    	public void block() {
-    	}
+        public void block() {
+        }
     
-    	public void suspect(Address address) {
-    	}
+        public void suspect(Address address) {
+        }
     
-    	public void viewAccepted(View view) {
-    		System.out.println("A node has appeared or disappeared, got a new view: " + view);
-    		for (Address a : view.getMembers()) {
-    			System.out.println("Member address " + a);
-    		}
-    	}
+        public void viewAccepted(View view) {
+            System.out.println("A node has appeared or disappeared, got a new view: " + view);
+            for (Address a : view.getMembers()) {
+                System.out.println("Member address " + a);
+            }
+        }
     
-    	public static void main(String [] args) throws Exception {
-    		JGroupStart app=new JGroupStart();
-    	}
+        public static void main(String [] args) throws Exception {
+            JGroupStart app=new JGroupStart();
+        }
     }
 
 
@@ -157,7 +157,7 @@ To send a message over a channel, you can use the following code:
 
     
     Message m = new Message();
-    		m.setObject("Hello world");
+            m.setObject("Hello world");
     ch.send(m);
 
 
