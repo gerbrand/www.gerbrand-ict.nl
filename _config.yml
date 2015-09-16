@@ -7,9 +7,19 @@ url: "http://www.gerbrand-ict.nl" # the base hostname & protocol for your site
 twitter_username: gerbrandvd
 github_username:  gerbrand
 permalink: /:year/:month/:day/:title/
+jekyll-archives:
+  enabled: all
+  layout: 'archive'
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
 
 # Build settings
 markdown: kramdown
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-archives
