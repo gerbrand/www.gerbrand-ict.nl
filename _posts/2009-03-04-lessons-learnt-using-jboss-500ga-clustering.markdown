@@ -10,6 +10,7 @@ categories:
 - Technology
 redirect_from:
   - /2009/03/lessons-learnt-using-jboss-500ga-clustering
+  - /2009/03/lessons
 tags:
 - java
 - jboss

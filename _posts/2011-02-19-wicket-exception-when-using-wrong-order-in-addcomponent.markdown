@@ -10,6 +10,8 @@ categories:
 - Technology
 redirect_from:
   - 2011/02/wicket-exception-when-using-wrong-order-in-addcomponent
+  - 2011/02/wicket
+  - 2011/02/wicket-exception-when-using
 tags:
 - java
 - wicket

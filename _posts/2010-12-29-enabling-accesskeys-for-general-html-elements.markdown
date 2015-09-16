@@ -8,6 +8,9 @@ title: Enabling accesskeys for javascript events
 wordpress_id: 478
 categories:
 - Technology
+redirect_from:
+  - 2010/12/enabling-accesskey
+  - 2010/12/enabling-accesskeys-for-general-html-elements
 tags:
 - html
 - javascript
@@ -18,7 +21,7 @@ Using the [accesskey](https://developer.mozilla.org/en/XUL/Attribute/accesskey) 
 
 Here's the example taken from the Mozilla DevCenter:
 
-    
+
       <label value="Enter Name" accesskey="e" control="myName"/>
       <textbox id="myName"/>
       <button label="Cancel" accesskey="n"/>
@@ -30,7 +33,7 @@ Both buttons as well as the input box can be accessed by ALT+E, ALT+N, ALT+O on 
 This is quite easy to program, and works for all popular browsers (including Internet Explorer, Safari or Firefox).
 There might be cases where you want to execute some javascript when an accesskey is hit, for example to fire a java-event. Almost all webapplications use javascript one way or another. Fortunately, you don't not complitated key-event-handling javascript to do that, just use an empty link:
 
-    
+
     <a href="#" accesskey="y" onclick="some javascript"> </a>
 
 

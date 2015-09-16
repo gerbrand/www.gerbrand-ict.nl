@@ -8,6 +8,9 @@ title: 'Threads-alternative in JEE: using the timerservice'
 wordpress_id: 171
 categories:
 - Technology
+redirect_from:
+  - /2009/04/threads-alternative-in-jee-using-the-timerservice
+	- /2009/04/threads-alternative-in-jee-using-the-timerservice/147522
 tags:
 - java
 - jboss
@@ -21,21 +24,21 @@ There are several possible answers to that question:
 
 
 
-	
+
   * Using a JMS, Java Messing Service. How to setup is beyond the scope of this weblog posting.
 
-	
+
   * Use of the Timerservice. The timerservice is part of JEE-spec (since 1.4). Using a few annotations you can have the same functionality as you would have when using threads - but compliant with the JEE-spec. I'll explain how to use the TimerService, so you can stop worrying about not being JEE compliant (with regard to threads)!
 
 
 The [TimerService ](http://java.sun.com/javaee/5/docs/api/javax/ejb/TimerService.html)can only be used within a stateless EJB bean. So to start you'll have to define one, by adding the right annotations:
 
-    
+
     ..
-    
+
     @Stateless
     public class MyTimerExampleBean implements MyTimerExample {
-    
+
     }
     ...
     public interface MyTimerExample {
@@ -44,7 +47,7 @@ The [TimerService ](http://java.sun.com/javaee/5/docs/api/javax/ejb/TimerService
 
 Within the bean you can inject the timerservice using the Resource annotation. As soon as the bean is deployed within an application server like JBoss, the bean is instantiated and the resources are injected and available for use.
 
-    
+
         @Resource
         private TimerService timerService;
 
@@ -53,7 +56,7 @@ Now we'll use our timerservice. We define a method called _startMe _and a method
 
 When the _runMe _method is to be executed, the bean is newly instantiated. This means, if you set any local variables within your bean, those values will be lost. For that reason, we use the _**myInfo **_class to transfer parameters, in this case a delay and the message we want to print to the screen.
 
-    
+
     class HelloWorldInfo implements Serializable {
        String message;
        long delay;
@@ -65,15 +68,15 @@ When the _runMe _method is to be executed, the bean is newly instantiated. This 
        taskInformation.message="Hello world";
        taskInformation.delay=12*1000; //12 seconds
        taskInformation.counter=0;
-    
+
        Timer timer = timerService.createTimer(waitTime, taskInformation);
-    
+
     }
         @Timeout
         public synchronized void runMe(Timer timer) {
-    
+
           final HelloWorldInfo myInfo = (HelloWorldInfo ) timer.getInfo();
-    
+
           System.out.println("Going to do something important");
           Thread.wait(5000);
           System.out.println(myInfo.delay);
@@ -85,14 +88,14 @@ That's all there is! Using the above code, will allow you to run code asynchrono
 
 If you want want to execute the run method again, the easiest way is to call the startMe method again:
 
-    
+
        public synchronized void runMe(Timer timer) {
          ...
-    
+
        myInfo.counter++;
        myInfo.message="Doing hello world again for the "+myInfo.counter;
        myInfo.delay=6*1000; //now after 6 seconds
-    
+
        Timer timer = timerService.createTimer(waitTime , myInfo
     );
       }
@@ -116,6 +119,5 @@ The myInfo is modified and passed again to the timerserver. So next time the bea
 Jboss in Action  
 Javid Jamae & Peter Johnson  
 ](http://clk.tradedoubler.com/click?a=1601917&p=67859&g=17297702&epi=1001004005604637)
- 
-</td></tr></table>
 
+</td></tr></table>

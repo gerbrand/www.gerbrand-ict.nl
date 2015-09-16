@@ -8,6 +8,8 @@ title: Proxying authentication using JBoss
 wordpress_id: 264
 categories:
 - Technology
+redirect_from:
+  - 2010/06/proxying-authentication-using-jboss
 tags:
 - java
 - jboss
@@ -31,31 +33,31 @@ However, what if you're JEE applicication consists of non-oracle software? Can y
 
 
 
-	
+
   * First a way is needed to set a username for each (JDBC) database connection retrieved. [It-eye weblog](http://www.it-eye.nl/weblog/2005/09/12/oracle-proxy-users-by-example/) explains how to open a connection to a database using java, and then switch to another username.
 
-	
+
   * Secondly, in your application users should authenticate them self using the default mechanism of J2EE 1.4 (and higher) application, using [JAAS](http://java.sun.com/javase/technologies/security/). Usually creating a security policy inside your web.xml or inside your ear is enough. Here's the information how to do this under JBoss: [Secure a webapplication](http://www.jboss.org/community/wiki/SecureAWebApplicationUsingACustomForm).
 Since we're using a database, the best option would be to use database based authentication, meaning user information comes out of a database table. There's a lot of documentation on the web how to do add security, so I won't repeat that here.
 
-	
+
   * Database connection in JBoss are retrieved using connection pooling, as is custom in any JEE server.  You can create a custom connection pool, that changes the switches to the user name that is currently logged in at the webapplication. That way, every action on the database is done under a database user that is currently logged in.Do to be able to do that, first, you'll need a custom connection factory that extends the default connection factory. Our connection factory will return a customized datasource that modifies code.Here's a code listing:
 
-    
+
     package nl.gerbrandict.dbconnaudit;
-    
+
     import java.sql.SQLException;
     import javax.resource.ResourceException;
     import javax.resource.spi.ConnectionManager;
-    
+
     import org.apache.log4j.Logger;
     import org.apache.commons.lang.StringUtils;
     import org.jboss.resource.adapter.jdbc.local.LocalManagedConnectionFactory;
-    
+
     /**
      * An extended connection factory, that uses the Oracle feature to change the username of an existing connection
      *
-    
+
      * When a user authenticated on the application server, the database connection will switch to that username.
      * This allows for better auditing and potentially for improved security.
      *
@@ -63,23 +65,23 @@ Since we're using a database, the best option would be to use database based aut
      * @author gvdieijen
      */
     public class DBConnAuditConnectionFactory extends LocalManagedConnectionFactory {
-    
+
         private String defaultProxyUser;
-    
+
         public DBConnAuditConnectionFactory() throws SQLException {
             super();
-    
+
         }
-    
+
         @Override
         public Object createConnectionFactory(ConnectionManager cm) throws ResourceException {
             return new OracleWrapperDataSource(this, cm);
         }
-    
+
         public void setEnableProxySession(Boolean enableProxySession) {
             this.enableDbConnAudit = enableProxySession;
         }
-    
+
         public void setDefaultProxyUser(final String defaultProxyUser) {
             if (StringUtils.isEmpty(defaultProxyUser)) {
                 this.defaultProxyUser=null;
@@ -87,7 +89,7 @@ Since we're using a database, the best option would be to use database based aut
                  this.defaultProxyUser = defaultProxyUser;
             }
         }
-    
+
         /**
          * Default db user to open proxy session for, when no authenticated user is active
          * @return
@@ -100,13 +102,13 @@ Since we're using a database, the best option would be to use database based aut
 
 As you can see, the file returns a OracleWrapperDatasource. That's custom class, that extends the default WrapperDatasource of JBoss, and changes the user of jdbc connection just before the connection is handed of to the application. To speak in terms of the fine book
 
-	
+
   * Now, How can you use that new class? They have to be packed into a rar file. Functionally, that's a Resource Adapter, a module that allows a J2EE application to use resources. Technically (and practically), it's just a jar-archive similar to a war, with a different extension. Maven can create these files automatically for you, if you set the packaging type to rar instead of jar (which is the default).
 
-	
+
   * When you download JBoss, you'll get a sample connection pool for a in-memory database: default-ds.xml, located in the server/default/deploy directory of jboss. To use the custom classses, copy the file into (for example) myoracleproxy-ds.xml and create a minor modification so a custom connection factory is used - update the managedconnectionfactory property, that a custom connectionfactory is used, that returns the proxied connections:
 
-    
+
     <managedconnectionfactory-class>nl.gerbrandict.dbconnaudit.DBConnAuditConnectionFactory</managedconnectionfactory-class>
 
 
