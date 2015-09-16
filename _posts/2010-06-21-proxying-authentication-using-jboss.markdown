@@ -8,6 +8,8 @@ title: Proxying authentication using JBoss
 wordpress_id: 264
 categories:
 - Technology
+redirect_from:
+  - 2010/06/proxying-authentication-using-jboss
 tags:
 - java
 - jboss

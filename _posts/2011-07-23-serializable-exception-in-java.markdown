@@ -9,7 +9,7 @@ wordpress_id: 563
 categories:
 - Reviews
 redirect_from:
-  - /2011/07/serializable
+  - /2011/07/serializable-exception-in-java
 tags:
 - java
 - wicket

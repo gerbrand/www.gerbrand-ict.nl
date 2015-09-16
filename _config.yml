@@ -9,7 +9,7 @@ github_username:  gerbrand
 exclude: [vendor]
 include: [.htaccess]
 keep_files: [wp-content] 
-permalink: /:year/:month/:title/
+permalink: /:year/:month/:day/:title/
 jekyll-archives:
   enabled: all
   layout: 'archive'
