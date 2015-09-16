@@ -8,8 +8,6 @@ title: Creating an ear with version for Weblogic using Maven
 wordpress_id: 471
 categories:
 - Technology
-redirect_from:
-  - 2010/11/creating-an-ear-with-version-for-weblogic-using-maven
 tags:
 - java
 ---

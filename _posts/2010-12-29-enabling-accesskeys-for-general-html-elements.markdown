@@ -10,7 +10,6 @@ categories:
 - Technology
 redirect_from:
   - 2010/12/enabling-accesskey
-  - 2010/12/enabling-accesskeys-for-general-html-elements
 tags:
 - html
 - javascript

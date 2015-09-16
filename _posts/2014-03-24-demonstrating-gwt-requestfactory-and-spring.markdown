@@ -9,7 +9,7 @@ wordpress_id: 634
 categories:
 - Technology
 redirect_from:
-  - /2014/03/demonstrating-gwt-requestfactory-and-spring
+  - /2014/03/demonstrating-gwt
 tags:
 - gwt
 - java

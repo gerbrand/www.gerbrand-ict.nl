@@ -10,7 +10,7 @@ categories:
 - Ideas
 - Various @nl
 redirect_from:
-  - /2015/04/hoe-kijk-jij-tegen-software
+  - /2015/04/hoe
 tags:
 - agile
 - lean
