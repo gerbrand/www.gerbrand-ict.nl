@@ -7,6 +7,9 @@ url: "http://www.gerbrand-ict.nl" # the base hostname & protocol for your site
 twitter_username: gerbrandvd
 github_username:  gerbrand
 permalink: /:year/:month/:day/:title/
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_permalink_style: pretty
 
 # Build settings
 markdown: kramdown
