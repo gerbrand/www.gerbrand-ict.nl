@@ -6,6 +6,10 @@ layout: page
 slug: about
 title: About
 wordpress_id: 5
+redirect_from:
+  - /resume
+  - /portfolio.html
+  - /page/6
 ---
 
 I am Gerbrand van Dieijen, father, programmer, rower, reader, citizen of the European Union with a broad interest in all aspects of software-engineering. On this weblog I'll post thoughts, opinions, analyses on trends and tutorials on IT-related subjects.
