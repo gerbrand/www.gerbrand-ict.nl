@@ -6,6 +6,9 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.gerbrand-ict.nl" # the base hostname & protocol for your site
 twitter_username: gerbrandvd
 github_username:  gerbrand
+exclude: vendor
+include: .htaccess
+keep_files: wp-content 
 permalink: /:year/:month/:day/:title/
 jekyll-archives:
   enabled: all
