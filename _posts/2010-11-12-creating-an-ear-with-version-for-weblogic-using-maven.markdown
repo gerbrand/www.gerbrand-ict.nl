@@ -8,6 +8,8 @@ title: Creating an ear with version for Weblogic using Maven
 wordpress_id: 471
 categories:
 - Technology
+redirect_from:
+  - 2010/11/creating-an-ear-with-version-for-weblogic-using-maven
 tags:
 - java
 ---
@@ -17,7 +19,7 @@ I'm using the ear plugin as well, in my case to be used for Weblogic 9. Weblogic
 
 <!-- more --> Adding a custom manifest entry is quite easy. Just add an entry to the configuration of the Maven 2 ear plugin, as shown in the example below:
 
-    
+
     <plugin>
     <artifactId>maven-ear-plugin</artifactId>
     <configuration>
@@ -35,7 +37,7 @@ However, this wasn't enough for me: I'm sometimes modifying and recreating the e
 The solution is to include a timestamp in the version as well. By default, Maven doesn't include a timestamp. Fortunately there's [Stackoverflow](http://stackoverflow.com/questions/1224359/how-do-i-add-time-stamp-information-to-maven-artifacts) with the answer: there's an external plugin called [buildnumber-maven-plugin](http://mojo.codehaus.org/buildnumber-maven-plugin/index.html) that allows you do that.
 For my weblogic specific entry I added the following to the pom.xml file:
 
-    
+
     <groupId>org.codehaus.mojo</groupId>
     <artifactId>buildnumber-maven-plugin</artifactId>
     <version>1.0-beta-3</version>
@@ -59,7 +61,7 @@ For my weblogic specific entry I added the following to the pom.xml file:
 The above entry will make a variable buildNumber available during build containing a timestamp.
 The maven ear configuration becomes:
 
-    
+
     <plugin>
     <artifactId>maven-ear-plugin</artifactId>
     <configuration>
