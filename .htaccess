@@ -3,11 +3,4 @@
 RewriteEngine On
 RewriteCond %{HTTP_HOST} !^www\.gerbrand-ict\.nl [NC]
 RewriteRule ^(.*)$ http://www\.gerbrand-ict\.nl/$1 [L,R=301]
-RewriteCond %{HTTP_HOST} www\.gerbrand-ict\.nl [NC]
-RewriteBase /author/admin
-RewriteRule ^(.*)$ http://www\.gerbrand-ict\.nl/$1 [L,R=301]
-RewriteBase /a
-RewriteRule ^(.*)$ http://www\.gerbrand-ict\.nl/$1 [L,R=301]
-RewriteBase /thread/147522
-RewriteRule ^(.*)$ http://www\.gerbrand-ict\.nl/$1 [L,R=301]
 </IfModule>
