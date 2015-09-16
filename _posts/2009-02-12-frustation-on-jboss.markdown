@@ -5,6 +5,9 @@ date: 2009-02-12 20:41:07+02:00
 layout: post
 slug: frustation-on-jboss
 title: Frustation on JBoss
+redirect_from:
+ - /reviews/2009/02/12/frustation-on-jboss.html
+ - /2009/02/frustation-on-jboss
 wordpress_id: 82
 categories:
 - Reviews
@@ -19,29 +22,29 @@ I could successfully instantiate a cache, using the default factory class. Howev
 
 In the [JBoss Cache documentation](http://www.jboss.org/file-access/default/members/jbosscache/freezone/docs/3.0.2.GA/userguide_en/html_single/index.html) I’ve found the following entry:
 
-    
+
     CacheFactory factory = new DefaultCacheFactory();
-    
+
     // Build but don't start the cache
-    
+
     // (although it would work OK if we started it)
-    
+
     Cache cache = factory.createCache("cache-configuration.xml");
-    
+
     MBeanServer server = getMBeanServer(); // however you do it
-    
+
     ObjectName on = new ObjectName("jboss.cache:service=Cache");
-    
+
     JmxRegistrationManager jmxManager = new JmxRegistrationManager(server, cache, on);
-    
+
     jmxManager.registerAllMBeans();
-    
+
     ... use the cache
-    
+
     ... on application shutdown
-    
+
     jmxManager.unregisterAllMBeans();
-    
+
     cache.stop();
 
 
@@ -57,7 +60,7 @@ In the [JBoss Cache documentation](http://www.jboss.org/file-access/default/memb
 Sounds great doesn’t it? Well, first of all, it’s an awful lot of code just to get access to the cache. Secondly, there’s a reference to a configuration file you first have to place somewhere, and thirdly there’s the line that’s commented with:
 
 
-    
+
     // however you do it
 
 
