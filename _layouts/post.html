@@ -20,11 +20,11 @@ layout: default
       /*
 /2011/02/19/wicket-exception-when-using-wrong-order-in-addcomponent/
       */
-      var re=new RegExp("/(2006|2007|2008|2009|2010|2011)/(\\d\\d)(/\\d\\d/)(.*)");
+      var re=new RegExp("(/2006|2007|2008|2009|2010|2011)/(\\d\\d)(/\\d\\d/)(.*)");
       if (re.test(disqus_path)) {
         disqus_path = disqus_path.replace(re,"$1\/$2/$4");
       }
-      var disqus_url = 'https://www.functional-consulting.nl/'+disqus_path;
+      var disqus_url = 'https://www.functional-consulting.nl'+disqus_path;
       //console.log(disqus_url);
       /* * * DON'T EDIT BELOW THIS LINE * * */
       (function() {
