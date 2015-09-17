@@ -9,8 +9,6 @@ github_username:  gerbrand
 exclude: [vendor]
 include: [.htaccess]
 keep_files: [wp-content]
-paginate: 6
-paginate_path: "/blog/page:num/"
 permalink: /:year/:month/:day/:title/
 jekyll-archives:
   enabled: all
