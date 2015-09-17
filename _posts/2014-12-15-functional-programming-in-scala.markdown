@@ -8,6 +8,8 @@ title: Functional programming in Scala
 wordpress_id: 666
 categories:
 - Methodology
+redirect_from:
+  - /2014/12/functional-programming-in-scala/
 tags:
 - coder
 - haskell
