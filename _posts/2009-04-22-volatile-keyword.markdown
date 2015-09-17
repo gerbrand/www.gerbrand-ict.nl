@@ -8,6 +8,8 @@ title: Volatile keyword
 wordpress_id: 191
 categories:
 - Reviews
+redirect_from:
+  - /2009/04/volatile-keyword/
 tags:
 - concurrency
 - java

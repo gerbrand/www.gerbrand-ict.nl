@@ -8,6 +8,7 @@ title: JavaFX 2.0
 wordpress_id: 495
 categories:
 - Reviews
+disqus_url: /2011/02/javafx-2-0-by-roger-brinkley
 redirect_from:
 - /2011/02/javafx-2-0-by-roger-brinkley/
 tags:

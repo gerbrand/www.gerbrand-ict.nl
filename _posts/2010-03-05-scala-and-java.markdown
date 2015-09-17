@@ -8,6 +8,8 @@ title: Scala and Java
 wordpress_id: 408
 categories:
 - Technology
+redirect_from:
+ - /2010/03/scala-and-java/
 tags:
 - java
 - scala
@@ -27,7 +29,3 @@ In the coming postings I want to investigate that claim using my knowledge of ex
 
 
 For now, I found this nice presentation I want to share: [Introduction To Scala For Java Developers](http://www.slideshare.net/skillsmatter/miles-sabin-introduction-to-scala-for-java-developers) by Miles Sabin.
-
-
-
-

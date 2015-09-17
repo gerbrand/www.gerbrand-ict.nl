@@ -7,7 +7,7 @@ slug: frustation-on-jboss
 title: Frustation on JBoss
 redirect_from:
  - /reviews/2009/02/12/frustation-on-jboss.html
- - /2009/02/frustation-on-jboss
+ - /2009/02/frustation-on-jboss/
 wordpress_id: 82
 categories:
 - Reviews
