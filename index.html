@@ -13,7 +13,7 @@ Hello, I am Gerbrand van Dieijen and I work as freelance programmer, changing th
 <p>
 To know more about, you can check out my cv at <a href="http://www.linkedin.com/in/gerbrand">Lindedin</a>. I've also got some <a href="https://github.com/gerbrand/">code on GitHub</a>. Also <a href="http://www.google.nl/search?q=gerbrand+van+dieijen">Google</a> returns quite some hits.
 
-<p>With irregular bursts I am active on <a href="https://twitter.com/gerbrandvd">Twitter</a>, <a href="https://www.linkedin.com/pulse/activities/gerbrand-van-dieijen+0_1ph6hcYSZX9S2-xbCw_SDu?trk=mp-reader-h">Linkedin</a>, <a href="https://plus.google.com/b/113151117598228373213/">Google-plus</a> and <a href="https://medium.com/@gerbrand">Medium</a>. I also occasionaly write on my <a href="blog/">blog</a>.
+<p>With irregular bursts I am active on <a href="https://twitter.com/gerbrandvd">Twitter</a>, <a href="https://www.linkedin.com/pulse/activities/gerbrand-van-dieijen+0_1ph6hcYSZX9S2-xbCw_SDu?trk=mp-reader-h">Linkedin</a>, <a href="https://plus.google.com/b/113151117598228373213/">Google-plus</a> and <a href="https://medium.com/@gerbrand">Medium</a>. I also occasionaly write on my blog.
 </div>
 
 <!-- This loops through the paginated posts -->
@@ -23,8 +23,11 @@ To know more about, you can check out my cv at <a href="http://www.linkedin.com/
     <span class="date">{{ post.date }}</span>
   </p>
   <div class="content">
-    {{ post.content }}
+    {{ post.content | split: '<!-- more -->' | first }}
+    <p>
+    <a href="{{ post.url }}">Read and comment</a>
   </div>
+
 {% endfor %}
 
 <!-- Pagination links -->
