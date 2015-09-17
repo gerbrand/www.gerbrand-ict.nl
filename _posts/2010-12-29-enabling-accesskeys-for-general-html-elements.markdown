@@ -9,8 +9,8 @@ wordpress_id: 478
 categories:
 - Technology
 redirect_from:
-  - 2010/12/enabling-accesskey
-  - 2010/12/enabling-accesskeys-for-general-html-elements
+  - /2010/12/enabling-accesskey
+  - /2010/12/enabling-accesskeys-for-general-html-elements
 tags:
 - html
 - javascript
