@@ -6,6 +6,10 @@ layout: post
 slug: bunq-nederlandse-startup-met-bankvergunning
 title: Bunq, Dutch startup with banking license
 wordpress_id: 747
+redirect_from:
+  - /2015/08/24/bunq-nederlandse-startup-met-bankvergunning/
+  - /2015/08/26/bunq-nederlandse-startup-met-bankvergunning/
+  - /2015/08/25/bunq-nederlandse-startup-met-bankvergunning/
 categories:
 - Various
 tags:
