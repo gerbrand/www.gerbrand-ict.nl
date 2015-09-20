@@ -1,0 +1,133 @@
+---
+layout: post
+title: Distributed software with JGroups
+date: 2009-03-11 09:59:48.000000000 +01:00
+type: post
+published: true
+status: publish
+categories:
+- Technology
+tags:
+- java
+- jboss
+meta:
+  _edit_last: '2'
+  dsq_thread_id: '3817056771'
+  _jetpack_related_posts_cache: a:0:{}
+author:
+  login: admin
+  email: gerbrand@vandieijen.nl
+  display_name: gerbrand
+  first_name: Gerbrand
+  last_name: van Dieijen
+---
+<p><!-- 	 	 --></p>
+<h1>JGroups</h1>
+<p>A distributed application, where nodes of the application communicate with each other over a LAN using UDP. Each nodes discovers other nodes automatically, when a node crashes or shuts down, all nodes give notice automatically. And this is all possible without any application server, complicated configuration or what-ever-else with JGroups!</p>
+<p>There are quite some tutorials, so I just list the basic steps to get started, most notably the maven dependencies.</p>
+<h2>Download JGroups</h2>
+<p>First download JGroups. You can get the latest version from the website <a href="http://www.jgroups.org/">JGroups</a>. Alternatively, you can use Maven. First set up a maven-project, which is beyond the scope of this tutorial.</p>
+<p>Add the JBoss repository, by adding 	the following entry to the repositories section of the maven project 	file (pom.xml):</p>
+<pre>&lt;repository&gt;
+
+&lt;id&gt;maven.jboss.org&lt;/id&gt;
+
+&lt;name&gt;JBoss Maven Repository&lt;/name&gt;
+
+&lt;url&gt;http://repository.jboss.com/maven2&lt;/url&gt;
+
+&lt;/repository&gt;</pre>
+<p>After that add the following dependencies to the 	Maven for the jgroups artifact (I use the current latest 	versions):</p>
+<pre>&lt;dependency&gt;
+
+&lt;groupId&gt;jgroups&lt;/groupId&gt;
+
+&lt;artifactId&gt;jgroups&lt;/artifactId&gt;
+
+&lt;version&gt;2.7.0.GA&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+
+&lt;groupId&gt;log4j&lt;/groupId&gt;
+
+&lt;artifactId&gt;log4j&lt;/artifactId&gt;
+
+&lt;version&gt;1.2.15&lt;/version&gt;
+
+&lt;/dependency&gt;</pre>
+<h2>Setting up a channel</h2>
+<p>To start using JGroups, no configuration or application server is necessary. In this posting very briefly a class will be that uses JGroups to transmit messages over nodes:</p>
+<p>First import the necessary classes:</p>
+<pre class="java">import org.jgroups.*;</pre>
+<p>Now set up a channel:</p>
+<pre class="java">JChannel ch = new JChannel();</pre>
+<p>The code below you can put in a constructor of your class, so the JChannel is initalized only once. That's all there is! When you run the application multiple times inside the network (or on your own machine, for testing), JGroups will automatically detect other nodes.</p>
+<p>Now you can add a receiver to channel, to start receiving messages and being updated of new nodes.</p>
+<p>This is possible by implementing the Receiver interface, as demonstrated below:</p>
+<pre class="java">public class JGroupStart implements Receiver {
+
+	private final static String CLUSTERNAME = "JGroups tutorial cluster";
+
+	public JGroupStart() throws Exception {
+
+		JChannel ch = new JChannel();
+		ch.setReceiver(this);
+
+		ch.connect(CLUSTERNAME);
+
+        System.out.println("JGroups cluster is gestart");
+
+        Thread.sleep(10000);
+
+        Message m = new Message();
+		m.setObject(new String("Hello world from node "+ch.getLocalAddressAsString()));
+        ch.send(m);
+	}
+
+	public byte[] getState() {
+        return null;
+	}
+
+	public void receive(Message message) {
+		System.out.println("Messsage received: " + message.getObject());
+	}
+
+	public void setState(byte[] state) {
+
+	}
+
+	public void block() {
+	}
+
+	public void suspect(Address address) {
+	}
+
+	public void viewAccepted(View view) {
+		System.out.println("A node has appeared or disappeared, got a new view: " + view);
+		for (Address a : view.getMembers()) {
+			System.out.println("Member address " + a);
+		}
+	}
+
+	public static void main(String [] args) throws Exception {
+		JGroupStart app=new JGroupStart();
+	}
+}</pre>
+<p>The class contains a main method so we can start it. After starting, a JGroups server - a node - in our network:</p>
+<pre>-------------------------------------------------------
+GMS: address is 172.168.11.109:1999
+-------------------------------------------------------
+A node has appeared or disappeared, got a new view: [172.168.11.109:1999|0] [172.168.11.109:1999]
+Member address 172.168.11.109:1999
+JGroups cluster is gestart</pre>
+<p>To send a message over a channel, you can use the following code:</p>
+<pre class="java">Message m = new Message();
+		m.setObject("Hello world");
+ch.send(m);</pre>
+<p>The setObject method accepts any Serializable class, in this case I just sent a simple String. All other nodes will receive this message:</p>
+<p><em>Messsage received: Hello world</em></p>
+<p>Allthough simple as that seems, the concept is powerful. As said, nodes discover eachother automatically. When a node crashes or disappears, other nodes are notified automatically. Naturally there are much more advanced examples then what I listed above. On the JGroups site there's a article how to set up <a href="http://www.jgroups.org/taskdistribution.html">A simple clustered task distribution system</a>.<br />
+Furthermore, <a href="http://www.jboss.org/projects">JBoss</a> 5.0GA contains a Cache: <a href="http://www.jboss.org/jbosscache">JBoss Cache</a>. The distributed cache is built on top of JGroups. Using the JBoss Cache, JBoss can run distributed on multiple servers - this means if one server crashes or goes down for maintaince, another server takes over. Users or visitors of your site won't even notice - except that the whole site might be a bit slower.<br />
+Of course the cache can be used outsite JBoss too. JBoss cache can be used <a href="http://www.jboss.org/jbosscache">standalone</a>, allowing any Java application - standalone or not - to take advantage of this nice powerful open source technology.</p>
+<hr />
+<iframe src="http://rcm.amazon.com/e/cm?t=geonic-20&o=1&p=8&l=as1&asins=1933988029&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr&nou=1" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe></p>

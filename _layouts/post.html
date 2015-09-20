@@ -5,7 +5,7 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}</p>
   </header>
 
   <article class="post-content">
@@ -17,15 +17,8 @@ layout: default
       /* * * CONFIGURATION VARIABLES * * */
       var disqus_shortname = 'gerbrandsblog';
       var disqus_path = window.location.pathname;
-      /*
-/2011/02/19/wicket-exception-when-using-wrong-order-in-addcomponent/
-      */
-      var re=new RegExp("(/2006|2007|2008|2009|2010|2011)/(\\d\\d)(/\\d\\d/)(.*)");
-      if (re.test(disqus_path)) {
-        disqus_path = disqus_path.replace(re,"$1\/$2/$4");
-      }
-      var disqus_url = 'https://www.functional-consulting.nl'+disqus_path;
-      //console.log(disqus_url);
+      var disqus_url = 'https://www.gerbrand-ict.nl'+disqus_path;
+      console.log(disqus_url);
       /* * * DON'T EDIT BELOW THIS LINE * * */
       (function() {
           var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

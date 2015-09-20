@@ -1,0 +1,98 @@
+---
+layout: post
+title: Proxying authentication using JBoss
+date: 2010-06-22 00:00:19.000000000 +02:00
+type: post
+published: true
+status: publish
+categories:
+- Technology
+tags:
+- java
+- jboss
+- security
+- sql
+meta:
+  _edit_last: '2'
+  dsq_thread_id: '3778169147'
+  _jetpack_related_posts_cache: a:0:{}
+author:
+  login: admin
+  email: gerbrand@vandieijen.nl
+  display_name: gerbrand
+  first_name: Gerbrand
+  last_name: van Dieijen
+---
+<p>Wouldn't it be nice if the connection to the database is done using the same username as the username used to login to a (JEE) application? Oracle has a solution for that: <a href="http://download.oracle.com/docs/cd/B28359_01/java.111/b31224/proxya.htm">proxy authentication</a>.  When using proxy authentication, every application user is also a database user: meaning when someone logins to your JEE webapplication using username john, he'll also access the database as user john. This way all actions of the user are logged at the database-level: an administrator or auditer can see exactly what data a certain user modified or accessed during a JEE session.</p>
+<p><!--more--></p>
+<p>Also, this allows for fine-grained security at database level: <a href="http://www.oracle.com/technology/deploy/security/database-security-10g/virtual-private-database/index.html">Virtual Private Database</a>.</p>
+<p>[caption id="attachment_297" align="alignnone" width="456" caption="(c) Oracle"]<a href="http://www.oracle.com/technology/deploy/security/database-security-10g/virtual-private-database/index.html"><img class="size-full wp-image-297" title="virtual-private-database1" src="{{ site.baseurl }}/assets/virtual-private-database1.gif" alt="Virtual private database" width="456" height="175" /></a>[/caption]</p>
+<p>As described in the above image and referenced article, the user identified by userid 106 (let's say that's user john) will access the database using a private database connection. The user can only access rows that have that userid as primary or foreign key.  John can't see the passwords, orders, credit card data or anything of other users even if he would somehow hack the webapplication. How to set up this finegrained securiy is beyond this article, but I hope the above example explains what the purpose VPD is.</p>
+<p>If you develop your JEE software using Oracle software  proxy authentication requires only a bit of configuration, for example, see the following article how to setup proxy authentication using <a href="http://blogs.oracle.com/jheadstart/2008/01/28/">JHeadstart</a>.</p>
+<p>However, what if you're JEE applicication consists of non-oracle software? Can you still use proxy authentication when you use software like JBoss, Hibernate, IBatis, MyFaces, Wicket etc? Yes you can! I'll explain below how to set up proxy authentication using JBoss in such a way you don't have to modify any of the code that uses JDBC, directly or indirectly.</p>
+<ul>
+<li>First a way is needed to set a username for each (JDBC) database connection retrieved. <a href="http://www.it-eye.nl/weblog/2005/09/12/oracle-proxy-users-by-example/">It-eye weblog</a> explains how to open a connection to a database using java, and then switch to another username.</li>
+<li>Secondly, in your application users should authenticate them self using the default mechanism of J2EE 1.4 (and higher) application, using <a href="http://java.sun.com/javase/technologies/security/">JAAS</a>. Usually creating a security policy inside your web.xml or inside your ear is enough. Here's the information how to do this under JBoss: <a href="http://www.jboss.org/community/wiki/SecureAWebApplicationUsingACustomForm">Secure a webapplication</a>.<br />
+Since we're using a database, the best option would be to use database based authentication, meaning user information comes out of a database table. There's a lot of documentation on the web how to do add security, so I won't repeat that here.</li>
+<li>Database connection in JBoss are retrieved using connection pooling, as is custom in any JEE server.  You can create a custom connection pool, that changes the switches to the user name that is currently logged in at the webapplication. That way, every action on the database is done under a database user that is currently logged in.Do to be able to do that, first, you'll need a custom connection factory that extends the default connection factory. Our connection factory will return a customized datasource that modifies code.Here's a code listing:
+<pre class="brush: java;">package nl.gerbrandict.dbconnaudit;
+
+import java.sql.SQLException;
+import javax.resource.ResourceException;
+import javax.resource.spi.ConnectionManager;
+
+import org.apache.log4j.Logger;
+import org.apache.commons.lang.StringUtils;
+import org.jboss.resource.adapter.jdbc.local.LocalManagedConnectionFactory;
+
+/**
+ * An extended connection factory, that uses the Oracle feature to change the username of an existing connection
+ *
+
+ * When a user authenticated on the application server, the database connection will switch to that username.
+ * This allows for better auditing and potentially for improved security.
+ *
+ * Properties (get'ers and set'ters) can be set via the configuration section of the -ds file
+ * @author gvdieijen
+ */
+public class DBConnAuditConnectionFactory extends LocalManagedConnectionFactory {
+
+    private String defaultProxyUser;
+
+    public DBConnAuditConnectionFactory() throws SQLException {
+        super();
+
+    }
+
+    @Override
+    public Object createConnectionFactory(ConnectionManager cm) throws ResourceException {
+        return new OracleWrapperDataSource(this, cm);
+    }
+
+    public void setEnableProxySession(Boolean enableProxySession) {
+        this.enableDbConnAudit = enableProxySession;
+    }
+
+    public void setDefaultProxyUser(final String defaultProxyUser) {
+        if (StringUtils.isEmpty(defaultProxyUser)) {
+            this.defaultProxyUser=null;
+        } else {
+             this.defaultProxyUser = defaultProxyUser;
+        }
+    }
+
+    /**
+     * Default db user to open proxy session for, when no authenticated user is active
+     * @return
+     */
+    public String getDefaultProxyUser() {
+    	return this.defaultProxyUser;
+    }
+}</pre>
+<p>As you can see, the file returns a OracleWrapperDatasource. That's custom class, that extends the default WrapperDatasource of JBoss, and changes the user of jdbc connection just before the connection is handed of to the application. To speak in terms of the fine book</li>
+<li>Now, How can you use that new class? They have to be packed into a rar file. Functionally, that's a Resource Adapter, a module that allows a J2EE application to use resources. Technically (and practically), it's just a jar-archive similar to a war, with a different extension. Maven can create these files automatically for you, if you set the packaging type to rar instead of jar (which is the default).</li>
+<li>When you download JBoss, you'll get a sample connection pool for a in-memory database: default-ds.xml, located in the server/default/deploy directory of jboss. To use the custom classses, copy the file into (for example) myoracleproxy-ds.xml and create a minor modification so a custom connection factory is used - update the managedconnectionfactory property, that a custom connectionfactory is used, that returns the proxied connections:
+<pre class="brush: xml;">&lt;managedconnectionfactory-class&gt;nl.gerbrandict.dbconnaudit.DBConnAuditConnectionFactory&lt;/managedconnectionfactory-class&gt;</pre>
+</li>
+</ul>
+<p>All in all, after some tweaking, all queries and updates to your Oracle database are done under the J2EE username. This means when user Joe logs in, all his database access will be logged under user Joe as well. This can improve auditing as well as security.</p>

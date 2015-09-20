@@ -1,0 +1,63 @@
+---
+layout: post
+title: Internet storage review
+date: 2009-04-25 14:53:25.000000000 +02:00
+type: post
+published: true
+status: publish
+categories:
+- Reviews
+tags:
+- cloud
+meta:
+  _edit_last: '2'
+  dsq_thread_id: '3768853749'
+  _jetpack_related_posts_cache: a:0:{}
+author:
+  login: admin
+  email: gerbrand@vandieijen.nl
+  display_name: gerbrand
+  first_name: Gerbrand
+  last_name: van Dieijen
+---
+<div>A non-profit organization that's just starting up needed someway to share files and backup files. Mailing files and taking with them USB sticks and using the dvd-writer is a solution, but I guessed there should be an easier way: internet accessible storage. There are lots of companies providing that service, so that shouldn't be to hard.</div>
+<p>My requirements were:</p>
+<ul>
+<li>Easy access, including a windows client that automatically <a href="http://www.joelonsoftware.com/backIssues-2008-05.html">synchronizes </a>folders (directories) and files. Basically a 'network-drive', just as you would get when using a fileserver, using the same concepts of directories and files.<br />
+On the other hand, the service shouldn't be limited to Windows - in case someone wants to use a <a href="http://www.apple.com/nl/mac/">Mac</a>.</li>
+<li>Reliable and secure access, all communication should be encrypted properly.</li>
+<li>Ability to administer access rights, to limit access to directories and files.</li>
+<li>Business-work-oriented  - 'music', 'video' and 'sharing pictures with your family' nor online backup should be the primary goal of the service.</li>
+<li>Being fast and efficient - I don't like software that wastes time of the user by slowing down the computer and taking up resources.</li>
+<li>Nice to have: Automatic versioning - just to be sure no files and modification get lost when two people work on a file at the same time. Of course the need for this functionally also depends on the synchronization mechanism of the internet drive.</li>
+</ul>
+<p>Using a <a href="http://www.google.nl">search engine</a> I found a few sites that offer online storage. I also found a few comparison/review articles, like <a href="http://danga.blogsome.com/category/online-storage/">this site</a> and <a href="http://www.frankwatching.com/archive/2006/05/08/web-20-online-storage/">this one</a>.  Many of the services that have been reviewed as very promising a few years ago, are now offline.</p>
+<div>
+<ol>
+<li><a href="http://zumodrive.com">ZumoDrive</a>, I heard of <a href="http://tomuse.com/zumodrive-free-web-storage-files-syncing-solutions/">just recently</a>. Unlike most other services, ZumoDrive doesn't synchronise selected directories but rather provides (in Windows) a virtual drive that behaves mostly the same as a normal drive: you can even access the drive from the commandline. Conceptually this works quite easy. Files and directories can be shared as well to other ZumoDrive users via a smart synchronisation process, or as via a http link, to webusers. ZumoDrive supports versioning as well, previous versions of files are kept.<br />
+Zumodrive is still beta however. I had some rare occasions a file, including history got lost after a crash. There a frequent updates, so this problem might not occur anymore. Also, a disadvantage is that you have to start the zumodrive application to access your files, although you don't have to be online.<br />
+<a href="http://zumodrive.com/"><img class="alignnone size-full wp-image-276" title="zumodrivelogo" src="{{ site.baseurl }}/assets/zumodrivelogo.png" alt="zumodrivelogo" width="178" height="61" /></a></li>
+<li><a href="https://www.getdropbox.com/">Dropbox</a>: Very comparable to ZumoDrive, with a few exceptions. First, unlike ZumoDrive, in Windows you won't get an extra driveletter. Rather Dropbox <a href="http://paulstefanort.com/2009/02/17/dropbox-and-zumodrive-%E2%80%94-two-approaches-to-web-storage/">synchronizes a directory</a>, so when you've stored files on Dropbox, they won't be available to other computers immediately. Advantage of not having using a drive letter is, you're files will still be available even if you quite the dropbox application.<br /> More detailed comparison can be found on <a href="http://news.ycombinator.com/item?id=438410">Hacker News</a> and <a href="http://www.newsome.org/2009/02/zumodrive-vs-dropbox.shtml">Newsome.Org</a>.<br />
+<a href="http://www.getdropbox.com"><img class="alignnone" title="Get Dropbox" src="{{ site.baseurl }}/assets/dropbox_logo_home.png" alt="" width="157" height="41" /></a></li>
+<li><a href="http://www.diino.com">Diino</a>: requested a trial. Lots of online space. The Java Client was very easy to install, using webstart. After that, setting up a backup job was very easy.<br />Minor disadvantage, Diino doesn't have a free account.<br />
+<a href="http://www.diino.com/"><img class="alignnone" title="Dinno" src="{{ site.baseurl }}/assets/logo.jpg?1242208000" alt="" width="104" height="43" /></a></li>
+<li><a href="http://www.idrive.com/">IDrive</a>: This service integrates nicely in the windows explorer, so most of my requirements are fulfilled. Free account for up to 2GB. I noticed however, my computer got kind of slow when IDrive was integrated in windows. Apart from that, the backup service, works pretty good. You select directories you want to backup, and they'll be synchronized automatically.<br />
+<a href="http://www.idrive.com/"><img class="alignnone" title="IDrive" src="{{ site.baseurl }}/assets/ide_logo.gif" alt="" width="110" height="69" /></a></li>
+<li><a href="http://www.drivehq.com">DriveHQ</a>: just like IDrive, the software provides a lot of features for backups. DriveHQ also provides a nice client to automatically synchronize folders. I've used the product for a while and my computer is still performing nicely even though I've 'shared' (scheduled for synchronization) a large directory. Minor disadvantage: the free edition shows a popup box every 50 mb, information that you won't have this dialog box when you have paid account.<br />
+DriveHQ doesn't seem to support versioning. However, if one (or two) users modify a file simultaneously at two different computers, a driveHQ will present a dialog box. Also, another disadvantage is the poor integration with Explorer: right mouse click won't give you the status of a file.<br />
+<a href="http://www.drivehq.com"><img class="alignnone" title="DriveHQ" src="{{ site.baseurl }}/assets/Common_logo.gif" alt="" width="171" height="51" /></a></li>
+<li><a href="http://www.egnyte.com">Egnyte</a>: very promising from what I read at the website. Egnyte supports everything I want, and they also have promising (and buzz word compliant) feature 'local cloud' . Although 'cloud' sounds advanced, it's basically software that sychronizes a folder on your local disk with the Egnyte shared storage, and also unlike other internet storage you can synchronize only one directly.A feature that does make Egnyte slightly better than average is the Webdav folder access. Webdav is a protocol for storing and loading documents, used amongst others by <a href="http://www.microsoft.com/Sharepoint/default.mspx">MS-Sharepoint</a>. That feature might allow egnyte to be a Sharepoint replacement, for at least part of the features.<br />
+Egnyte is little bit expensive maybe, but all good things have a price.<br />
+<a href="http://www.egnyte.com/"><img class="alignnone" title="Egnyte" src="{{ site.baseurl }}/assets/logo_head.gif" alt="" width="161" height="35" /></a></li>
+<li>On <a href="http://skydrive.live.com/">Skydrive </a>of Microsoft, I found positive review (including interesting comments). As far from what I read, skydrive doesn't support versioning. I guess Microsoft wants business-users to use <a href="http://office.microsoft.com/nl-nl/sharepointserver/default.aspx">Sharepoint</a> for that, allong with a old-fashioned fileserver.<br />
+<a href="http://skydrive.live.com/"><img class="alignnone size-full wp-image-265" title="windows-live-logo" src="{{ site.baseurl }}/assets/windows-live-logo.jpg" alt="windows-live-logo" width="79" height="55" /></a>. Since I have a hotmail account, I could get a skydrive with little effort. I can upload files via a webbrowser, but I couldn't find how to synchronize files with a local folder/directory.</li>
+<li><a href="http://www.box.net">Box.net</a>: cool-looking website, and it's a featured app on <a href="http://www.linkedin.com">linkedin</a>. However, box.net only provided webbased access.<br />
+<a href="http://www.box.net/"><img class="alignnone" title="Box.net" src="{{ site.baseurl }}/assets/box_logo.gif" alt="" width="83" height="46" /></a></li>
+</ol>
+<p><a href="http://www.filesanywhere.com/">FilesAnywhere</a> I've tried too, or at least tried to try. Features look very nice. Unfortunately, the FilesAnywhere Desktop Client won't start. When I start I get consistently a Windows Application Error. Maybe a virusscanner I have, or a conflict with some other piece of software. Also the name <strong>Omnidrive </strong>rings a bell, so at least the product or company most be popular. However, at the moment, the website seems down. <a href="http://en.wikipedia.org/wiki/Omnidrive">Wikipedia clarifies</a>, apparently the company disappeared over night. Hopefully nobody relied on the service for a backup when the site went down.<br />
+<strong>Conclusion</strong><br />
+Internet storage can be divided as follows: simple synchronization of directories for backup purposes and true internet storage that you can share with others and use as an alternative for a fileserver. At least ZumoDrive and TheDropbox are advantage enough to fall in the latter category.<br />
+TheDropbox has a more advantage synchronization service with a better integration with Windows and supports versioning.<br />
+For a true internet drive, that you can share with others, I found <strong>ZumoDrive </strong>by the most advantaged. Only disadvantage, ZumoDrive is still in beta and slightly unstable. So for sharing files, Dropbox would be a good choice.<br />
+If you want backup, there are countless synchronization services like IDrive and Dinno, and you're lokal internet provider like <a href="http://zakelijk.kpn.com/business/meer-diensten/softwareonline/alle-software-online/op-kantoor-backup-online.htm">KPN</a> might have a good plan too.
+</div>

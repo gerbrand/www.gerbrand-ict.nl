@@ -1,0 +1,73 @@
+---
+layout: post
+title: Wicket Exception when using wrong order in addComponent
+date: 2011-02-19 17:19:01.000000000 +01:00
+type: post
+published: true
+status: publish
+categories:
+- Technology
+tags:
+- java
+- wicket
+meta:
+  _edit_last: '2'
+  _icl_translator_note: ''
+  _wp_old_slug: ''
+  dsq_thread_id: '3768853607'
+  _jetpack_related_posts_cache: a:0:{}
+author:
+  login: admin
+  email: gerbrand@vandieijen.nl
+  display_name: gerbrand
+  first_name: Gerbrand
+  last_name: van Dieijen
+---
+<p>Today I working on a application that uses the <a href="http://wicket.apache.org/">Wicket framework</a>. I was plagued with the following Exception:</p>
+<pre>WicketMessage: org.apache.wicket.WicketRuntimeException: component myForm:myTable:editor not found on page nl.gerbrand-ict.gui.HomePage[id = 4], listener interface = [RequestListenerInterface name=IActivePageBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+
+Root cause:
+
+...</pre>
+<p>In place of the ... there was a full stacktrace, which information that's not not relevant for this posting.</p>
+<p>Turned out the solution was pretty simple, but the cause isn't that easy to find and is quite a good example how some design decisions in Wicket aren't considered as clean.</p>
+<p><!--more--></p>
+<p>I'm using Ajax-features of Wicket extensively.<br />
+I was creating a table, which contained editable fields (AjaxEdiableLabel). This would allow the user to click on a field in the table, to edit the content.<br />
+Somewhere I had the following code:</p>
+<pre>target.addComponent(item);
+if .. needed .. {
+target.addComponent(myTable.this);
+... make item invisible
+}
+super.onSubmit(target);</pre>
+<p>The super.onSubmit belonged, in this case, to AjaxEditableLabel. I found out the super.onSubmit() would call <em>target.addComponent(this);</em> to update the editable label itself. As you could see, in my code I'm telling wicket to update the component that's the parent of the editable label also.</p>
+<p>In this case, the code caused wicket to first update the parent-panel, which in this case makes the child-component invisible. Then the wicket tries to redraw the child-component, which is then invisible. That will trigger the above error.<br />
+Unfortunately, solving this error isn't quite easy in all cases. Especially when you'd use a AjaxSelfUpdatingBehaviour you can have little control on the redrawing order.</p>
+<p>Fortunately I found <a href="http://apache-wicket.1842946.n4.nabble.com/WicketRuntimeException-component-not-found-on-page-td3055902.html">a good tip on the wicket mailing list</a> to get rid of the exception. Add the following code your Wicketapplication class (the class that extends org.apache.wicket.protocol.http.WebApplication):</p>
+<pre>    @Override
+    protected IRequestCycleProcessor newRequestCycleProcessor() {
+    	//Tip from http://apache-wicket.1842946.n4.nabble.com/WicketRuntimeException-component-not-found-on-page-td3055902.html
+    	return new WebRequestCycleProcessor(){
+    		public IRequestTarget resolve(final RequestCycle requestCycle,
+    				final RequestParameters requestParameters) {
+    	        try {
+    	            return super.resolve(requestCycle, requestParameters);
+    	        } catch (InvalidUrlException e) {
+    	            if (requestCycle.getRequest().getURL().contains("LinkListener") || requestCycle.getRequest().getURL().contains("BehaviorListener")) {
+    	            	log.warn("Couldn't process event, is ignored because of: "+e.getMessage());
+                        //ignore exception
+    	                return new PageRequestTarget(requestCycle.getRequest().getPage());
+    	            } else {
+                        //normal operation
+    	            	throw e;
+    	            }
+    	        }
+    	    }
+
+    	};
+    }</pre>
+<p>The above code will ignore all of the exception that occur when wicket tries to do something with an component that's no longer available because of an ajax-update. Of course this fix isn't very nice, hopefully later versions of Wicket fix the error all-together when Ajax-support is improved. For now, this seems the best solution.</p>
+<p><script type="text/javascript">// <![CDATA[<br />
+var bol_pml={"id":"bol_1298467075904","secure":false,"baseUrl":"partnerprogramma.bol.com","urlPrefix":"http://aai.bol.com/aai","productId":"productid=1001004006005258&","site_id":"2396","target":false,"rating":true,"price":true,"link_name":"Gerbrand-ICT","link_subid":"","image_size":true,"image_position":"left","width":"250","cols":"1","background_color":"#FFFFFF","text_color":"#CB0100","link_color":"#0000FF","border_color":"#D2D2D2","letter_type":"verdana","letter_size":"11"};<br />
+// ]]></script><script id="bol_1298467075904" src="http://partnerprogramma.bol.com/partner/static/js/aai/clientProductlink.js" type="text/javascript"></script></p>

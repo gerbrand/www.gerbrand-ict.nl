@@ -1,0 +1,38 @@
+---
+layout: post
+title: Combining Flex and Scala using Liftweb and BlazeDS
+date: 2009-01-18 18:05:03.000000000 +01:00
+type: post
+published: true
+status: publish
+categories:
+- Technology
+tags:
+- flex
+- scala
+meta:
+  _edit_last: '2'
+  dsq_thread_id: '3768853862'
+  _jetpack_related_posts_cache: a:0:{}
+author:
+  login: admin
+  email: gerbrand@vandieijen.nl
+  display_name: gerbrand
+  first_name: Gerbrand
+  last_name: van Dieijen
+---
+<p>I wanted to setup a sample project that uses Flex and Scala. I followed the excellent tutorial on FlexOnRails: <a href="http://flexonrails.net/?p=103">Integrating Flex, BlazeDS, and Scala/Lift</a>. The tutorial helps a lot explaining how to set up your sample project. Unfortunately the tutorial is a bit outdated with regard to latest versions. Fortunately I could solve all problems! I'll list the problems I had. Also, I'll post my project. I won't redo the tutorial, as I certainly couldn't to a better job then Derek Wischusen.</p>
+<ul>
+<li>First problem I had, was getting my backend compiled. The liftweb has changed slightly, as a result the class Boot.scala didn't work anymore. I could solve it by downloading the latest <strong>Liftweb framework, version 0.9</strong>. I copied &amp; pasted the Boot.scala from the sites/examples dir. After a few tweaks (removing code I didn't need), the project compiled successfully!</li>
+<li>Then I wanted to setup the flex project. That was quite easy, using the latest version of <strong>Flexbuilder (version 3.0.2.214193)</strong>.<br />
+I setup flexbuilder to deploy in the backend/webapp directly, as is explained in the tutorial.</li>
+<li>I ran the project by running the following maven commands in the backend subdir:<br />
+<strong>mvn package</strong><br />
+<strong>mvn jetty:run</strong></li>
+<li>While running the example, I got a AbstractMethodError. I wasn't the first person to get that error, as I found on the <a href="http://markmail.org/message/sllcgvhebbp3nzbw#query:java.lang.AbstractMethodError%3A%20net.liftweb.http.SessionMaster%24.mailbox_%24eq(Lscala%2Factors%2FMessageQueue%3B)+page:1+mid:v5y2777ssl4mmqfq+state:results">Liftmailinglist</a>. I could fix the problem by using <strong>Scala version 2.7.1</strong> for my own project. All in all, when using bleeding-edge technologies, having the latest version isn't good always!</li>
+<li>After that I ran the project  again. Now I get a NullPointerException, seems the line <em>val msgBroker = MessageBroker.getMessageBroker(null)</em> returns Null.<br />
+Turned out I forgot to update the web.xml, the Flex servlet and other configuration has to be added.</li>
+</ul>
+<p>I named the sample project Elegante. Download the source here: <a href="https://www.functional-consulting.nl/wp-content/uploads/2009/01/elegante.zip">elegante.zip</a>. For explanation see the original tutorial.</p>
+<hr />
+<iframe src="http://rcm.amazon.com/e/cm?t=geonic-20&o=1&p=8&l=as1&asins=0981531601&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe></p>

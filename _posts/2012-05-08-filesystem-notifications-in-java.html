@@ -1,0 +1,29 @@
+---
+layout: post
+title: Filesystem notifications in Java
+date: 2012-05-08 16:48:54.000000000 +02:00
+type: post
+published: true
+status: publish
+categories:
+- Technology
+tags: []
+meta:
+  _edit_last: '2'
+  _jetpack_related_posts_cache: a:0:{}
+  dsq_thread_id: '3936264512'
+author:
+  login: admin
+  email: gerbrand@vandieijen.nl
+  display_name: gerbrand
+  first_name: Gerbrand
+  last_name: van Dieijen
+---
+<p>Inspired by an OS that went in oblivion some years ago (BeOS) operating systems as Windows, Linux and MacOS all have ways to monitor directories for changes built into the filesystem: meaning if a directory is changed because a file or directory is added, removed or changed you can get an event. There's need for running a program that periodically monitors the directory (nor does the OS do that, it's build into the filesystem). Software like Dropbox and other filesyncing products use this, so whenever you change or update a file it's immediately updated to the 'cloud'.<br />
+The name of the API's for the listed OS's are:</p>
+<ul>
+<li>On Windows, the <a href="http://msdn.microsoft.com/en-us/library/aa365465%28v=vs.85%29.aspx">ReadDirectoryChangesW</a> function as part of the filesystem API.</li>
+<li>On Linux, the <a href="http://en.wikipedia.org/wiki/Inotify">inotify</a> can be used.</li>
+<li>On MacOS, there's <a href="http://arstechnica.com/apple/reviews/2007/10/mac-os-x-10-5.ars/7">FSEvent </a>api (source <a href="http://arstechnica.com/apple/reviews/2007/10/mac-os-x-10-5.ars/7">arstechnica</a>).</li>
+</ul>
+<p>There are a number of open source libraries that allow you to use that API in Java, not all cross-platform. Fortunately, since Java 7 watching directories is now part of the default<a href="http://docs.oracle.com/javase/7/docs/api/java/nio/file/package-summary.html"> java.nio.file</a> API.</p>

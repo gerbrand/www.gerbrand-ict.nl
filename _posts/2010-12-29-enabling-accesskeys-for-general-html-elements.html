@@ -1,0 +1,36 @@
+---
+layout: post
+title: Enabling accesskeys for javascript events
+date: 2010-12-29 17:48:43.000000000 +01:00
+type: post
+published: true
+status: publish
+categories:
+- Technology
+tags:
+- html
+- javascript
+- wicket
+meta:
+  _edit_last: '2'
+  _wp_old_slug: ''
+  dsq_thread_id: '3777161010'
+  _jetpack_related_posts_cache: a:0:{}
+author:
+  login: admin
+  email: gerbrand@vandieijen.nl
+  display_name: gerbrand
+  first_name: Gerbrand
+  last_name: van Dieijen
+---
+<p>Using the <a href="https://developer.mozilla.org/en/XUL/Attribute/accesskey">accesskey</a> attribute, you can enable hotkeys for various html input elements. This allows one to get the focus to an input element by using the ALT-key + &lt;CHARACTER&gt; (on Windows) or CTRL-key + &lt;CHARACTER&gt; (on Mac). This way, your page is accessible by keyboards besides mouse.</p>
+<p>Here's the example taken from the Mozilla DevCenter:</p>
+<pre>  &lt;label value="Enter Name" accesskey="e" control="myName"/&gt;
+  &lt;textbox id="myName"/&gt;
+  &lt;button label="Cancel" accesskey="n"/&gt;
+  &lt;button label="Ok" accesskey="O"/&gt;</pre>
+<p>Both buttons as well as the input box can be accessed by ALT+E, ALT+N, ALT+O on Windows or CTRL+E, CTRL+N or CTRL+O on a Apple-Mac.</p>
+<p>This is quite easy to program, and works for all popular browsers (including Internet Explorer, Safari or Firefox).<br />
+There might be cases where you want to execute some javascript when an accesskey is hit, for example to fire a java-event. Almost all webapplications use javascript one way or another. Fortunately, you don't not complitated key-event-handling javascript to do that, just use an empty link:</p>
+<pre>&lt;a href="#" accesskey="y" onclick="some javascript"&gt; &lt;/a&gt;</pre>
+<p>The javascript is executed when the acesskey is hit, this case an ALT+y on Windows. The link is not displayed, so you're free wetter or not to display a button, link or anything within your web-application.</p>

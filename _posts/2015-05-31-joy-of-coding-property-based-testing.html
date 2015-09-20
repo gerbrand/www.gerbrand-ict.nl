@@ -1,0 +1,42 @@
+---
+layout: post
+title: Joy of coding, property-based testing
+date: 2015-05-31 20:49:26.000000000 +02:00
+type: post
+published: true
+status: publish
+categories:
+- Various
+- Various @nl
+tags:
+- haskell
+- joyofcoding
+- testing
+meta:
+  _edit_last: '2'
+  _wpas_done_all: '1'
+  dsq_thread_id: '3809906139'
+  _responsive_layout: default
+  _wpas_mess: Joy of coding, property-based testing
+  _wpas_skip_6463889: '1'
+  _wpas_skip_6463885: '1'
+  _wpas_skip_6463877: '1'
+  _jetpack_related_posts_cache: a:0:{}
+author:
+  login: admin
+  email: gerbrand@vandieijen.nl
+  display_name: gerbrand
+  first_name: Gerbrand
+  last_name: van Dieijen
+---
+<p>Afgelopen vrijdag heb ik <a href="http://joyofcoding.org/">Joy of Coding</a> bezocht, een conferentie voor programmeurs. Ik wilde met name John Hughes horen, onder meer bekend van de paper '<a href="http://www.cse.chalmers.se/~rjmh/Papers/whyfp.html">Why functional programming matters</a>' (uit 1984 !). In dit artikel een verslag van zijn sessie over property-based testing, <strong><a href="https://www.functional-consulting.nl/2015/05/joy-of-coding-property-based-testing/">Joy of Testing</a></strong>.<br />
+<!--more--><br />
+Bij Rotterdam cs was niet moeilijk om de juiste bus naar de conferentie te vinden, andere conferentiebezoekers waren makkelijk bij een bushalte te herkennen.</p>
+<p>Plaats van conferentie, de <a href="http://www.vannellefabriek.com/">Van Nelle Fabriek</a>, staat op de lijst van monumenten van Unesco. Het terrein ziet van buitenkant indrukwekkend uit en van binnen geven de vele ramen en hoge wanden hetzelfde ruimtelijke gevoel dat het arbeiders begin 20<sup>e</sup> eeuw moest geven.<br />
+'s Ochtends ging ik naar <a href="http://joyofcoding.org/#joy-of-testing">Joy of Testing</a> toe van <a href="http://www.cse.chalmers.se/~rjmh/">John Hughes</a>. De spreker introduceerde property-based testing in een <a href="http://www.cse.chalmers.se/~rjmh/QuickCheck/">paper</a>, met de bijbehorende software <a href="https://wiki.haskell.org/Introduction_to_QuickCheck1">QuickCheck</a>.<br />
+Property-based testing begint met schrijven van een specificatie van verwacht gedrag van software. Aan de hand van de specificatie worden vervolgens software uitgevoerd met zoveel mogelijk varianten van input-data. Ofwel, in plaats van met enkele testgevallen te testen wordt de software getest met miljoenen of miljarden willekeurige testgevallen. Dat lijkt misschien onvoorstelbaar, maar computers van nu snel genoeg om al die testgevallen te genereren.<br />
+Aan de hand van een, op eerste gezicht correcte implementatie van een queue in C, demonstreerde hij hoe via property-based testing fouten in die implementatie gevonden konden worden. Hij gebruikte hiervoor <a href="http://quviq.com/">Quviq</a>, een commerciële variant van QuickCheck die wat makkelijker samen met C te gebruiken is.<br />
+Verder vertelde hij hoe propery-based testing werd gebruikt om software te testen, die embedded zou worden in nieuwe auto's van Volvo. Aan de hand van specificaties werd ook software die door een <i>derde partij</i><i>en</i> geschreven was getest. Een voorbeeld was een fout die gevonden werd in de software die de communicatie tussen verschillende onderdelen van de auto moest verdelen, een soort centrale messagebus. Door een obscure fout konden soms berichten met een lage prioriteit een hoge prioriteit krijgen. Wat zou kunnen veroorzaken dat een signaal naar de airbag tijdens een botsing minder prioriteit zou krijgen dan een signaal van de volumeknop.<br />
+Dat was ook het opmerkelijkste wat ik hoorde: dat property-based testing werd gebruikt werd voor wat vaak <i>integratie- </i><i>of acceptatietesten</i> wordt genoemd. Ik stel me voor dat je in plaats van met <a href="http://jbehave.org/">JBehave</a>, <a href="http://www.fitnesse.org/">FitNesse</a> of soortgelijke tools testspecificaties combineert met enkele tabellen aan testdata, voer je je testen uit met miljoenen datapoints. De property-testing library, <a href="https://wiki.haskell.org/Introduction_to_QuickCheck">QuickCheck</a> of de vele clones en ports zoals <a href="https://www.scalacheck.org/">ScalaCheck</a> of <a href="https://github.com/pholser/junit-quickcheck">junit-quickcheck</a> filteren vervolgens de testgevallen eruit die ervoor zorgen dat je software niet werkt zoals gespecificeerd.</p>
+<p>'s Middags was er ook een workshop met property based testing. Deze heb ik niet bezocht omdat ik een andere parallelle sessie heb bezocht. De source-code van de workshop <a href="https://github.com/qwaneu/property-based-tutorial">online</a>, dankzij <a href="https://www.fpcomplete.com/ide?git=https://github.com/qwaneu/property-based-tutorial.git">fpcomplete</a> hoef ik niet eens een ide te installeren, maar zonder opgaven heb je daar toch niet zo veel aan.</p>
+<p>Binnenkort vervolg van dit artikel, met verslag van andere interessante sessies die ik heb bezocht, zoals <a href="http://joyofcoding.org/#the-joy-of-debugging-ourselves">The joy of debugging ourselves</a>, van Laurent Bossavit en de buitengewoon leerzame <a href="http://joyofcoding.org/#exercises-in-programming-style">Excercises in programming style</a> van Crista Lopes.</p>

@@ -1,0 +1,47 @@
+---
+layout: post
+title: Trying to do good for the wrong reasons
+date: 2009-01-10 18:42:05.000000000 +01:00
+type: post
+published: true
+status: publish
+categories:
+- Methodology
+tags:
+- coder
+- design patterns
+meta:
+  _edit_last: '2'
+  _jetpack_related_posts_cache: a:0:{}
+  dsq_thread_id: '3883550010'
+author:
+  login: admin
+  email: gerbrand@vandieijen.nl
+  display_name: gerbrand
+  first_name: Gerbrand
+  last_name: van Dieijen
+---
+<p>Many programmers with at least some education computer science code by a few principles:</p>
+<ul>
+<li><em>Encapsulate database access, using Data Access Objects so we're not tied to one or another database</em></li>
+<li><em>Use Model View Controller pattern, so we can change the view logic easily without having to change the entire software.</em></li>
+<li><em>Use Facade beans and Remote Beans so we can separate our application server in a frontend-server and business-logic server.</em></li>
+<li><em>Know the book of <a href="http://clk.tradedoubler.com/click?a=1601421&amp;p=67859&amp;g=17297702&amp;epi=1001004004976354" target="_BLANK">GoF</a> by heart and use their <a href="http://en.wikipedia.org/wiki/Design_Patterns">patterns</a>, so our code is good.</em></li>
+</ul>
+<p>However that's all wrong! The principles are good, when applied correctly. However the reasons are all wrong resulting mediocre software. If in any project changing database is from for example from MySQL to Oracle or changing view-layer from JSF to GWT is a possibility, then that software-project is very bad managed. The ability to change a product shouldn't be the reason. And if people think they can have their software be more robust are perform better by setting up an extra business-logic server, they'll be disappointed.</p>
+<p>Because people often use the wrong reasons, a lot of code is overly complicated, badly performing and highly unmaintainable. You known something is wrong if you have to wade to a lot of interfaces, Impl classes, XML-configuration files just to known what a piece of code is doing</p>
+<p>Naturally the principles are good, however, the goal is totally different.  The reason for all of the principles should be: <em>program correctly functioning code that can be adapted easily now or in the future.</em><br />
+<strong>Design patterns isn't a bible</strong></p>
+<p style="text-align: left;">Known that any book on design patters shouldn't be used as a bible. Wrongly applied design patterns produce <a href="http://blog.thinkrelevance.com/2007/5/17/design-patterns-are-code-smells">terrible code</a>. The book of GoF was a great book because they (Gamma et al.) introduced the concept of design patterns and gave a list of good design patterns for C++ and Smalltalk. Many of the design patterns are relevant, but many are also not.<br />
+<a href="http://clk.tradedoubler.com/click?a=1601917&amp;p=67859&amp;g=17297702&amp;epi=1001004004976354"><img class="alignleft" style="border: 0pt none;" src="{{ site.baseurl }}/assets/1405837306.gif" border="0" alt="Design Patterns" width="48" height="62" /><br />
+Design Patterns<br />
+Erich Gamma &amp; Craig Larman<br />
+</a></p>
+<p>Most important contribution of the book, is the notion of design patterns. They introduces common words, a name, like Data Access Object, Visitor, Singleton to programming constructs. Because they gave name to certain programmings patterns, people can talk about them and understand each others code. Similar like architects use various patterns to design houses, office buildings, public buildings or monuments. The origin of design patterns was a book about architecture:</p>
+<p><a href="http://clk.tradedoubler.com/click?a=1601917&amp;p=67859&amp;g=17297702&amp;epi=1001004000020130" target="_BLANK"><img src="{{ site.baseurl }}/assets/0195024028.gif" border="0" alt="The Timeless Way of Building" /><br />
+The Timeless Way of Building<br />
+Christopher Alexander<br />
+</a></p>
+<p>There are endless design patterns besides the one listed in <a href="http://en.wikipedia.org/wiki/Design_Patterns">Design Patterns: Elements of Reusable design</a>. Every programming language, framework and software project and application has its own patterns. Recognize patterns, give them a name if they haven't got one. Make sure the patterns and the naming are known within the company, organization or all of the users of a framework. That way, the code will be easily to grasp for anyone who has modify or extend the software, because of common naming and usage.</p>
+<p><strong>Great coder</strong></p>
+<p>Read who a  <a href="http://www.paulgraham.com/gh.html">great hacker</a> is, how to become <a href="http://www.flipcode.com/archives/Being_A_Better_Programmer.shtml">better programmer</a> read what you can do to be a <a href="http://www.codinghorror.com/blog/archives/001138.html">better coder</a>. The greatest cause why software development is so expensive and costly, is because there's enough emphasis within many organisations on writing good code.</p>

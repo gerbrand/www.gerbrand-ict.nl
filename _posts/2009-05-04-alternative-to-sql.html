@@ -1,0 +1,46 @@
+---
+layout: post
+title: Alternative to SQL
+date: 2009-05-04 15:55:57.000000000 +02:00
+type: post
+published: true
+status: publish
+categories:
+- Reviews
+tags:
+- java
+- sql
+meta:
+  _edit_last: '2'
+  _jetpack_related_posts_cache: a:0:{}
+author:
+  login: admin
+  email: gerbrand@vandieijen.nl
+  display_name: gerbrand
+  first_name: Gerbrand
+  last_name: van Dieijen
+---
+<p>Database alternative, for people just browsing and scanning, I'll write in staccato.</p>
+<ul>
+<li>Relational model pretty good, but we need a better implementation of the relational model, SQL, at least the way it's used now, is just to primitive and cumbersome.</li>
+<li>Lot's of new languages for the JVM, but we're still using SQL to retrieve data from databases. Many programmers may even think that is the only way to retrieve data!</li>
+<li>ORM is worst of both world
+<ul>
+<li>Reinventing the wheel, caching, optimal data retrieval, query optimization</li>
+<li>Relational model is more natural to retrieve data then object oriented model</li>
+<li>Inheritence is not possible the way it's possible in OO, but same functionality is <a href="http://fyi.oreilly.com/2009/02/the-relational-model-is-much-m.html">still possible</a>.</li>
+</ul>
+</li>
+<li>Java Programmers are spending a LOT of time creating queries, doing optimization, thinking how to retrieve data. Java is improving, but SQL is just largely the same as it was 10 ago.</li>
+<li>SQL / Database integration in Java is still poor. ORM frameworks just hide away the database - usually resulting in a lot of work for database administrators and programmer's just to tweak ill formed sql.</li>
+</ul>
+<p>In short, where's a new language for the relation model and why isn't that language or technology emerging? What would be nice is:</p>
+<ol>
+<li>A better language to access a relation database, that doesn't involve lots of subqueries and joins to retrieve data.</li>
+<li>A database query langauge that is truly embedded in the programming language I daily work with (Java), and not hidden behind persistence managers, xml files,  application servers.  Or just as worse, SQL hidden in quoted string or text files.</li>
+</ol>
+<ul>
+<li>For 1. After some searching, I found an <a href="http://developers.slashdot.org/article.pl?sid=04/10/12/2159209&amp;tid=221&amp;tid=218">alternative to SQL</a>, <a href="http://www.techworld.com/applications/features/index.cfm?featureid=910">Tutorial D</a>.  The language isn't main stream, but is interesting to <a href="http://tech.inhelsinki.nl/2007-01-27/">read about</a>. Especially if you think SQL and (relational) databases are the same.</li>
+<li>Also I heard a while ago about<a href="http://en.wikipedia.org/wiki/.QL"> .QL</a> on  the <a onclick="javascript:pageTracker._trackPageview('/outgoing/25jaar.cs.uu.nl/');" href="http://25jaar.cs.uu.nl/">25 year</a> anniversary of my university, but that's far from mainstream either.</li>
+<li>For .Net there's <a href="http://www.infoq.com/interviews/erik-meijer-linq">LinQ</a>, but that's little use for me as Java software developer.  At least Microsoft has a solution for 2.</li>
+</ul>
