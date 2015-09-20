@@ -1,0 +1,42 @@
+---
+layout: post
+title: 'All cool stuff: Flex, JPA, Maven and Spring'
+date: 
+type: post
+published: false
+status: draft
+categories:
+- Various
+tags: []
+meta:
+  _edit_last: '2'
+author:
+  login: admin
+  email: gerbrand@vandieijen.nl
+  display_name: gerbrand
+  first_name: Gerbrand
+  last_name: van Dieijen
+---
+<p><strong>Introduction</strong></p>
+<p>Recently I worked as team lead on a project at my work. The chosen technology stack was Flex, JPA, Maven and Spring, see a <a href="http://twistedmind.nu/2008/11/19/the-new-stuff-ria/">previous posting on my other weblog</a> (in Dutch). As reference and inspiration I used a number of articles. Since I am to lazy to reconstruct a new article from these existing references, in the following story I'll mostly link to the articles we used.</p>
+<p><strong>Starting up</strong></p>
+<p>Firstly I setup a Maven project for the project. I used as a reference the article at Adobe: The Flex, Spring, and BlazeDS full stack, <a href="http://www.adobe.com/devnet/flex/articles/fullstack_pt1.html">part 1</a>, <a href="http://www.adobe.com/devnet/flex/articles/fullstack_pt2.html">part 2</a> and <a href="http://www.adobe.com/devnet/flex/articles/fullstack_pt3.html">part 3</a> . Because I was rather lazy, I downloaded the sample application listed at part 3, and based my (Maven) project on that. After I successfully compiled and ran the sample-application, we started creating our own code based on the sample code.<br />
+The application uses a custom factory-class to allow Spring beans to be accessed from Actionscript. By a few easy steps, you can access any Java-class that is made available via Spring via BlazeDS. More on that is explained in the fine article: <a href="http://coenraets.org/flex-spring/">Using Flex with Spring</a>.</p>
+<p><strong>Persistence via JPA</strong><br />
+The sample application at Adobe was using Hibernate as ORM framework. I wanted to use JPA however. JPA, is part of the EJB3 standard. By using JPA, we would have a bigger choice of frameworks. Setting up JPA is quite easy. We installed MySQL, and created a <em>persistence.xml</em> file. As persistence implementation we used <a href="http://wiki.eclipse.org/EclipseLink/Examples/JPA">EclipseLink</a>. Using annotations, making java-classes that can be persisted was a breeze, little xml configuration was needed. As demonstration, below is the persistence.xml, located in <code>/src/main/java/META-INF</code></p>
+<p><code><br />
+&lt;persistence xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence persistence_1_0.xsd" version="1.0"&gt;<br />
+&lt;persistence-unit name="sampleapp_db" transaction-type="RESOURCE_LOCAL"&gt;<br />
+&lt;provider&gt;oracle.toplink.essentials.PersistenceProvider&lt;/provider&gt;<br />
+&lt;properties&gt;<br />
+&lt;property name="toplink.jdbc.url" value="jdbc:mysql://localhost:3306/sampleapp"/&gt;<br />
+&lt;property name="toplink.jdbc.user" value="root"/&gt;<br />
+&lt;property name="toplink.jdbc.driver" value="com.mysql.jdbc.Driver"/&gt;<br />
+&lt;property name="toplink.jdbc.password" value=""/&gt;<br />
+&lt;property name="toplink.ddl-generation" value="drop-and-create-tables"/&gt;</code></p>
+<p>&lt;/properties&gt;<br />
+&lt;/persistence-unit&gt;<br />
+&lt;/persistence&gt;</p>
+<p><strong>BlazeDS is no RMI</strong><br />
+We've created a few DAO classes, that were made available via Spring. Using flex-remoting via BlazeDS, as explained in the articles listed above, these DAO classes could be accessed directly in Flex.</p>
+<p>There's one thing you'll have to get be aware when using BlazeDS: you can transfer <strong>Serializable</strong> classes! I'll explain what I mean by that: I had used RMI before, within RMI you can return both Remote and Serialized classes.</p>

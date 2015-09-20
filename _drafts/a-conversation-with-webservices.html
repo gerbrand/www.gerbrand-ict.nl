@@ -1,0 +1,33 @@
+---
+layout: post
+title: A conversation with webservices
+date: 
+type: post
+published: false
+status: draft
+categories:
+- Technology
+tags:
+- java
+- soap
+- webservices
+meta:
+  _responsive_layout: default
+  _edit_last: '2'
+author:
+  login: admin
+  email: gerbrand@vandieijen.nl
+  display_name: gerbrand
+  first_name: Gerbrand
+  last_name: van Dieijen
+---
+<p>I once had to integrate a point of sale (POS) device with a payment device, with which I could only communicate via https. The POS was a tablet, while the payment device was an external device that allowed credit-and debit-card payment.<br />
+Communication between the POS en payment device required several webservice-calls, of which the next call depended on the result of the previous call.</p>
+<p>For example after starting the transaction, the user could hit cancel on the payment device, sometimes he needed to enter a pincode and sometimes the payment device would report that the user would write down a signature. The person that used the POS, the sales-agent, would also have the ability to cancel the transaction which of course would have to be shown on the payment device.<br />
+The payment device didn't support callbacks, therefore I needed to poll the payment device frequently for status-updates.<br />
+Of course I did not want the tablet to block while handling communication with the payment device. On the other hand I wanted that the person who'd used the POS (the sales-person) would see status updates of the payment device immediately.</p>
+<p>I ended up writing quite a lot calls like this:</p>
+<ul>
+<li></li>
+</ul>
+<p>&nbsp;</p>
