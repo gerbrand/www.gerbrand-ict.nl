@@ -12,7 +12,7 @@ I've created quite some software in the last 15 years, some of which is open-sou
 
 Lately I work a lot with [Ethereum](https://www.ethereum.org/) software, using [Embark](https://github.com/iurimatias/embark-framework) and [Geth](https://github.com/ethereum/go-ethereum/wiki/geth).
 
-I use, and have used Java a lot too, using the pletora of open-source components, frameowrks and libraries to be found on [Maven](http://search.maven.org/).
+I use, and have used Java a lot too, using the pletora of open-source components, frameworks and libraries to be found on [Maven](http://search.maven.org/).
 
 ## Past projects
 
@@ -22,4 +22,4 @@ Here are some very old projects written in languages I wouldn't use now. Since e
 
   * [PHPMyNewsletter ](https://sourceforge.net/projects/freshmeat_phpmynewsletter/)- I've adapted the version for the site [www.instruct.nl](http://www.instruct.nl/sf35/sf.mcgi?ac=deeplink&id=46) a few years ago. The modifications I submitted in CVS, but I don't know if these were released by the author.
 
-  * [Overhoor](/oldsite/opensource/overhoor.zip) - An DOS-program I created as teen-ager in Basic. The software and source code should be somewhere on my computer - but for now there are nicer alternatives
+  * [Overhoor](/oldsite/opensource/overhoor.zip) - An DOS-program I created as teen-ager in Basic. I don't know if I want to see all that novice basic code again.
