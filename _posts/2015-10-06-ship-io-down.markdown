@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ship.io window down"
+title:  "Ship.io going down"
 date:   2015-10-06 09:47:00
 ---
 
