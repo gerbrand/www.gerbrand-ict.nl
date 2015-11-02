@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Blockchain and bitcoin"
-date:   2015-10-06 09:47:00
+date:   2015-11-02 21:07:00
 ---
 
 A heard about Bitcoin a few years ago and was captivated by it immediately. Bitcoins were worth a few dollars. The price went up to over $1000,--. Alternative coins we're popping up, and people started wondering why you'd want to use money that isn't backed by a central bank. The focus was on Bitcoin as an alternative form of money - or currency in slightly more legally accepted terms.
