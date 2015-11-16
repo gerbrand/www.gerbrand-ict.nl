@@ -5,6 +5,9 @@ date:   2015-11-12 12:00:00
 ---
 
 Bitcoin's only some weird digital money, interesting to [cypherpunks](https://en.wikipedia.org/wiki/Cypherpunk) only? With nearly all financial institutions [investigating or investing](http://www.ibtimes.co.uk/codename-citicoin-banking-giant-built-three-internal-blockchains-test-bitcoin-technology-1508759) in Bitcoin-related technologies I guess the answer is [obvious](http://www.forbes.com/sites/mikemontgomery/2015/09/15/bitcoin-is-only-the-beginning-for-blockchain-technology/). But can you use Bitcoin for anything other then for money related products? Certainly: a lot of innovative products work on top of Bitcoin or use the blockchain in another way. In this article I'll list some recognizable problems, from Bicycle-renting to digitally signing documents to selling the electricity your windmill has generated to your neighbor, and solutions on the blockchain.
+
+<p aligh="center"><img src="{{site.baseurl}}/assets/BC_Logo_.png" width="125px" align="center"></p>
+
 <!-- more -->
 
 - Do you want to create your own coin? Issue shares or other kind of securities for your company, association, trust, foundation, e.g.? Or do you want to buy something like a 3d-printer with multiple people, sharing the costs? Then you'll at least need a registry of who ones what share for what valuation. Organizations trust their accountant or treasurer to maintain something like an Excel-document with the overview of shares, but that's pretty expensive and/or cumbersome. Also you'll have to trust that person in maintaining your registry properly. Can we do better?
