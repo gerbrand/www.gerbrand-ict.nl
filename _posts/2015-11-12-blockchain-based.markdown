@@ -6,7 +6,7 @@ date:   2015-11-12 12:00:00
 
 Bitcoin's only some weird digital money, interesting to [cypherpunks](https://en.wikipedia.org/wiki/Cypherpunk) only? With nearly all financial institutions [investigating or investing](http://www.ibtimes.co.uk/codename-citicoin-banking-giant-built-three-internal-blockchains-test-bitcoin-technology-1508759) in Bitcoin-related technologies I guess the answer is [obvious](http://www.forbes.com/sites/mikemontgomery/2015/09/15/bitcoin-is-only-the-beginning-for-blockchain-technology/). But does Bitcoin have any value to you, if you're not into the banking? Certainly: a lot of innovative products work on top of Bitcoin or use the blockchain in another way. In this article I'll list some recognizable problems, from Bicycle-renting to digitally signing documents to selling the electricity your windmill has generated to your neighbor, and solutions on the blockchain.
 
-<p aligh="center"><a href="{{site.baseurl}}/2015/11/blockchain-based/"><img src="{{site.baseurl}}/assets/Built-on-bc.png" align="center" title="Built on Blockchain
+<p aligh="center"><a href="https://www.gerbrand-ict.nl/2015/11/blockchain-based/"><img src="https://www.gerbrand-ict.nl/assets/Built-on-bc.png" align="center" title="Built on Blockchain
 (CC BY-SA 4.0), original file: Built-on-bc.odg" alt="Built on Blockchain"></a></p>
 <!-- Source-file: http://www.gerbrand-ict.nl/assets/Built-on-bc.odg -->
 
@@ -16,14 +16,14 @@ Bitcoin's only some weird digital money, interesting to [cypherpunks](https://en
 Do you want to create your own coin? Issue shares or other kind of securities for your company, association, trust, foundation, e.g.? Or do you want to buy something like a 3d-printer with multiple people, sharing the costs? Then you'll at least need a registry of who ones what share for what valuation. Organizations trust their accountant or treasurer to maintain something like an Excel-document with the overview of shares, but that's pretty expensive and/or cumbersome. Also you'll have to trust that person in maintaining your registry properly.
 Can we do better? Try
 [Counterparty](http://counterparty.io/why-counterparty/)! Counterparty works on top of the Bitcoin-network, and extends its functionality.
-<img src="{{site.baseurl}}/assets/counterparty.io-stage-home.png" width="350px">
+<img src="https://www.gerbrand-ict.nl/assets/counterparty.io-stage-home.png" width="350px">
 
 You can issue any security, bond, coin, coupon using Counterparty to replace your shared Excel. So you'll have all the power of a stock-exchange, but with very low costs.
 
 # Rent-a-thing
 Let me start with an Dutch phenomenon to explain: in the Netherlands you can bikes at train stations via [OV-fiets](http://www.ov-fiets.nl). Using an electronic card you can unlock a box to rent a single bike. When you're done cycling you can return the bike again. Large stations usually have a few people repairing the bicycles which will swipe the card for you, but during nights of smaller stations run completely autonomous. At the end of each month you'll be billed for amount of hours you've rent a bike.g into much details: if you'd compare Bitcoin with a giant shared Excel, Ethereum would be giant shared Visual basic program, allowing functionality that goes far beyond assets and transactions.
 The essence of Slock.it is their electronic locks, which someone can operate via a mobile phone.
-<p><img src="{{site.baseurl}}/assets/slock-powr-switch.png" width="180px"></p>
+<p><img src="https://www.gerbrand-ict.nl/assets/slock-powr-switch.png" width="180px"></p>
 The locks can be attached to anything you'd want to rent, or which contains the thing you'd want to rent, closet, barn, garage, room. Like companies listed here, Slock.it is just starting. They expect to be able to start selling [their product in 2016](http://www.ibtimes.co.uk/ethereum-based-slock-reveals-first-ever-lock-opened-money-1527014).
 
 # Proof on the internet
