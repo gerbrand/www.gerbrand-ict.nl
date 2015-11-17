@@ -6,7 +6,9 @@ date:   2015-11-12 12:00:00
 
 Bitcoin's only some weird digital money, interesting to [cypherpunks](https://en.wikipedia.org/wiki/Cypherpunk) only? With nearly all financial institutions [investigating or investing](http://www.ibtimes.co.uk/codename-citicoin-banking-giant-built-three-internal-blockchains-test-bitcoin-technology-1508759) in Bitcoin-related technologies I guess the answer is [obvious](http://www.forbes.com/sites/mikemontgomery/2015/09/15/bitcoin-is-only-the-beginning-for-blockchain-technology/). But does Bitcoin have any value to you, if you're not into the banking? Certainly: a lot of innovative products work on top of Bitcoin or use the blockchain in another way. In this article I'll list some recognizable problems, from Bicycle-renting to digitally signing documents to selling the electricity your windmill has generated to your neighbor, and solutions on the blockchain.
 
-<p aligh="center"><img src="{{site.baseurl}}/assets/BC_Logo_.png" width="125px" align="center"></p>
+<p aligh="center"><a href="{{site.baseurl}}/2015/11/blockchain-based"><img src="{{site.baseurl}}/assets/Built-on-bc.png" align="center" title="Built on Blockchain
+Commons Attribution ShareAlike 4.0 license, original file: http://www.gerbrand-ict.nl/assets/Built-on-bc.odg" alt="Built on Blockchain"></a></p>
+<!-- Source-file: http://www.gerbrand-ict.nl/assets/Built-on-bc.odg -->
 
 <!-- more -->
 
