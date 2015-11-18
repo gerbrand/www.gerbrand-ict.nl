@@ -1,7 +1,9 @@
 ---
 layout: post
-title:  "Blockchain based"
-date:   2015-11-12 12:00:00
+title:  "Five applications based blockchain"
+date:   2015-11-17 12:00:00
+redirect_from:
+  - /2015/11/based-on-blockchain/
 ---
 
 Bitcoin's only some weird digital money, interesting to [cypherpunks](https://en.wikipedia.org/wiki/Cypherpunk) only? With nearly all financial institutions [investigating or investing](http://www.ibtimes.co.uk/codename-citicoin-banking-giant-built-three-internal-blockchains-test-bitcoin-technology-1508759) in Bitcoin-related technologies I guess the answer is [obvious](http://www.forbes.com/sites/mikemontgomery/2015/09/15/bitcoin-is-only-the-beginning-for-blockchain-technology/). But does Bitcoin have any value to you, if you're not into the banking? Certainly: a lot of innovative products work on top of Bitcoin or use the blockchain in another way. In this article I'll list some recognizable problems, from Bicycle-renting to digitally signing documents to selling the electricity your windmill has generated to your neighbor, and solutions on the blockchain.
@@ -43,8 +45,12 @@ Windmills not only have to be placed at the country side or at <a href="http://w
 
 <p>If you can use that energy directly that'll save you quite some money on your electricity bill, but what if you can't use that energy? In many countries you'll get a minor fee from your electricity utility company for feeding electricity back into the grid, but that fee is <a href="http://www.germanenergyblog.de/?page_id=16379">rapidly declining</a>. What if you could just sell or buy your energy to someone else directly? Or could you combine the solar panels of the whole neighborhood of like-minded people into <a href="https://www.linkedin.com/pulse/ethereum-enabled-community-energy-market-sharing-economy-john-lilic">one giant pv-powerplant</a>?</p>
 
-[Vandebron](http://www.vandebron.nl) was the first Dutch company to give you the possibility to buy directly from producers, but already appears old-fashioned. Companies like [Mosaic](https://joinmosaic.com/), [Piclo](https://www.openutility.com/piclo/) are one of the many upcoming companies that allow you to sell or buy energy directly from other producing consumers ['''prosumers'''](http://blog.abundanceinvestment.com/2013/01/the-revolutionary-rise-of-the-energy-prosumer/).
-But could you trade electricity and have a stable grid *without* any overseeing company? Although in very early stages, as [regulators have to catch up](http://www.cityam.com/228153/uber-electricity-could-be-just-around-corner-if-regulators-get-out-way), some systems to have a self-mananged grid are in development, like [Consensys'](https://consensys.net) [TransActiveGrid](http://transactivegrid.org) and [Farmshare](https://consensys.net/static/Farm.pdf).
-In countries like the Netherlands, were gas and coal power is abundant these kind of self-regulating grids seem rather superfluous. In other  countries, including developed countries like Belgium or parts of the US, the grid is already up to its max. Gigantic capital investments would be needed to keep the grid stable if being used in the traditional way. It's in these places an advanced, self-regulating and -managing grid could be great cost savers as well enabler for transformation of the energy-market.
+[Vandebron](http://www.vandebron.nl) was the first Dutch company to give you the possibility to buy directly from producers, but already becomes old-fashioned. While [regulators are catching up](http://www.cityam.com/228153/uber-electricity-could-be-just-around-corner-if-regulators-get-out-way), companies like [Mosaic](https://joinmosaic.com/), [Piclo](https://www.openutility.com/piclo/) are one of the many upcoming companies that allow you to sell or buy energy directly from other producing consumers '''[prosumers](http://blog.abundanceinvestment.com/2013/01/the-revolutionary-rise-of-the-energy-prosumer/)'''.
+
+In all those cases there's still a central party managing the grid, doing the billing and making sure production and consumption is in balance. Do we still need such a central party? Electricity is a whole lot more complicated than getting a ride from a taxi or renting an house. Supply and demand have to be in perfect balance, instability can have devastating effect.<br>
+Loving a challenge, innovative companies are already working on a grid that's self-managed, *without* the need for an regulatory organization and grid-operator.  A grid on the [blockchain](http://insidebitcoins.com/news/blockchain-based-ledger-by-uk-energy-suppliers-could-prevent-late-fees-for-customers/35026).
+[Consensys'](https://consensys.net) is creating [TransActiveGrid](http://transactivegrid.org) and [Farmshare](https://consensys.net/static/Farm.pdf), [EtherMetrics](http://ethermetrics.com) is in development. You can be certain traditional big players in the energy-sector are investigating the self-managed grid too.
+
+In countries like the Netherlands, were gas and coal power is abundant these kind of self-managing grids seem rather superfluous. In other  countries, including developed countries like Belgiu  m or parts of the US, the grid is already up to its max. Gigantic capital investments would be needed to keep the grid stable if being used in the traditional way. It's in these places an advanced, self-regulating and -managing grid could be great cost savers as well enabler for transformation of the energy-market.
 
 Big changes are to be expected!
