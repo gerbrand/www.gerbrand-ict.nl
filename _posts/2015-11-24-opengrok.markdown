@@ -16,12 +16,18 @@ Steps to install were as follows. The steps are not extremely detailed, as am wr
 
 *  First I downloaded the [latest release](https://github.com/OpenGrok/OpenGrok/releases) from OpenGrok at their Github site.
 *  OpenGrok needs an applicaton server. I installed the one I knew best, Tomcat using Ubuntu's package manager:
-'''apt-get install tomcat8'''
+```
+apt-get install tomcat8
+```
 *  After that I shortly wondered how to get the opengrok-war deployed into tomcat until I noticed the deployment script in the distribution's directory could do that for me:
-'''./Opengrok deploy'''
+```
+./Opengrok deploy
+```
   Unfortunately tomcat8 wasn't supported yet, but as mentioned that was fixed easily. As my patch is already [merged](https://github.com/OpenGrok/OpenGrok/pull/1025) you won't have that problem.
 *  The OpenGrok application is now running and I could access the application using http://localhost:8080/source. As expected no code is searchable yet because I did not tell OpenGrok what source-code to index yet.
 *  Indexing my code could be done as follows:
-  '''OpenGrok index ~/workspace/GerbrandsMessyCode'''  
+```
+OpenGrok index ~/workspace/GerbrandsMessyCode
+```
 *  I noticed some errors because some of the code I had was still using Subversion and some even in Cvs as source-control. That was fixable by just installing subversion and cvs using Ubuntu's package manager.
 *  Reindexing, and even the history of my ancient code was included.
