@@ -8,7 +8,7 @@ Installation was pretty easy. OpenGrok is a java-webapplication, packaged as a w
 
 I decided to install on Tomcat. Installation was almost a breeze. Only minor challenge was the deploy script wasn't yet ready for Tomcat 8, but that was [fixed easily](https://github.com/OpenGrok/OpenGrok/pull/1025).
 After that I indexed some of my source-code I had developed over time, and my I could search my code!
-[OpenGrok]({{site.baseurl}}/assets/opengrok-screenshot.jpeg)
+![OpenGrok]({{site.baseurl}}/assets/opengrok-screenshot.jpeg)
 
 <!-- more -->
 
