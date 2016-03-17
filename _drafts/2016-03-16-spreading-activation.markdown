@@ -7,3 +7,15 @@ How does the human brain work? How do thoughts pop up in our conscience? Just th
 Try for yourself: think of a bird? You now probably think a sparrow, duck. Think of an extinct animal? Now you might think of the dodo, mammoth or dinosaur. Animal living on the south pole: a penguin? Or polar bear? Facts, ideas, memories in our brain are interconnected, not hierarchical like files and directories on a harddrive, but as a *graph*: a network of interconnected nodes.
 
 Inspired by this idea is a computer algorithm: [spreading activation](https://en.wikipedia.org/wiki/Spreading_activation).
+
+```
+create 
+(_0`  {`name`:"Bird"}),
+(_1   {`name`:"Duck"}),
+(_2  {`name`:"Dodo"}),
+(_3  {`name`:"Mammoth"}),
+(_4  {`name`:"Dinosaur"}),
+(_5  {`name`:"Penguin"}),
+(_5  {`name`:"Polar bear"}),
+_1->_0
+````
