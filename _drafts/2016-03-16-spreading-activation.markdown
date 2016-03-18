@@ -8,6 +8,7 @@ Try for yourself: think of a bird? You now probably think a sparrow, duck. Think
 
 Inspired by this idea is a computer algorithm: [spreading activation](https://en.wikipedia.org/wiki/Spreading_activation).
 
+Using [Jupyter Notebook](http://jupyter.readthedocs.org/en/latest/running.html#running) with the [cypher extension](https://github.com/versae/ipython-cypher) we can demonstrate the graph ourself
 ```
 create 
 (_0`  {`name`:"Bird"}),
