@@ -1,0 +1,24 @@
+---
+layout: post
+title: Slow right click on Windows
+date: 2011-06-19 08:12:44.000000000 +02:00
+type: post
+published: true
+status: publish
+categories:
+- Reviews
+tags:
+- utils
+meta:
+  _edit_last: '2'
+  _jetpack_related_posts_cache: a:0:{}
+author:
+  login: admin
+  email: gerbrand@vandieijen.nl
+  display_name: gerbrand
+  first_name: Gerbrand
+  last_name: van Dieijen
+---
+<p>Besides by Mac laptop I have a Windows desktop at home. Windows 7 is all in all quite a nice OS. However, after using Windows for a while, Windows seems to start degrading. Of course one solution is to reinstall Windows, but that's not exactly a clean solution. I wanted to know the source why Windows seems so slow. Better investigation seems the only problem is the File Explorer, especially when using the context menu/right clicking on a file.<br />
+This led me to think some third shell extension for the explorer might be the cause.<br />
+After some google'ing I found this nice article: <a href="http://windowsxp.mvps.org/slowrightclick.htm">slow right click</a>. In the article a tool is listed: <a href="http://www.nirsoft.net/utils/shexview.html">ShellExView</a>. Using this tool you can disable any shell extension that's hooked in the explorer. I disabled all software not coming from Microsoft, and my Windows starting working smoothly again! Of course any overlay icons from for example <a href="http://tortoisesvn.tigris.org/">TortoiseSVN</a> don't work anymore, but that's the whole idea of  these shell extensions. Now I just have to shell extensions one by one to find out what's the actual cause of the slowness, but that's better then reinstalling windows.</p>

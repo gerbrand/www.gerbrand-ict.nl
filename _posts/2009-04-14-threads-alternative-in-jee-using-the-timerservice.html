@@ -1,0 +1,95 @@
+---
+layout: post
+title: 'Threads-alternative in JEE: using the timerservice'
+date: 2009-04-14 16:14:46.000000000 +02:00
+type: post
+published: true
+status: publish
+categories:
+- Technology
+tags:
+- java
+- jboss
+- jee
+meta:
+  _edit_last: '2'
+  dsq_thread_id: '3782721345'
+  _jetpack_related_posts_cache: a:0:{}
+author:
+  login: admin
+  email: gerbrand@vandieijen.nl
+  display_name: gerbrand
+  first_name: Gerbrand
+  last_name: van Dieijen
+---
+<p>A common problem in in developing Java Enterprise (JEE or J2EE) application is working with threads, or more generally executing code asynchronously. Starting and instantiating threads in the old-fashioned java way is not allowed.<br />
+The reason: within JEE you work with EJB's: Java Beans with managed resources. Databaseconnections, transactions, sessions, all of these resources are managed by the application server. Usually resources such as databaseconnections are not thread-safe. The application server will take of any issues related to thread-safefety, as long as you don't instantiate threads yourself. That being said, <em><strong>what is the JEE-alternative to using threads</strong></em>?</p>
+<p>There are several possible answers to that question:</p>
+<ul>
+<li>Using a JMS, Java Messing Service. How to setup is beyond the scope of this weblog posting.</li>
+<li>Use of the Timerservice. The timerservice is part of JEE-spec (since 1.4). Using a few annotations you can have the same functionality as you would have when using threads - but compliant with the JEE-spec. I'll explain how to use the TimerService, so you can stop worrying about not being JEE compliant (with regard to threads)!</li>
+</ul>
+<p>The <a href="http://java.sun.com/javaee/5/docs/api/javax/ejb/TimerService.html">TimerService </a>can only be used within a stateless EJB bean. So to start you'll have to define one, by adding the right annotations:</p>
+<pre class="brush: java;">..
+
+@Stateless
+public class MyTimerExampleBean implements MyTimerExample {
+
+}
+...
+public interface MyTimerExample {
+}</pre>
+<p>Within the bean you can inject the timerservice using the Resource annotation. As soon as the bean is deployed within an application server like JBoss, the bean is instantiated and the resources are injected and available for use.</p>
+<pre class="brush: java;">    @Resource
+    private TimerService timerService;</pre>
+<p>Now we'll use our timerservice. We define a method called <em>startMe </em>and a method <em>runMe</em>. The startMe method will define a timer. The timer will then execute the runMe method after a predefined time.</p>
+<p>When the <em>runMe </em>method is to be executed, the bean is newly instantiated. This means, if you set any local variables within your bean, those values will be lost. For that reason, we use the <em><strong>myInfo </strong></em>class to transfer parameters, in this case a delay and the message we want to print to the screen.</p>
+<pre class="brush: java;">class HelloWorldInfo implements Serializable {
+   String message;
+   long delay;
+   int counter;
+}
+public void startMe() {
+    long waitTime =60*1000; //60 seconds, 1 minute
+    HelloWorldInfo taskInformation=new HelloWorldInfo();
+   taskInformation.message="Hello world";
+   taskInformation.delay=12*1000; //12 seconds
+   taskInformation.counter=0;
+
+   Timer timer = timerService.createTimer(waitTime, taskInformation);
+
+}
+    @Timeout
+    public synchronized void runMe(Timer timer) {
+
+      final HelloWorldInfo myInfo = (HelloWorldInfo ) timer.getInfo();
+
+      System.out.println("Going to do something important");
+      Thread.wait(5000);
+      System.out.println(myInfo.delay);
+      System.out.println(myInfo.message);
+  }</pre>
+<p>That's all there is! Using the above code, will allow you to run code asynchronously in a similar fashion when using Thread and Runnable classes. You could for example call a remote webservice, or run a batch job on the database. The method runMe will run within a separate transaction - in case an error is thrown within the the runMe method, the transaction is rolled back. Since the bean is instantiated using the JEE-container, any resources associated with the bean will be discarded.</p>
+<p>If you want want to execute the run method again, the easiest way is to call the startMe method again:</p>
+<pre class="brush: java;">   public synchronized void runMe(Timer timer) {
+     ...
+
+   myInfo.counter++;
+   myInfo.message="Doing hello world again for the "+myInfo.counter;
+   myInfo.delay=6*1000; //now after 6 seconds
+
+   Timer timer = timerService.createTimer(waitTime , myInfo
+);
+  }</pre>
+<p>The myInfo is modified and passed again to the timerserver. So next time the bean is instantiated and the run method is executed, it'll display 'Doing hello world again 1', and will do so with an incrementing number until the application server is shut down. You can pass any information on, as long as the the class containing the information is serializable.</p>
+<hr />
+<table width="100%">
+<tr>
+<td>
+<iframe src="http://rcm.amazon.com/e/cm?t=geonic-20&o=1&p=8&l=as1&asins=1933988029&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr&nou=1" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+</td>
+<td border="1" align="right"><strong>Bol.com</strong><br />
+<a href="http://clk.tradedoubler.com/click?a=1601917&p=67859&g=17297702&epi=1001004005604637" target="_BLANK"><img src="{{ site.baseurl }}/assets/1933988029.gif" alt="Jboss in Action" border="0" /><br />Jboss in Action<br />Javid Jamae & Peter Johnson<br /></a>
+ </td>
+</tr>
+</table>

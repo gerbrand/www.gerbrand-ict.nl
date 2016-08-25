@@ -1,0 +1,27 @@
+# Site settings
+title: Gerbrand-ICT
+email: info@gerbrand-ict.nl
+description: > #
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.gerbrand-ict.nl" # the base hostname & protocol for your site
+twitter_username: gerbrandvd
+github_username:  gerbrand
+exclude: [vendor]
+include: [.htaccess]
+keep_files: [wp-content, oldsite]
+paginate: 2
+paginate_path: "/page/:num/"
+permalink: /:year/:month/:title/
+jekyll-archives:
+  enabled: all
+  layout: 'archive'
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
+
+# Build settings
+markdown: kramdown
+theme: minima

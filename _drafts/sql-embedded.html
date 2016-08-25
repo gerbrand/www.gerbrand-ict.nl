@@ -1,0 +1,34 @@
+---
+layout: post
+title: SQL embedded
+
+type: post
+published: false
+status: draft
+categories:
+- Technology
+tags: []
+meta:
+  _edit_last: '2'
+author:
+  login: admin
+  email: gerbrand@vandieijen.nl
+  display_name: gerbrand
+  first_name: Gerbrand
+  last_name: van Dieijen
+---
+<p>In a previous post I wrote about modern DBMS having the capability to execute queries in parallel. Besides that kind of optimization, a DBMS also other kinds of optimizations that can be performed. When using ORM -frameworks, a developer loses a lot of these optimalisations. ORM frameworks often send SQL to the database to retrieve a lot more data then the programmer actually wants.<br />
+Also, many times SQL is a lot more flexible and expressive in retrieving data then a ORM is.</p>
+<p>Unfortunatelly, many programmers view the database as something 'ugly' they want to get as far as possible from. Java programmers use ORM software like JDO or Hibernate, or write a lot of *Dao classes to 'hide' the database.<br />
+On the other hand many DBA'ers or people responsible for the databaseschema involve them self with the software development process as little as possible. They create the database, a few stored procedures and leave it up to the developers to use them.</p>
+<p>The development of data (base) centered sofware, and most software is, would benefit a lot for a much more tighter integration between these two worlds: Java and SQL.</p>
+<p>Some possibilities:</p>
+<ul>
+<li>SQLJ http://tinman.cs.gsu.edu/~raj/books/Oracle9-chapter-6.pdf</li>
+<li>IBatis</li>
+</ul>
+<p>To allow your software to take advantage of the capabilities of DBMS, is limiting the number of operations done by the application-software.<br />
+<strong>Let the database do the work</strong><br />
+In short: do less in application-server and do more in the database. With the latter I do not mean using PLSQL more instead of Java. Allowing the database to do more, means sending more complicated SQL-queries to the database, that can keep the database more busy and thus allow the database to do more optimizations.<br />
+Unfortunately often used technologies as ORM frameworks result in exactly the opposite.</p>
+<p><strong>TODO IBatis 3, annotations</strong></p>

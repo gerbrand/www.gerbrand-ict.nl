@@ -1,0 +1,29 @@
+---
+layout: post
+title: OpenID from my website
+date: 2011-06-23 09:07:03.000000000 +02:00
+type: post
+published: true
+status: publish
+categories:
+- Technology
+tags: []
+meta:
+  _edit_last: '2'
+  _jetpack_related_posts_cache: a:0:{}
+author:
+  login: admin
+  email: gerbrand@vandieijen.nl
+  display_name: gerbrand
+  first_name: Gerbrand
+  last_name: van Dieijen
+---
+<p>A lot of websites now provide a way to authenticate yourself via <a href="http://openid.net/">OpenID</a>. That way, you don't have to remember a separate username and password to login to such a website, while still being secure.<br />
+The only challenge in using openid is remembering your openid URL, because there are quite a few possible openid providers. I currently can choose from (amongst others) <a href="http://code.google.com/intl/nl/apis/accounts/docs/OpenID.html">Google</a>, <a href="http://www.yahoo.com">Yahoo</a>, <a href="http://mijnopenid.nl/">mijnopenid.nl</a>, <a href="/2009/04/hyves-now-also-openid-provider/">hyves.nl</a> and quite a few others. Instead of remembering the username/password you have to remember which openid provider you've used for what account - which I think is the reason other authentication mechanism as <a href="http://developers.facebook.com/blog/post/108/">facebook's connect a</a>re becoming more popular. I'll write about that later, in this page I just want to explain how I made my homepage, www.gerbrand-ict.nl an openid provider.<br />
+Very simple:</p>
+<ul>
+<li>My homepage is running <a href="http://wordpress.org/">Wordpress</a>, a popular open source weblog.</li>
+<li>There are a lot of plugins for Wordpress, of which one is the openid plugin. By going to the administration screen and then to the section plugins, you can install the openid plugin easily by entering openid in the search box.</li>
+<li>After installation, setup a default account.</li>
+<li>Now I can authenticate myself to any site that uses openid, by just entering www.gerbrand-ict.nl !</li>
+</ul>
