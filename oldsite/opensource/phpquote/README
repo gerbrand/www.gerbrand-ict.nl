@@ -1,0 +1,8 @@
+The PHPQuote_com can be used to retrieve quotes from the finance site: Quote.com.
+Although Yahoo is faster and more convenient to retrieve data from, Quote.com might feature symbols or information you can't find on Yahoo.
+
+The script is based on PHPQuote from BooyahMedia.com, see: http://www.booyahmedia.com/open-source/phpquote/
+
+The licence of the script PHPQuote_com is, like PHPQuote, GNU-GPL.
+
+See htt://www.gerbrand-ict.nl for the lastest version

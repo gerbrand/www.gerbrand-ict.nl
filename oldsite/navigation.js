@@ -1,0 +1,15 @@
+stm_bm(["menu2",650,"","blank.gif",0,"","",0,0,250,50,1000,1,0,0,"","100%",67108897,0,1,1,"default","hand",""],this);
+stm_bp("p0",[0,4,0,0,0,4,8,0,100,"",-2,"",-2,90,2,5,"#000000","#CCCCCC","",3,1,1,"#000000"]);
+stm_ai("p0i0",[0,"Gerbrand-ICT","","",-1,-1,0,"#","_self","","","","",0,0,0,"","",0,0,0,0,0,"#000000",0,"#000000",0,"","",3,3,0,0,"#0099CC","#000000","#FFFFFF","#FFFFFF","bold 9pt Arial","bold 9pt Arial",0,0]);
+stm_aix("p0i1","p0i0",[0,"","","",-1,-1,0,"#","_self","","","","",0,0,0,"","",0,0,0,0,0,"#990000",0,"#CCCCCC",0,"","fade.gif",3,3,0,0,"#000000","#000000","#FFFFFF","#FFFFFF","9pt Arial","9pt Arial"]);
+stm_aix("p0i2","p0i1",[0,"Home","","",-1,-1,0,"/index.html","_self","","","","",8,7]);
+stm_aix("p0i3","p0i2",[0,"Portfolio","","",-1,-1,0,"/portfolio.html","_self","","Een greep uit de projecten van Gerbrand-ICT"]);
+stm_aix("p0i4","p0i2",[0,"Software","","",-1,-1,0,"/opensource/"]);
+stm_aix("p0i5","p0i2",[0,"Contact","","",-1,-1,0,"/contact.html"]);
+stm_aix("p0i6","p0i2",[0,"Links","","",-1,-1,0,"#"]);
+stm_bpx("p1","p0",[1,4,0,0,0,1,0,0,100,"progid:DXImageTransform.Microsoft.Wipe(GradientSize=1.0,wipeStyle=1,motion=forward,enabled=0,Duration=0.62)",5,"progid:DXImageTransform.Microsoft.Iris(irisStyle=plus,motion=in,enabled=0,Duration=0.62)",-2,48,0,0,"#000000","#FFFFFF"]);
+stm_aix("p1i0","p0i1",[0,"Weblog","","",-1,-1,0,"http://www.twistedmind.nu","_self","","Het weblog van de man achter deze site","","",0,0,0,"","",0,0,0,0,0,"#CC3300",0,"#CCCCCC",1,"","fade.gif",3,3,0,0,"#CCCC00","#CCCC00"]);
+stm_aix("p1i1","p1i0",[0,"Kaasboerderij Van Dieijen","","",-1,-1,0,"http://www.vandieijen.nl","_self","","Mijn oorsprong"]);
+stm_ep();
+stm_ep();
+stm_em();
