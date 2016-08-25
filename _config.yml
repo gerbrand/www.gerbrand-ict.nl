@@ -7,7 +7,6 @@ url: "https://gerbrand.github.io" # the base hostname & protocol for your site
 twitter_username: gerbrandvd
 github_username:  gerbrand
 exclude: [vendor]
-include: [.htaccess]
 keep_files: [wp-content, oldsite]
 paginate: 2
 paginate_path: "/page/:num/"
