@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Upgraded Jekyll to version 3"
-date:   2016-08-24 11:04:38 +0200
+date:   2016-08-25 11:04:38 +0200
 categories: jekyll update
 ---
 I hadn't updated my homepage for quite a long time, having the idea to write a homepage. As a start I've upgraded from Jekyll 2 to Jekyll 3. I regenerated the page and copied plugins, settings and posts.  Not much seems to be broken. Even plugins I used are working. Since it's just a blog, I'll leave it as is. The welcome page contains a highlighter. I've rewritten (probably broken) the sample ruby code to javascript
