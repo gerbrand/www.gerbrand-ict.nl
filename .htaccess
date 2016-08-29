@@ -1,4 +1,5 @@
-# BEGIN WordPress
+Options +MultiViews
+
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteCond %{HTTP_HOST} !^www\.gerbrand-ict\.nl [NC]
