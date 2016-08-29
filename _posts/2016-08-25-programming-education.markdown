@@ -1,7 +1,7 @@
 ---
-layout: "post"
+layout: post
 title: "Programming education and smart contracts"
-date: "2016-08-25 11:57"
+date: 2016-08-25
 ---
 While looking browsing at [Quora](https://www.quora.com/Should-I-learn-Haskell) I found this [posting by a professor in New Zealand](http://erlang.org/pipermail/erlang-questions/2013-January/071898.html) on why certain programming languages are taught at universities while being suboptimal for teaching. Reminds me of this article by  Edsger Dijkstra ['On the cruelty of really teaching computing science'](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD10xx/EWD1036.html) I had recently read.
 <a href="https://nl.wikipedia.org/wiki/Edsger_Dijkstra"><img src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/EdsgerDijkstra.jpg/266px-EdsgerDijkstra.jpg' style="width: 88px; height: 118px;" align='right' alt="Dijkstra"/></a> A point Dijkstra raises is the problem of explaining by using solely analogies - 'never refer to parts of programs or pieces of equipment in an anthropomorphic terminology, nor allow your students to do so'.<br/>
