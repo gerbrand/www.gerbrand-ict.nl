@@ -3,13 +3,13 @@ layout: "post"
 title: "Cobol in nodejs"
 date: "2016-08-29 10:35"
 ---
-Cobol can be compiled into Javascript and you can call Javascript from Cobol, as I read in [http://arstechnica.com/information-technology/2015/08/calling-1959-from-your-web-code-a-cobol-bridge-for-node-js/](this article on arstechnica). Will this finally be the way out for all legacy Cobol code?
+Cobol can be compiled into Javascript and you can call Javascript from Cobol, as I read in [this article on arstechnica](http://arstechnica.com/information-technology/2015/08/calling-1959-from-your-web-code-a-cobol-bridge-for-node-js/]). Will this finally be the way out for all legacy Cobol code?
 ```
 // Dependencies
 var Cobol = require("cobol");
 ```
 
-When .Net came out early 2000s, a Cobol compiler was offered too. There a also numerous way for interoperability from Cobol to Java as well. Both didn't succeed in cornering and replacing Cobol as far as I know. Maybe [https://github.com/IonicaBizau/node-cobol/](Cobol in Nodejs) will.
+When .Net came out early 2000s, a Cobol compiler was offered too. There a also numerous way for interoperability from Cobol to Java as well. Both didn't succeed in cornering and replacing Cobol as far as I know. Maybe [Cobol in Nodejs](https://github.com/IonicaBizau/node-cobol/) will.
 
 Some things that could help:
 * Javascript is not plagued too much by enterprise architecture and requirements engineering thinking, bringing SOA, star diagrams, layers, foundations and all sort of [antropomorphism](http://www.cs.utexas.edu/~EWD/transcriptions/EWD09xx/EWD936.html)
