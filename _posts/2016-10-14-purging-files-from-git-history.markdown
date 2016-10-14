@@ -15,4 +15,4 @@ There's a command for that but typically for git it's not exactly _intuitive_. T
 
   `git filter-branch -f --index-filter 'git rm  --cached --ignore-unmatch MYDIRECTORY public' HEAD`
 
-Great if you checked in a large file, or file in a public repository that shouldn't be public. For more information, read the git manual or the numerous tutorials that exist.
+Great if you checked in a large file, or file in a public repository that shouldn't be public. For more information, read the git manual or the numerous tutorials that exist. For example, git-filter can also be used to move a file from one repository to another [while preserving history](http://gbayer.com/development/moving-files-from-one-git-repository-to-another-preserving-history).
