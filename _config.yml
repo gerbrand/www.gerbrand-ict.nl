@@ -9,7 +9,7 @@ github_username:  gerbrand
 exclude: [vendor]
 keep_files: [wp-content, oldsite]
 paginate: 2
-paginate_path: "/page/:num/"
+paginate_path: "/blog/page/:num/"
 permalink: /:year/:month/:title/
 jekyll-archives:
   enabled: all
