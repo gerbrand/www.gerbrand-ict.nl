@@ -7,44 +7,16 @@ redirect_from:
 
 <div class="home">
 
-  <h1 class="page-heading">Gerbrand-ICT, freelance programmer</h1>
+  <h1 class="page-heading">Software-creation</h1>
 <div>
-Hello, I am Gerbrand van Dieijen and I work as freelance programmer and consultant.<br>I work often together with the <a href="https://squads.com/teams/swarm-it?referrer=558eb4856238872d4ffeb80b">Swarm-it team</a> of <a href="https://squads.com">Squads</a>.
+Hello, I am Gerbrand van Dieijen and I work as consultant.<br>I work often together with the <a href="https://squads.com/teams/swarm-it?referrer=558eb4856238872d4ffeb80b">Swarm-it team</a> of <a href="https://squads.com">Squads</a>.
 <p>
 To know more about, you can check out my cv at <a href="http://www.linkedin.com/in/gerbrand">Lindedin</a>. I've also got some <a href="https://github.com/gerbrand/">code on GitHub</a>. Also <a href="http://www.google.nl/search?q=gerbrand+van+dieijen">Google</a> returns quite some hits.
 
-<p>With irregular bursts I am active on <a href="https://twitter.com/gerbrandvd">Twitter</a>, <a href="https://www.linkedin.com/pulse/activities/gerbrand-van-dieijen+0_1ph6hcYSZX9S2-xbCw_SDu?trk=mp-reader-h">Linkedin</a>, <a href="https://plus.google.com/b/113151117598228373213/">Google-plus</a> and <a href="https://medium.com/@gerbrand">Medium</a>. I also occasionaly write on my blog.
+<p>With irregular yet frequent bursts I am active on <a href="https://twitter.com/gerbrandvd">Twitter</a>, <a href="https://www.linkedin.com/pulse/activities/gerbrand-van-dieijen+0_1ph6hcYSZX9S2-xbCw_SDu?trk=mp-reader-h">Linkedin</a>, <a href="https://plus.google.com/b/113151117598228373213/">Google-plus</a> and <a href="https://medium.com/@gerbrand">Medium</a>. I also occasionaly write on my blog.
 </div>
 
-<!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
-  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-  <p class="author">
-    <span class="date">{{ post.date }}</span>
-  </p>
-  <div class="content">
-    {{ post.content | split: '<!-- more -->' | first }}
-    <p>
-    <a href="{{ post.url }}">Read more</a>
-  </div>
 
-{% endfor %}
-
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
-  {% endif %}
-</div>
-  {% include tipme.html %}
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<a class="twitter-timeline" href="https://twitter.com/gerbrandvd?ref_src=twsrc%5Etfw">Tweets by gerbrandvd</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
   </div>

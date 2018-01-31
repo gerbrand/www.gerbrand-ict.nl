@@ -1,9 +1,9 @@
 # Site settings
-title: Gerbrand-ICT
-email: info@gerbrand-ict.nl
+title: Software-creation
+email: gerbrand@vandieijen.nl
 description: > #
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://gerbrand.github.io" # the base hostname & protocol for your site
+url: "https://www.software-creation.nl" # the base hostname & protocol for your site
 twitter_username: gerbrandvd
 github_username:  gerbrand
 exclude: [vendor]
