@@ -14,5 +14,4 @@ deployment:
   prod:
     branch: master
     commands:
-      - rsync -va --delete ./_site software-creation.nl:${SFTP_WITH_PASSWORD_ONLY}@software-creation.nl.transurl.nl:www
-
+      - ./sync.sh
