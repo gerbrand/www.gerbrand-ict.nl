@@ -1,0 +1,58 @@
+==================================================================
+https://keybase.io/gerbrand
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.software-creation.nl
+  * I am gerbrand (https://keybase.io/gerbrand) on keybase.
+  * I have a public key ASAFbEFj_mXeUb-XJnf4gdLBWqEY_y8UkqXMHyBk8pfTWwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101bb7aacb27b8ae4b22947ef6e84f2ba51c5991da178e2ca453ab9f7aa4ecc44d30a",
+      "host": "keybase.io",
+      "kid": "0120056c4163fe65de51bf972677f881d2c15aa118ff2f1492a5cc1f2064f297d35b0a",
+      "uid": "629047e83a50842990422359c4e50919",
+      "username": "gerbrand"
+    },
+    "merkle_root": {
+      "ctime": 1532652961,
+      "hash": "c9b7da91f775e6ddd7312417f36a72c71df9103016beadb4fd5d421937457f79ce79fae0bfb8c746dcb410948313210324fc23d54808584715494d546cf15ca0",
+      "hash_meta": "1e8a52f4d22e3cecda5cd86225ad684e678b23eae7dfc19356d961d24cb0c0ad",
+      "seqno": 3342239
+    },
+    "service": {
+      "entropy": "KfcBZ20aCLPVSthfYos81qPC",
+      "hostname": "www.software-creation.nl",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.4.0"
+  },
+  "ctime": 1532652996,
+  "expire_in": 504576000,
+  "prev": "3a5e1ef6346dd110efa6fe33da7c41858924fcbb4a0ca890b843849d73dd7445",
+  "seqno": 20,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgBWxBY/5l3lG/lyZ3+IHSwVqhGP8vFJKlzB8gZPKX01sKp3BheWxvYWTESpcCFMQgOl4e9jRt0RDvpv4z2nxBhYkk/LtKDKiQuEOEnXPddEXEIDE0Y8EKq2YZQYI8qONuUm9TP04IAmK1ICK2Kwr7WpUKAgHCo3NpZ8RALITxcUKZxjjd6frFSVmjvWZ/d3Djfspr2APC8dy4i7Ty243PsOc5URxzZisXxfUfCWYac+NYrBHKmuon4tjjCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHY9BSUyTloCI/7mhWV0tTBhHgWeASmCLvxxQXrvyT41o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/gerbrand
+
+==================================================================
+
+
