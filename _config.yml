@@ -24,3 +24,6 @@ jekyll-archives:
 # Build settings
 markdown: kramdown
 theme: minima
+
+gems:
+  - jekyll-octicons
