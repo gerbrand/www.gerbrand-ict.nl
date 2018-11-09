@@ -8,18 +8,6 @@ title: Opensource
 wordpress_id: 94
 ---
 ## Open source
-I've created quite some software in the last 15 years, some of which is open-source. Some of that software is on [Github](https://github.com/gerbrand/). Most code is written in Java, some in Scala, Javascript or Python.
+I've created quite some software in the last 15 years, some of which is open-source. Some of that software is on [Github](https://github.com/gerbrand/). Code is written in Scala, Java, Javascript or Python.
 
-Lately I work a lot with [Ethereum](https://www.ethereum.org/) software, using [Embark](https://github.com/iurimatias/embark-framework) and [Geth](https://github.com/ethereum/go-ethereum/wiki/geth).
-
-I use, and have used Java a lot too, using the pletora of open-source components, frameworks and libraries to be found on [Maven](http://search.maven.org/).
-
-## Past projects
-
-Here are some very old projects written in languages I wouldn't use now. Since even the out-dated software is listed in some search results, I'll list that here too.
-
-  * [PHPLycosquote ](https://sourceforge.net/projects/freshmeat_phplycosquote/)- A adapted PHPQuote, to retrieve quotes from the Lycos site instead of Yahoo. Basically a web-scraping tool.  Software no longer functions as the site has changed. With some modifications you should get it to work.
-
-  * [PHPMyNewsletter ](https://sourceforge.net/projects/freshmeat_phpmynewsletter/)- I've adapted the version for the site [www.instruct.nl](http://www.instruct.nl/sf35/sf.mcgi?ac=deeplink&id=46) a few years ago. The modifications I submitted in CVS, but I don't know if these were released by the author.
-
-  * [Overhoor](/oldsite/opensource/overhoor.zip) - An DOS-program I created as teen-ager in Basic. I don't know if I want to see all that novice basic code again.
+Lately I mainly used [Scala](https://www.scala-lang.org) and I'm quite fond of this programming language. I've done quite a lot with [Ethereum](https://www.ethereum.org/) software, using [Embark](https://github.com/iurimatias/embark-framework) and [Geth](https://github.com/ethereum/go-ethereum/wiki/geth).

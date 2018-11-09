@@ -1,25 +1,20 @@
 ---
-author: admin
+author: gerbrand
 comments: true
-date: 2015-05-18 11:30:39+02:00
+date: 2018-05-19 11:30:39+02:00
 layout: page
 slug: privacy-and-cookies
 title: Privacy and cookies
-wordpress_id: 697
 ---
 
-## English
+![Network tab of software-creation](software-creation-networktab.png)
 
+No cookie is stored when you visit this homepage. Nevertheless, I'd recommend using a webbrowser that respects your privacy such as [Mozilla Firefox](https://www.mozilla.org/firefox/) or [Brave](https://www.brave.com/).
 
-This website uses cookies to track your visitor behavior, in order to display you advertisements more effectively, hoping that your (consumer) behavior is influenced.
-To turn of cookies, use standard functionality of your browser.  Chrome has a [manual ](https://support.google.com/accounts/answer/61416?hl=nl)on its website, just as [Firefox](https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences) and [Internet Explorer](http://windows.microsoft.com/nl-nl/windows-vista/block-or-allow-cookies).
+When you visit this homepage, your ip-address will be logged, but no other information that could be linked to personal. Also if you’d use VPN, [Tor](https://www.torproject.org/), or other similar software no attempt is made to reveal your true ip-address.
 
+My homepage is hosted at [Transip](https://www.transip.nl), a Dutch provider. I pay them, which mean I am their customer and not the other way around. They don’t earn any money on advertising on my homepage.
 
-## Nederlands
+Comment section on blog-postings is provided by [Disqus](https://disqus.com/).
 
-
-Deze website maakt gebruik van cookies om je bezoekgedrag bij te houden, om jouw effectiever advertenties te tonen in de hoop dat je (koop)gedrag beïnvloed zal worden.
-Om cookies uit te zetten, kun je hiervoor de standaardfunctionaliteit van je browser gebruiker. Chrome heeft een [handleiding](https://support.google.com/accounts/answer/61416?hl=nl) op haar website staan, net als [Firefox](https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences) en [Internet Explorer](http://windows.microsoft.com/nl-nl/windows-vista/block-or-allow-cookies).
-Daarnaast zul je contact hebben gemaakt met de server waar deze website op staat gehost via een _internetverbinding._ Hierdoor is je ip-adres bekend bij het hosting-bedrijf, [Amazon](http://aws.amazon.com/). Mocht de noodzaak hiervoor zijn, dan kunnen overheidsinstanties van de Verenigde Staten of Nederland mijn provider dwingen jouw fysieke thuisadres te geven. Het maakt niet uit of de fysieke locatie van de server in Europa of Amerika is. Wil je dat vermijden, dan kun je het beste gebruik van maken van een software zoals [Tor](https://www.torproject.org/).
-
-Neem [contact ](/contact/)op met mij, Gerbrand van Dieijen als je meer wilt weten over dit onderwerp.
+<strong>Here's my post on [GDRP](/2018/05/gdpr)</strong>

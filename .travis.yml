@@ -1,0 +1,21 @@
+language: ruby
+cache: bundler
+rvm:
+- 2.5.3
+
+install:
+- bundle install
+
+# build site
+script: bundle exec jekyll build
+scripts: true
+
+# deploy to my provider
+after_success:
+   - chmod +x ./scripts/deploy.sh
+   - ./scripts/deploy.sh
+
+# branch whitelist, only for GitHub Pages
+branches:
+  only:
+  - master

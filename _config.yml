@@ -1,15 +1,15 @@
 # Site settings
-title: Gerbrand-ICT
-email: info@gerbrand-ict.nl
+title: Software-creation
+email: gerbrand@vandieijen.nl
 description: > #
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://gerbrand.github.io" # the base hostname & protocol for your site
+url: "https://www.software-creation.nl" # the base hostname & protocol for your site
 twitter_username: gerbrandvd
 github_username:  gerbrand
 exclude: [vendor]
 keep_files: [wp-content, oldsite]
 paginate: 2
-paginate_path: "/page/:num/"
+paginate_path: "/blog/page/:num/"
 permalink: /:year/:month/:title/
 jekyll-archives:
   enabled: all
@@ -24,3 +24,6 @@ jekyll-archives:
 # Build settings
 markdown: kramdown
 theme: minima
+
+gems:
+  - jekyll-octicons

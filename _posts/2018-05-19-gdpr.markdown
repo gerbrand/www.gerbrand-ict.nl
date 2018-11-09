@@ -1,0 +1,14 @@
+---
+layout: "post"
+title: "GDRP update"
+date: "2018-05-19 16:37"
+---
+
+In less then a week [GDRP](https://www.eugdpr.org) will be enforced in the European Union. A good reason to update my homepage. I've done the following
+
+* Google analytics is removed from the homepage. I never look at those statistics anyway.
+* Also, sumo is removed, some embedded script which offers some functionality. Embedding script is a popular way to add functionality to your homepage, but in my opinion a display of the poor state of software development in the world. There is and should be better ways to compose functionality without loosing control.
+* For the same reason, the embedded twitter feed from my homepage is removed.
+* I still use [Disquss](https://disqus.com) for the comment-section on posts.
+
+When you visit this homepage, your ip-address will be logged, but no other information that could be linked to personal. Also if you'd use VPN, Tor, or other similar software no attempt is made to reveal your true ip-address. My homepage is hosted at [Transip](https://www.transip.nl), a Dutch provider. I pay them, which mean I am their customer and not the other way around. They don't earn any money on advertising on my homepage.
