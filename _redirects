@@ -6,3 +6,5 @@ https://software-creation.netlify.com/* https://www.software-creation.nl/:splat 
 /20:year/:month/:date/:slug  /20:year/:month/:slug
 
 /201:year/:month/:date/:slug  /201:year/:month/:slug
+
+/cv-gerbrand-van-dieijen.gdocs https://docs.google.com/document/d/1YTLcv7nxAFrgeQaMJjBqbaODXKB5dnPoT2to8_CIoFU
