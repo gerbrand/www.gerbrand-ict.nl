@@ -27,3 +27,7 @@ theme: minima
 
 gems:
   - jekyll-octicons
+
+# For Netlify
+include:
+    - _redirects

@@ -2,3 +2,7 @@
 
 # Redirect default Netlify subdomain to primary domain
 https://software-creation.netlify.com/* https://www.software-creation.nl/:splat 301!
+
+/20:year/:month/:date/:slug  /20:year/:month/:slug
+
+/201:year/:month/:date/:slug  /201:year/:month/:slug
